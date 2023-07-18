@@ -44,7 +44,8 @@ jobs:
             cd "content/_$repo"
             git ls-tree -r "$version" --full-tree --name-only | grep "\.md" > files.tmp
             while IFS= read -r line; do
-            git checkout "$version" "$line"
+              git checkout "$version" "$line"
+              sed -i 's#{{#{% raw %}{{{% endraw %}#g' "$line"
             done < files.tmp
             rm files.tmp
             rm -rf .git
