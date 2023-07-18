@@ -33,6 +33,7 @@ jobs:
           while IFS= read -r line; do
             echo "Text read from file: $line"
             IN="$line"
+            [ -z "$line" ] && continue
             arrIN=(${IN//:/ })
             repo=${arrIN[0]}
             version=${arrIN[2]}
