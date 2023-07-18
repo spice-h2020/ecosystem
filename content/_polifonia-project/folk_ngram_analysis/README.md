@@ -1,10 +1,10 @@
 ---
 component-id: folk_ngram_analysis
-name: FONN -- FOlk N-gram aNalysis
-description: ingest pipeline and musical similarity tools for symbolic music data.
+name: FoNN -- Folk N-gram aNalysis
+description: data ingest pipeline and musical similarity tools for symbolic music data, with two test symbolic music corpora.
 type: Repository
-release-date: 15/06/2022
-release-number: v0.7.0.1-dev
+release-date: 16/06/2023
+release-number: v1.0
 work-package: 
 - WP3
 licence:
@@ -171,8 +171,8 @@ If you use the code in this repository, please cite this software as follows:
 ```
 @software{diamond_fonn_2022,
 	address = {Galway, Ireland},
-	title = {% raw %}{{{% endraw %}FONN} - {FOlk} {N}-gram {aNalysis}},
-	shorttitle = {% raw %}{{{% endraw %}FONN}},
+	title = {{FONN} - {FOlk} {N}-gram {aNalysis}},
+	shorttitle = {{FONN}},
 	url = {https://github.com/polifonia-project/folk_ngram_analysis},
 	publisher = {National University of Ireland, Galway},
 	author = {Diamond, Danny and Shahid, Abdul and McDermott, James},

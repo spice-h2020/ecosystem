@@ -86,8 +86,8 @@ If you use the code in this repository, please cite this software as follow:
 ```
 @software{patterns2Kg_jams_pipeline_2022,
 	address = {Galway, Ireland},
-	title = {% raw %}{{{% endraw %}P2KG} - {P}attern-2-{KG} {Knowledge Graph}},
-	shorttitle = {% raw %}{{{% endraw %}P2KG}},
+	title = {{P2KG} - {P}attern-2-{KG} {Knowledge Graph}},
+	shorttitle = {{P2KG}},
 	url = {https://github.com/polifonia-project/P2KG},
 	publisher = {National University of Ireland, Galway},
 	author = {Shahid Abdul, Diamond Danny, McDermott, James and Pushkar Jajoria},
