@@ -1,7 +1,7 @@
 ---
 id: data
 name: Components of type Data
-description: List of components of type data
+description: List of components of type data, schemas, ontologies
 layout: default
 title: Data
 nav_order: 12
@@ -9,6 +9,10 @@ permalink: /data.html
 ---
 
 # Data
+
+This section collects project outputs that are released as *data*.
+The ecosystem considers data any digital object that specifies, describes, or represents facts about the project's domain of interest.
+These include various types of digital objects such as [datasets](#dataset), [corpora](#corpus), [ontologies](#ontology), or [repositories](#repository).
 
 <div id="chart_container_data"></div>
 <script>
@@ -41,14 +45,15 @@ anychart.onDocumentReady(function() {
   });
   </script>
 
-## List of components 
 {% assign types_data = "Data,Dataset,Schema,Repository,Registry,Ontology,Corpus,Lexicon,KnowledgeGraph" | split: "," %}
 {% for type in types_data %}
 {% if type != "" %}
 {% assign components =  site.documents  | where: 'type',type %}
 {% assign numberOf = components | size %}
 {% if numberOf > 0 %}
-### {{ type }} ({{numberOf}})
+### {{ type }}
+
+There are {{numberOf}} components of type {{type}}:
 	{% for component in components %}
 - [{% if component.name %}{{ component.name }}{%else%}{{ component.component-id}} {%endif%}]({{ component.url | relative_url }})	{% endfor %}	
 {% endif %}
