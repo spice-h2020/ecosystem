@@ -19,21 +19,14 @@ Ruby and Gem installed on your computer.
 [Bundler](https://bundler.io/) is also a recommended gem (required?) to work
 with Jekyll.
 
-### How-to start working on the Ecosystem website
+### Setup  Jekill
+
+
 
 Install jekyll and bundler with:
 
 ```bash
 gem install jekyll bundler
-```
-
-Then, clone the code from this website in a folder on your computer:
-```bash
-git clone git@github.com:polifonia-project/ecosystem.git
-```
-And update the submodules:
-```bash
-./update-submodules.sh
 ```
 
 Go into the directory and run the following to grab the dependencies (it may be
@@ -62,6 +55,27 @@ After a satisfactory version is obtained, don't forget to commit (`git add <file
 `git commit -m"<message>"`) your changes and push them on Github (`git push`), so that 
 the world may see them. Obvisouly, try to not commit a broken version (ie: which does not 
 compile with Jekyll).
+
+Then, clone the code from this website in a folder on your computer:
+```bash
+git clone git@github.com:polifonia-project/ecosystem.git
+
+```
+
+### Setup REECO
+
+
+Configure `repositories.txt` with the info about where to extract reeco annotations. This is an example:
+```bash
+polifonia-project/rulebook:branches:main
+polifonia-project/external-components:branches:main
+polifonia-project/folk_ngram_analysis:branches:master
+polifonia-project/clef:branches:master
+polifonia-project/registry_app:branches:main
+polifonia-project/lharp:branches:master
+```
+
+
 
 ## Need help with this procedure
 
