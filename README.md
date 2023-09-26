@@ -19,9 +19,7 @@ Ruby and Gem installed on your computer.
 [Bundler](https://bundler.io/) is also a recommended gem (required?) to work
 with Jekyll.
 
-### Setup  Jekill
-
-
+### Setup  Jekill & GH pages
 
 Install jekyll and bundler with:
 
@@ -75,7 +73,7 @@ polifonia-project/registry_app:branches:main
 polifonia-project/lharp:branches:master
 ```
 
-
+Commit changes (this should trigger a GH actions that downloads all data and builds the website)
 
 ## Need help with this procedure
 
