@@ -1,0 +1,25 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .
+
+xyz:ORGANS  rdf:type  frapo:Investigation .
+
+xyz:Paul  rdf:type  schema:ShortStory .
+
+<http://sparql.xyz/facade-x/data/Paul#2_ResourceReliability>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Successfully plan the restoration of an organ."@en ;
+        schema:identifier  "Paul#2_ResourceReliability" ;
+        schema:isBasedOn   "Successfully plan the restoration of an organ." ;
+        schema:isBasedOn   xyz:Paul ;
+        schema:isPartOf    xyz:ORGANS , xyz:WP2 , xyz:WP5 ;
+        schema:title       "Resource Reliability"@en .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .

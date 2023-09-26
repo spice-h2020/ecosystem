@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .
+
+xyz:Sophia  rdf:type       frapo:MaterialOutput , xyz:Persona ;
+        schema:abstract    "Sophia’s original qualifications (including her Ph.D.) were in music. She is also a practising musician."@en ;
+        schema:identifier  "Sophia" ;
+        schema:isBasedOn   "Sophia#3_Reorchestration" , "Sophia’s original qualifications (including her Ph.D.) were in music. She is also a practising musician." , "Sophia#1_MusiciansAndTheirEnvironment" , "Sophia#2_OriginsAndForm" ;
+        schema:isPartOf    xyz:WP4 , xyz:WP2 , xyz:WP5 , xyz:MEETUPS ;
+        schema:title       "Sophia"@en .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .

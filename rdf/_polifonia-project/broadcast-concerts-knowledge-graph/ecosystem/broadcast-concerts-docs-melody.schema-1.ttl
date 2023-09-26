@@ -1,0 +1,26 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:Interlink  rdf:type  frapo:Investigation .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:broadcast-concerts-docs-melody
+        rdf:type             frapo:MaterialOutput , xyz:Documentation ;
+        schema:abstract      "The Broadcast Concerts Data Story describes the key features of the Broadcast Concerts knowledge graph"@en ;
+        schema:contributor   "Mari Wigham" , "Govert Brinkmann" , "Willem Melder" ;
+        schema:distribution  "https://projects.dharc.unibo.it/melody/sound_and_vision/dutch_broadcast_concert_collection" ;
+        schema:hasPart       "broadcast-concerts-sparql-endpoint" , "broadcast-concerts-knowledge-graph" ;
+        schema:identifier    "broadcast-concerts-docs-melody" ;
+        schema:isBasedOn     "The Broadcast Concerts Data Story describes the key features of the Broadcast Concerts knowledge graph" ;
+        schema:isPartOf      xyz:WP2 , xyz:polifonia-project , xyz:Interlink ;
+        schema:title         "Broadcast Concerts Data Story"@en .

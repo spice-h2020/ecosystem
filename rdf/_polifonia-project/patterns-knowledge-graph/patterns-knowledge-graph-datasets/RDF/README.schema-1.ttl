@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:WP3  rdf:type  fabio:WorkPackage .
+
+xyz:patterns-knowledge-graph-datasets
+        rdf:type            frapo:MaterialOutput , xyz:Project ;
+        schema:abstract     "Knowledge graph containing data about patterns extracted using the [FONN tools](https://github.com/polifonia-project/folk_ngram_analysis)"@en ;
+        schema:contributor  "https://github.com/ashahidkhattak" , "https://github.com/danDiamo" , "https://github.com/jmmcd" ;
+        schema:creditText   "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746." ;
+        schema:identifier   "patterns-knowledge-graph-datasets" ;
+        schema:isBasedOn    "Knowledge graph containing data about patterns extracted using the [FONN tools](https://github.com/polifonia-project/folk_ngram_analysis)" ;
+        schema:isPartOf     xyz:WP3 , xyz:polifonia-project ;
+        schema:title        "Patterns Knowledge Graph - Output datasets"@en .

@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+<http://sparql.xyz/facade-x/data/Ortenz#1_MusicAndChildhood>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity."@en ;
+        schema:identifier  "Ortenz#1_MusicAndChildhood" ;
+        schema:isBasedOn   "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity." ;
+        schema:isBasedOn   xyz:Ortenz ;
+        schema:isPartOf    xyz:CHILD , xyz:WP1 ;
+        schema:title       "Music and Childhood"@en .
+
+xyz:CHILD  rdf:type  frapo:Investigation .
+
+xyz:Ortenz  rdf:type  schema:ShortStory .

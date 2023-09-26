@@ -1,0 +1,49 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+<http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/music-meta/>
+        rdf:type                xyz:Ontology , frapo:MaterialOutput ;
+        schema:abstract         "An ontology to describe music metadata"@en ;
+        schema:contributor      "Peter van Kranenburg <https://github.com/pvankranenburg>" , "Nicolas Lazzari <https://github.com/n28div>" , "Philippe Rigaux <https://github.com/rigaux>" , "Jacopo de Berardinis <https://github.com/jonnybluesman>" , "Mari Wigham <https://github.com/mwigham>" , "Valentina Anita Carriero <https://github.com/valecarriero>" , "Andrea Poltronieri <https://github.com/andreamust>" , "Marco Gurrieri <https://github.com/margur78>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 Music Meta Contributors" ;
+        schema:discussionUrl    "https://github.com/polifonia-project/ontology-network/releases" ;
+        schema:distribution     "ontology/musicmeta.owl" ;
+        schema:hasPart          "https://w3id.org/polifonia/ontology/core/" ;
+        schema:identifier       "https://w3id.org/polifonia/ontology/music-meta/" ;
+        schema:identifier       [ rdf:type           schema:PropertyValue ;
+                                  schema:PropertyID  "doi" ;
+                                  schema:value       "10.5281/zenodo.7919970"
+                                ] ;
+        schema:image            "diagrams/music_meta.png" ;
+        schema:isBasedOn        "An ontology to describe music metadata" , "Linka#1_MusicKnowledge" ;
+        schema:isBasedOn        xyz:Linka ;
+        schema:isPartOf         xyz:INTERLINK , xyz:TONALITIES , xyz:polifonia-project , xyz:FACETS , xyz:TUNES , xyz:WP2 ;
+        schema:license          "CC-BY_v4" ;
+        schema:logo             "website/static/img/musicmeta_logo.png" ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/polifonia-project/ontology-network/releases" ;
+                                  schema:softwareVersion  "v1.0" ;
+                                  schema:startDate        "13/04/2023"
+                                ] ;
+        schema:title            "Music Meta"@en ;
+        schema:usageInfo        "polifoniacq-dataset" .
+
+xyz:INTERLINK  rdf:type  frapo:Investigation .
+
+xyz:TONALITIES  rdf:type  frapo:Investigation .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:FACETS  rdf:type  frapo:Investigation .
+
+xyz:Linka  rdf:type  schema:ShortStory .
+
+xyz:TUNES  rdf:type  frapo:Investigation .

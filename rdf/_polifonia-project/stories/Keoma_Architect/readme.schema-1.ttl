@@ -1,0 +1,20 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:Keoma  rdf:type        xyz:Persona , frapo:MaterialOutput ;
+        schema:abstract    "Architect and Restorer"@en ;
+        schema:identifier  "Keoma" ;
+        schema:isBasedOn   "Architect and Restorer" , "Keoma#1_RestorationAndSoundPractices" ;
+        schema:isPartOf    xyz:polifonia-project , xyz:BELLS ;
+        schema:title       "Keoma"@en .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:BELLS  rdf:type  frapo:Investigation .

@@ -1,0 +1,25 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:musow-registry  rdf:type  schema:Collection , xyz:Project ;
+        schema:abstract  "An online collaborative, crowdsourced, catalogue of music data on the web" ;
+        schema:funding   xyz:101004746 ;
+        schema:hasPart   "clef-software" , "musow-dataset" , "musow-interface" ;
+        schema:isPartOf  xyz:WP1 , xyz:polifonia-project ;
+        schema:title     "The musoW registry"@en .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+xyz:101004746  rdf:type  schema:Grant ;
+        schema:funder  [ schema:name  "European Commission" ;
+                         schema:url   "https://cordis.europa.eu/project/id/101004746/it"
+                       ] .

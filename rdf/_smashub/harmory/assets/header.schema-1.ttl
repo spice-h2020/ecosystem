@@ -1,0 +1,41 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:INTERLINK  rdf:type  frapo:Investigation .
+
+xyz:Harmory  rdf:type           frapo:MaterialOutput , xyz:KnowledgeGraph ;
+        schema:abstract         "A Knowledge Graph of interconnected harmonic patterns aimed to support computationally creative applications."@en ;
+        schema:citation         <http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882).> ;
+        schema:contributor      "Andrea Poltronieri <https://github.com/andreamust>" , "Jacopo de Berardinis <https://github.com/jonnybluesman>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 Harmory Contributors" ;
+        schema:discussionUrl    "https://github.com/smashub/harmory/releases" ;
+        schema:identifier       "Harmory" ;
+        schema:identifier       [ rdf:type           schema:PropertyValue ;
+                                  schema:PropertyID  "doi" ;
+                                  schema:value       "10.5281/zenodo.8021211"
+                                ] ;
+        schema:image            "assets/harmory_wide.png" ;
+        schema:isBasedOn        "A Knowledge Graph of interconnected harmonic patterns aimed to support computationally creative applications." ;
+        schema:isPartOf         xyz:polifonia-project , xyz:INTERLINK , xyz:WP2 ;
+        schema:license          "CC-BY-NC_v4" , "CC-BY_v4" ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/smashub/harmory" ;
+                                  schema:softwareVersion  "v1.0" ;
+                                  schema:startDate        "01-02-2023"
+                                ] ;
+        schema:title            "Harmory: the Harmonic Memory"@en ;
+        schema:usageInfo        "polifoniacq-dataset" ;
+        schema:workExample      "https://github.com/smashub/harmory/blob/main/harmory/analysis.ipynb" .
+
+<http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882).>
+        rdf:type  schema:Article .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .

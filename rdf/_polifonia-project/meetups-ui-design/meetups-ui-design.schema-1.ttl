@@ -1,0 +1,30 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:meetups-ui-design
+        rdf:type                frapo:MaterialOutput , xyz:RequirementsCollection ;
+        schema:abstract         "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"@en ;
+        schema:contributor      "Enrico Daga <https://github.com/enridaga>" , "Alba Morales-Tirado <https://github.com/albamoralest>" , "Jason Carvalho <https://github.com/JaseMK>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 The Open University" ;
+        schema:discussionUrl    "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0" ;
+        schema:distribution     "https://github.com/polifonia-project/meetups-ui-design/blob/main/meetups-ui-initial-designs.pdf" ;
+        schema:identifier       "meetups-ui-design" ;
+        schema:isBasedOn        "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface" ;
+        schema:isPartOf         xyz:WP5 , xyz:polifonia-project ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0" ;
+                                  schema:softwareVersion  "v0.1.0" ;
+                                  schema:startDate        "17/04/2023"
+                                ] ;
+        schema:title            "MEETUPS UI Designs"@en ;
+        schema:usageInfo        "Ortenz" .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .

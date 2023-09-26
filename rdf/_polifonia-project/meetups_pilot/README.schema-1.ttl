@@ -1,0 +1,26 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:meetups-pilot  rdf:type  xyz:Project , schema:Collection ;
+        schema:abstract    "MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups" ;
+        schema:citation    <http://sparql.xyz/facade-x/data/Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: Proceedings of the ESWC 2023 Workshops and Tutorials, Semantic Methods for Events and Stories (SEMMES).> ;
+        schema:creditText  "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746. The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains." ;
+        schema:hasPart     "meetups-entity-recognition" , "meetups-knowledge-graph" , "meetups-time-extraction" , "meetups-hm-identification" , "meetups-data-cleaning" , "meetups-corpus-collection" , "meetups-ontology" , "meetups-coreference" , "meetups-themes" ;
+        schema:isPartOf    xyz:MEETUPS , xyz:polifonia-project , xyz:WP4 ;
+        schema:title       "Musical MEETUPS"@en .
+
+<http://sparql.xyz/facade-x/data/Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: Proceedings of the ESWC 2023 Workshops and Tutorials, Semantic Methods for Events and Stories (SEMMES).>
+        rdf:type  schema:Article .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .

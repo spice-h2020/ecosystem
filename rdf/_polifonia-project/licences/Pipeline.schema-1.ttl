@@ -1,0 +1,25 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:licences-pipeline
+        rdf:type           xyz:Software , frapo:MaterialOutput ;
+        schema:abstract    "Resources for the Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused."@en ;
+        schema:creditText  <http://sparql.xyz/facade-x/data/fde853add316fd44d433a29112ac8d9f#/credits> ;
+        schema:hasPart     "sparql-anything-cli" , "Dalicc, https://www.dalicc.net/" ;
+        schema:identifier  "licences-pipeline" ;
+        schema:identifier  [ rdf:type           schema:PropertyValue ;
+                             schema:PropertyID  "doi" ;
+                             schema:value       "10.5281/zenodo.7875034"
+                           ] ;
+        schema:isBasedOn   "Resources for the Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused." ;
+        schema:isPartOf    xyz:WP2 ;
+        schema:license     "CC-BY_v4" ;
+        schema:title       "Licences KG generation pipeline"@en .

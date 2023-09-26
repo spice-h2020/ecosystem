@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:MUSICBO  rdf:type  frapo:Investigation .
+
+<http://sparql.xyz/facade-x/data/Valeriana#1_DiscourseAnalysis>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:identifier  "Valeriana#1_DiscourseAnalysis" ;
+        schema:isBasedOn   xyz:Valeriana ;
+        schema:isPartOf    xyz:WP4 , xyz:MUSICBO , xyz:WP2 ;
+        schema:title       "DiscourseAnalysis"@en .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:Valeriana  rdf:type  schema:ShortStory .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .

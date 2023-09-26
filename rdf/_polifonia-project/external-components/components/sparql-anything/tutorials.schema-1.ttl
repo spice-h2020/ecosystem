@@ -1,0 +1,22 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:sparql-anything-tutorials
+        rdf:type                xyz:Tutorial , frapo:MaterialOutput ;
+        schema:abstract         "a collection of tutorials to introduce users to SPARQL Anything"@en ;
+        schema:contributor      "Luigi Asprino <https://github.com/luigi-asprino>" , "Enrico Daga <https://github.com/enridaga>" , "Justin Dowdy <https://github.com/justin2004>" , "Marco Ratta <https://github.com/MarcoR1791>" ;
+        schema:copyrightNotice  "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything" ;
+        schema:distribution     "https://sparql-anything.readthedocs.io/en/latest/TUTORIALS/" ;
+        schema:identifier       "sparql-anything-tutorials" ;
+        schema:isBasedOn        "a collection of tutorials to introduce users to SPARQL Anything" ;
+        schema:license          "Apache-2.0" ;
+        schema:logo             "https://avatars.githubusercontent.com/u/79987779?s=200&v=4" ;
+        schema:title            "SPARQL Anything: Tutorials"@en ;
+        schema:usageInfo        "sparql-anything-cli" , "sparql-anything-python" , "sparql-anything-server" ;
+        schema:workExample      "https://github.com/SPARQL-Anything/showcase-tate" .

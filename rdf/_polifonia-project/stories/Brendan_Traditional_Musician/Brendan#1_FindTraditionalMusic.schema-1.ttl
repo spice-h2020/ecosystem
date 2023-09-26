@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://sparql.xyz/facade-x/data/Brendan#1_FindTraditionalMusic>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Find suitably similar traditional music and historical context from northern European corpora."@en ;
+        schema:identifier  "Brendan#1_FindTraditionalMusic" ;
+        schema:isBasedOn   "Find suitably similar traditional music and historical context from northern European corpora." ;
+        schema:isBasedOn   xyz:Brendan ;
+        schema:isPartOf    xyz:TUNES , xyz:WP3 ;
+        schema:title       "Find Traditional Music"@en .
+
+xyz:TUNES  rdf:type  frapo:Investigation .
+
+xyz:WP3  rdf:type  fabio:WorkPackage .
+
+xyz:Brendan  rdf:type  schema:ShortStory .

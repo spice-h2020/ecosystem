@@ -1,0 +1,29 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:Sonia  rdf:type  schema:ShortStory .
+
+xyz:INTERLINK  rdf:type  frapo:Investigation .
+
+xyz:WP3  rdf:type  fabio:WorkPackage .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+<http://sparql.xyz/facade-x/data/Sonia#2_ShuffleMode>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."@en ;
+        schema:identifier  "Sonia#2_ShuffleMode" ;
+        schema:isBasedOn   "Sonia#3_StatsMode" , "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests." , "Sonia#1_ExplorationMode" ;
+        schema:isBasedOn   xyz:Sonia ;
+        schema:isPartOf    xyz:WP4 , xyz:INTERLINK , xyz:WP5 , xyz:WP2 , xyz:WP3 ;
+        schema:title       "Shuffle mode"@en .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .

@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:Amy  rdf:type  schema:ShortStory .
+
+xyz:ORGANS  rdf:type  frapo:Investigation .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+<http://sparql.xyz/facade-x/data/Amy#1_OrganTrends>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "For her next research project, Amy wants to discover artistic and technical trends of organs and how these developed."@en ;
+        schema:identifier  "Amy#1_OrganTrends" ;
+        schema:isBasedOn   "For her next research project, Amy wants to discover artistic and technical trends of organs and how these developed." ;
+        schema:isBasedOn   xyz:Amy ;
+        schema:isPartOf    xyz:ORGANS , xyz:WP2 ;
+        schema:title       "Organ Trends"@en .

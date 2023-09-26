@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .
+
+xyz:Sophia  rdf:type  schema:ShortStory .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .
+
+<http://sparql.xyz/facade-x/data/Sophia#1_MusiciansAndTheirEnvironment>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."@en ;
+        schema:identifier  "Sophia#1_MusiciansAndTheirEnvironment" ;
+        schema:isBasedOn   "Sophia#3_Reorchestration" , "Sophia#2_OriginsAndForm" , "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds." ;
+        schema:isBasedOn   xyz:Sophia ;
+        schema:isPartOf    xyz:WP5 , xyz:MEETUPS ;
+        schema:title       "Musicians and their environment"@en .

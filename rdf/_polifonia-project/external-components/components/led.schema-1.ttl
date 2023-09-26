@@ -1,0 +1,26 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:led  rdf:type            frapo:MaterialOutput , xyz:KnowledgeGraph ;
+        schema:abstract      "LED is an open and freely searchable database that brings together a mass of data about people’s experiences of listening to music of all kinds, in any historical period and any culture."@en ;
+        schema:creditText    <http://sparql.xyz/facade-x/data/becb0b75f282a9bb130a8f9d5a364b1a#/credits> ;
+        schema:distribution  "https://data.open.ac.uk/sparql" ;
+        schema:identifier    "led" ;
+        schema:isBasedOn     "LED is an open and freely searchable database that brings together a mass of data about people’s experiences of listening to music of all kinds, in any historical period and any culture." ;
+        schema:isPartOf      xyz:WP4 , xyz:CHILD , xyz:MEETUPS ;
+        schema:logo          "https://www.listeningexperience.org/led-data/themes/thekeynote-v1-01/images/logo.png" ;
+        schema:title         "Listening Experience Database"@en ;
+        schema:usageInfo     "Ortenz" , "Ortenz#2_MusicalSocialNetwork" , "Ortenz#1_MusicAndChildhood" ;
+        schema:workExample   "https://led.kmi.open.ac.uk" .
+
+xyz:CHILD  rdf:type  frapo:Investigation .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .

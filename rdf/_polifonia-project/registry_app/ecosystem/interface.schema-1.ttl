@@ -1,0 +1,42 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:Laurent  rdf:type  schema:ShortStory .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+xyz:musow-interface  rdf:type  xyz:UserInterface , frapo:MaterialOutput ;
+        schema:abstract        "musoW is the online registry of music resources available on the web. It serves the musoW dataset via a number of interfaces for browsing and searching. The interface also allows editing (modifying existing records or creating new ones), searching and querying (via a dedicated SPARQL endpoint). The interface is built on top of CLEF, a LOD-native web application for crowdsourcing."@en ;
+        schema:citation        <http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721> ;
+        schema:contributor     "Marilena Daquino <https://github.com/marilenadaquino>" ;
+        schema:discussionUrl   "https://github.com/polifonia-project/registry_app/releases/latest" ;
+        schema:distribution    "https://github.com/polifonia-project/registry_app/releases" ;
+        schema:identifier      "musow-interface" ;
+        schema:identifier      [ rdf:type           schema:PropertyValue ;
+                                 schema:PropertyID  "doi" ;
+                                 schema:value       "10.5281/zenodo.5603223"
+                               ] ;
+        schema:isBasedOn       "musoW is the online registry of music resources available on the web. It serves the musoW dataset via a number of interfaces for browsing and searching. The interface also allows editing (modifying existing records or creating new ones), searching and querying (via a dedicated SPARQL endpoint). The interface is built on top of CLEF, a LOD-native web application for crowdsourcing." ;
+        schema:isBasedOn       xyz:Laurent ;
+        schema:isPartOf        xyz:polifonia-project , xyz:WP1 ;
+        schema:license         "CC0" ;
+        schema:provider        "clef-software" ;
+        schema:releasedEvent   [ schema:releaseNotes     "https://github.com/polifonia-project/registry_app/releases/latest" ;
+                                 schema:softwareVersion  "v1.0" ;
+                                 schema:startDate        "2023/05/16"
+                               ] ;
+        schema:supportingData  "musow-dataset" ;
+        schema:title           "musoW online catalogue"@en ;
+        schema:workExample     "https://projects.dharc.unibo.it/musow/" .
+
+<http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721>
+        rdf:type  schema:Article .

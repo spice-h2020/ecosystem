@@ -1,0 +1,28 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:broadcast-concerts-sparql-endpoint
+        rdf:type                frapo:MaterialOutput , xyz:SPARQLEndpoint ;
+        schema:abstract         "The SPARQL endpoint that publishes NISV linked data, including that of the broadcast concerts"@en ;
+        schema:contributor      "Govert Brinkmann" , "Willem Melder" , "Mari Wigham" ;
+        schema:copyrightNotice  "Each concert has its own license, determine using the NISV rules for licensing. Where possible, this is a CC license. The license is stated in the triples for that concert." ;
+        schema:distribution     "https://cat.apis.beeldengeluid.nl/" ;
+        schema:hasPart          "https://schema.org" ;
+        schema:identifier       "broadcast-concerts-sparql-endpoint" ;
+        schema:isBasedOn        "The SPARQL endpoint that publishes NISV linked data, including that of the broadcast concerts" ;
+        schema:isPartOf         xyz:Interlink , xyz:WP2 , xyz:polifonia-project ;
+        schema:supportingData   "broadcast-concerts-knowledge-graph" ;
+        schema:title            "NISV SPARQL Endpoint"@en .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:Interlink  rdf:type  frapo:Investigation .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .

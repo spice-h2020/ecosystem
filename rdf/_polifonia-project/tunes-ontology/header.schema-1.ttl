@@ -1,0 +1,42 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:TUNES  rdf:type  frapo:Investigation .
+
+<http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/tunes/>
+        rdf:type                frapo:MaterialOutput , xyz:Ontology ;
+        schema:abstract         "A specialisation of the Music Meta Ontology for folk music."@en ;
+        schema:contributor      "Andrea Poltronieri <https://github.com/andreamust>" , "Peter van Kranenburg <https://github.com/pvankranenburg>" , "Jacopo de Berardinis <https://github.com/jonnybluesman>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 Tunes Ontology Contributors" ;
+        schema:discussionUrl    "https://github.com/polifonia-project/ontology-network/releases" ;
+        schema:distribution     "ontology/tunes.owl" ;
+        schema:hasPart          "https://w3id.org/polifonia/ontology/core/" ;
+        schema:identifier       "https://w3id.org/polifonia/ontology/tunes/" ;
+        schema:identifier       [ rdf:type           schema:PropertyValue ;
+                                  schema:PropertyID  "doi" ;
+                                  schema:value       "10.5281/zenodo.7919970"
+                                ] ;
+        schema:image            "diagrams/tunes_ontology.png" ;
+        schema:isBasedOn        "A specialisation of the Music Meta Ontology for folk music." , "Mark#1_FolkMusic" ;
+        schema:isBasedOn        xyz:Mark ;
+        schema:isPartOf         xyz:WP2 , xyz:TUNES , xyz:polifonia-project ;
+        schema:license          "CC-BY_v4" ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/polifonia-project/ontology-network/releases" ;
+                                  schema:softwareVersion  "v1.0" ;
+                                  schema:startDate        "13/04/2023"
+                                ] ;
+        schema:title            "Tunes Ontology"@en ;
+        schema:usageInfo        "polifoniacq-dataset" .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:Mark  rdf:type  schema:ShortStory .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .

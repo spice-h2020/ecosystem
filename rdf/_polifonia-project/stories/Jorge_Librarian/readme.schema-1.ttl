@@ -1,0 +1,20 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:FACETS  rdf:type  frapo:Investigation .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:Jorge  rdf:type        xyz:Persona , frapo:MaterialOutput ;
+        schema:abstract    "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."@en ;
+        schema:identifier  "Jorge" ;
+        schema:isBasedOn   "Jorge#1_OrganizeMyLibrary" , "Jorge#2_FindSimilarScores" , "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized." , "Jorge#4_LinkToSources" , "Jorge#3_DynamicExploration" ;
+        schema:isPartOf    xyz:polifonia-project , xyz:FACETS ;
+        schema:title       "Jorge"@en .

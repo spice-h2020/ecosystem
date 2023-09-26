@@ -1,0 +1,42 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:meetups-ontology  rdf:type  frapo:MaterialOutput , xyz:Ontology ;
+        schema:abstract         "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945."@en ;
+        schema:contributor      "Alba Morales Tirado <https://github.com/albamoralest>" , "Enrico Daga <https://github.com/enridaga>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 MEETUPS @ The Open University" ;
+        schema:discussionUrl    "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1" ;
+        schema:distribution     "https://github.com/polifonia-project/meetups-ontology" ;
+        schema:identifier       "meetups-ontology" ;
+        schema:identifier       [ rdf:type           schema:PropertyValue ;
+                                  schema:PropertyID  "doi" ;
+                                  schema:value       "https://zenodo.org/badge/latestdoi/588540533"
+                                ] ;
+        schema:isBasedOn        "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945." ;
+        schema:isBasedOn        xyz:Sophie , xyz:David , xyz:Ortenz ;
+        schema:isPartOf         xyz:WP4 , xyz:MEETUPS , xyz:polifonia-project ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1" ;
+                                  schema:softwareVersion  "v0.1" ;
+                                  schema:startDate        "2023/01/13"
+                                ] ;
+        schema:title            "MEETUPS Ontology"@en ;
+        schema:usageInfo        "meetups-knowledge-graph" , "meetups-pilot" .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:David  rdf:type  schema:ShortStory .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:Sophie  rdf:type  schema:ShortStory .
+
+xyz:Ortenz  rdf:type  schema:ShortStory .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .

@@ -1,0 +1,30 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:meetups-application
+        rdf:type                frapo:MaterialOutput , xyz:WebApplication ;
+        schema:abstract         "The MEETUPS pilot application."@en ;
+        schema:contributor      "Alba Morales-Tirado <https://github.com/albamoralest>" , "Jason Carvalho <https://github.com/JaseMK>" , "Enrico Daga <https://github.com/enridaga>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 The Open University" ;
+        schema:discussionUrl    "https://github.com/polifonia-project/meetups-application/releases" ;
+        schema:distribution     "https://polifonia.kmi.open.ac.uk/MEETUPS/" ;
+        schema:identifier       "meetups-application" ;
+        schema:isBasedOn        "The MEETUPS pilot application." ;
+        schema:isPartOf         xyz:WP5 , xyz:polifonia-project ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/polifonia-project/meetups-application/releases" ;
+                                  schema:softwareVersion  "v0.3.6" ;
+                                  schema:startDate        "25/05/2023"
+                                ] ;
+        schema:title            "MEETUPS web application"@en ;
+        schema:usageInfo        "meetups-ui-design" .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .

@@ -1,0 +1,54 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:WP3  rdf:type  fabio:WorkPackage .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:CHILD  rdf:type  frapo:Investigation .
+
+xyz:sparql-anything-tutorials
+        rdf:type  schema:HowTo .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .
+
+xyz:sparql-anything-cli
+        rdf:type                xyz:CLITool , frapo:MaterialOutput ;
+        schema:abstract         "Command line executable of SPARQL Anything"@en ;
+        schema:contributor      "Marco Ratta <https://github.com/MarcoR1791>" , "Justin Dowdy <https://github.com/justin2004>" , "Enrico Daga <https://github.com/enridaga>" , "Luigi Asprino <https://github.com/luigi-asprino>" ;
+        schema:copyrightNotice  "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything" ;
+        schema:discussionUrl    "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1" ;
+        schema:distribution     "https://github.com/SPARQL-Anything/sparql.anything/releases" ;
+        schema:hasPart          "sparql-anything-java" ;
+        schema:identifier       "sparql-anything-cli" ;
+        schema:identifier       [ rdf:type           schema:PropertyValue ;
+                                  schema:PropertyID  "doi" ;
+                                  schema:value       "10.5281/zenodo.7454360"
+                                ] ;
+        schema:isBasedOn        "Command line executable of SPARQL Anything" ;
+        schema:isPartOf         xyz:MEETUPS , xyz:WP3 , xyz:polifonia-project , xyz:WP2 , xyz:WP4 , xyz:CHILD , xyz:WP1 ;
+        schema:license          "Apache-2.0" ;
+        schema:logo             "https://avatars.githubusercontent.com/u/79987779?s=200&v=4" ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1" ;
+                                  schema:softwareVersion  "v0.8.1" ;
+                                  schema:startDate        "2022/12/18"
+                                ] ;
+        schema:subjectOf        xyz:sparql-anything-docs , xyz:sparql-anything-tutorials ;
+        schema:title            "SPARQL Anything Command Line"@en ;
+        schema:workExample      "https://github.com/SPARQL-Anything/showcase-tate" .
+
+xyz:sparql-anything-docs
+        rdf:type  schema:HowTo .

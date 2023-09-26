@@ -1,0 +1,27 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:Jorge  rdf:type  schema:ShortStory .
+
+xyz:WP3  rdf:type  fabio:WorkPackage .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:FACETS  rdf:type  frapo:Investigation .
+
+<http://sparql.xyz/facade-x/data/Jorge#2_FindSimilarScores>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "People interested in finding scores ask for some very specific criterias. Often, the resulting list is empty, or contains very few scores."@en ;
+        schema:identifier  "Jorge#2_FindSimilarScores" ;
+        schema:isBasedOn   "Jorge#1_OrganizeMyLibrary" , "Jorge#4_LinkToSources" , "Jorge#3_DynamicExploration" , "People interested in finding scores ask for some very specific criterias. Often, the resulting list is empty, or contains very few scores." ;
+        schema:isBasedOn   xyz:Jorge ;
+        schema:isPartOf    xyz:WP2 , xyz:FACETS , xyz:WP3 , xyz:WP1 ;
+        schema:title       "Find similar scores"@en .

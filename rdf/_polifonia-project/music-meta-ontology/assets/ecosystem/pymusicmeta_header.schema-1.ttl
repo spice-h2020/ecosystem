@@ -1,0 +1,48 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+<http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/music-meta/>
+        rdf:type  schema:HowTo .
+
+xyz:INTERLINK  rdf:type  frapo:Investigation .
+
+xyz:pymusicmeta  rdf:type       frapo:MaterialOutput , xyz:Software ;
+        schema:abstract         "A library to create Music Meta resources on the Web."@en ;
+        schema:contributor      "Jacopo de Berardinis <https://github.com/jonnybluesman>" , "Andrea Poltronieri <https://github.com/andreamust>" ;
+        schema:copyrightNotice  "Copyright (c) 2023 Music Meta Contributors" ;
+        schema:discussionUrl    "https://github.com/polifonia-project/music-meta-ontology" ;
+        schema:distribution     "https://github.com/polifonia-project/music-meta-ontology/tree/main/musicmeta" ;
+        schema:hasPart          "https://w3id.org/polifonia/ontology/music-meta/" ;
+        schema:identifier       "pymusicmeta" ;
+        schema:identifier       [ rdf:type           schema:PropertyValue ;
+                                  schema:PropertyID  "doi" ;
+                                  schema:value       "10.5281/zenodo.7919970"
+                                ] ;
+        schema:isBasedOn        "A library to create Music Meta resources on the Web." ;
+        schema:isPartOf         xyz:polifonia-project , xyz:TONALITIES , xyz:TUNES , xyz:WP2 , xyz:FACETS , xyz:INTERLINK ;
+        schema:license          "IscLicense" ;
+        schema:logo             "website/static/img/musicmeta_logo.png" ;
+        schema:releasedEvent    [ schema:releaseNotes     "https://github.com/polifonia-project/music-meta-ontology" ;
+                                  schema:softwareVersion  "v1.0" ;
+                                  schema:startDate        "13/04/2023"
+                                ] ;
+        schema:subjectOf        <http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/music-meta/> ;
+        schema:title            "pymusicmeta"@en ;
+        schema:usageInfo        "https://w3id.org/polifonia/ontology/music-meta/" .
+
+xyz:TONALITIES  rdf:type  frapo:Investigation .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:FACETS  rdf:type  frapo:Investigation .
+
+xyz:TUNES  rdf:type  frapo:Investigation .

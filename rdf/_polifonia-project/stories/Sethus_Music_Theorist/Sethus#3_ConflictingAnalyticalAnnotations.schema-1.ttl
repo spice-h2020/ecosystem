@@ -1,0 +1,29 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .
+
+<http://sparql.xyz/facade-x/data/Sethus#3_ConflictingAnalyticalAnnotations>
+        rdf:type           frapo:MaterialOutput , xyz:Story ;
+        schema:abstract    "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."@en ;
+        schema:identifier  "Sethus#3_ConflictingAnalyticalAnnotations" ;
+        schema:isBasedOn   "Sethus#2_CreateRelevantCorpus" , "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions." , "Sethus#1_ConflictingTheoreticalInterpretations" ;
+        schema:isBasedOn   xyz:Sethus ;
+        schema:isPartOf    xyz:WP1 , xyz:WP4 , xyz:WP5 , xyz:WP2 , xyz:TONALITIES ;
+        schema:title       "Conflicting analytical annotations"@en .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+xyz:TONALITIES  rdf:type  frapo:Investigation .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:Sethus  rdf:type  schema:ShortStory .

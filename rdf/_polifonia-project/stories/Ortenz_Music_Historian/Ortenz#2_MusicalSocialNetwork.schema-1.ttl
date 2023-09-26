@@ -1,0 +1,27 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://sparql.xyz/facade-x/data/Ortenz#2_MusicalSocialNetwork>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Ortenz would like to have a system for visualising events (meetings of composers and musicians) in time and space in order to track musicians' careers, their overlap and intersections, gathering trends in time and space, and making emerge patterns of knowledge transmission."@en ;
+        schema:identifier  "Ortenz#2_MusicalSocialNetwork" ;
+        schema:isBasedOn   "Ortenz would like to have a system for visualising events (meetings of composers and musicians) in time and space in order to track musicians' careers, their overlap and intersections, gathering trends in time and space, and making emerge patterns of knowledge transmission." ;
+        schema:isBasedOn   xyz:Ortenz ;
+        schema:isPartOf    xyz:WP1 , xyz:MEETUPS , xyz:WP2 , xyz:WP4 ;
+        schema:title       "Musical Social Network"@en .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:Ortenz  rdf:type  schema:ShortStory .
+
+xyz:MEETUPS  rdf:type  frapo:Investigation .

@@ -1,0 +1,29 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:WP5  rdf:type  fabio:WorkPackage .
+
+xyz:MUSICBO  rdf:type  frapo:Investigation .
+
+xyz:Carolina  rdf:type  schema:ShortStory .
+
+xyz:WP3  rdf:type  fabio:WorkPackage .
+
+<http://sparql.xyz/facade-x/data/Carolina#1_SourcesCrossAnalysis>
+        rdf:type           frapo:MaterialOutput , xyz:Story ;
+        schema:abstract    "Carolina has to prepare a conference for the anniversary of the birth of the composer Giacomo Antonio Perti  and she needs to collect some informations about his career."@en ;
+        schema:identifier  "Carolina#1_SourcesCrossAnalysis" ;
+        schema:isBasedOn   "Carolina has to prepare a conference for the anniversary of the birth of the composer Giacomo Antonio Perti  and she needs to collect some informations about his career." ;
+        schema:isBasedOn   xyz:Carolina ;
+        schema:isPartOf    xyz:MUSICBO , xyz:WP2 , xyz:WP5 , xyz:WP3 , xyz:WP4 ;
+        schema:title       "Sources Cross-Analysis"@en .
+
+xyz:WP4  rdf:type  fabio:WorkPackage .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .

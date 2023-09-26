@@ -1,0 +1,23 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://sparql.xyz/facade-x/data/Linka#1_MusicKnowledge>
+        rdf:type           xyz:Story , frapo:MaterialOutput ;
+        schema:abstract    "Linka is interested in finding and describing music-related data of heterogeneous types and formats from different sources. Thanks to the ability to represent diverse content, her main goal is to inter-relate music data so as to enable large scale experiments for knowledge discovery."@en ;
+        schema:identifier  "Linka#1_MusicKnowledge" ;
+        schema:isBasedOn   "Linka is interested in finding and describing music-related data of heterogeneous types and formats from different sources. Thanks to the ability to represent diverse content, her main goal is to inter-relate music data so as to enable large scale experiments for knowledge discovery." ;
+        schema:isBasedOn   xyz:Linka ;
+        schema:isPartOf    xyz:INTERLINK , xyz:WP2 ;
+        schema:title       "Music Knowledge"@en .
+
+xyz:INTERLINK  rdf:type  frapo:Investigation .
+
+xyz:WP2  rdf:type  fabio:WorkPackage .
+
+xyz:Linka  rdf:type  schema:ShortStory .

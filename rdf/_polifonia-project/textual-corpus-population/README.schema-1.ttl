@@ -1,0 +1,27 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:MusicBo  rdf:type  frapo:Investigation .
+
+xyz:textual-corpus-population
+        rdf:type              frapo:MaterialOutput , xyz:Repository ;
+        schema:abstract       "Polifonia downloader and digitiser of textual data."@en ;
+        schema:creditText     "A. Poltronieri (UniBo), R. Tripodi (UniBo)" ;
+        schema:discussionUrl  "n/a." ;
+        schema:identifier     "textual-corpus-population" ;
+        schema:image          "n/a." ;
+        schema:isBasedOn      "Polifonia downloader and digitiser of textual data." ;
+        schema:isPartOf       xyz:MusicBo ;
+        schema:logo           "n/a." ;
+        schema:releasedEvent  [ schema:releaseNotes     "n/a." ;
+                                schema:softwareVersion  "v0.1" ;
+                                schema:startDate        "07-12-2021"
+                              ] ;
+        schema:title          "Textual Corpus Population"@en ;
+        schema:workExample    "n/a" .

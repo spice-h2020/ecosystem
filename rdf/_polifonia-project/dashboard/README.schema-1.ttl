@@ -1,0 +1,32 @@
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix frapo:  <http://purl.org/cerif/frapo/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+xyz:polifonia-project
+        rdf:type  schema:Project .
+
+xyz:melody-software  rdf:type  xyz:WebApplication , frapo:MaterialOutput ;
+        schema:abstract       "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data."@en ;
+        schema:contributor    "Marilena Daquino <https://github.com/marilenadaquino>" , "Giulia Renda <https://github.com/mondoboia>" ;
+        schema:discussionUrl  "https://github.com/polifonia-project/dashboard/releases/latest" ;
+        schema:distribution   "https://github.com/polifonia-project/dashboard/releases" ;
+        schema:identifier     "melody-software" ;
+        schema:identifier     [ rdf:type           schema:PropertyValue ;
+                                schema:PropertyID  "doi" ;
+                                schema:value       "10.5281/zenodo.6637345"
+                              ] ;
+        schema:isBasedOn      "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data." ;
+        schema:isPartOf       xyz:polifonia-project , xyz:WP1 ;
+        schema:releasedEvent  [ schema:releaseNotes     "https://github.com/polifonia-project/dashboard/releases/latest" ;
+                                schema:softwareVersion  "v0.1.1" ;
+                                schema:startDate        "2022/05/12"
+                              ] ;
+        schema:title          "MELODY"@en ;
+        schema:workExample    "https://projects.dharc.unibo.it/melody/" .
+
+xyz:WP1  rdf:type  fabio:WorkPackage .
