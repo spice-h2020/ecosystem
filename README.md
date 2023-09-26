@@ -65,5 +65,5 @@ compile with Jekyll).
 
 ## Need help with this procedure
 
-Contact [Raphaël Fournier-S'niehotta](http://github.com/raphaelfournier).
+Open an issue and ask for help!
 
