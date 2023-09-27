@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:licences",
+            "schema:hasPart": "Dalicc, https://www.dalicc.net/",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:WP2"
+                }
+            ],
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:KnowledgeGraph"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Licences Knowlegde Graph"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "The Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused."
+            },
+            "schema:identifier": [
+                {
+                    "@id": "_:b0"
+                },
+                "licences"
+            ],
+            "schema:creditText": {
+                "@id": "xyz:525efade7d45c2b797e7e28a86286379#/credits"
+            },
+            "schema:isBasedOn": "The Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused.",
+            "schema:provider": "licences-pipeline",
+            "schema:license": "CC-BY_v4"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "_:b0",
+            "schema:value": "10.5281/zenodo.7875034",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Sonia",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:Sonia#3_StatsMode",
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Story"
+            ],
+            "schema:isBasedOn": [
+                {
+                    "@id": "xyz:Sonia"
+                },
+                "Sonia#2_ShuffleMode",
+                "Sonia#1_ExplorationMode",
+                "Sonia likes to explore her playlist history, find interesting statistics and patterns and see how it compares to other music listeners."
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Stats mode"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Sonia likes to explore her playlist history, find interesting statistics and patterns and see how it compares to other music listeners."
+            },
+            "schema:isPartOf": {
+                "@id": "xyz:INTERLINK"
+            },
+            "schema:identifier": "Sonia#3_StatsMode"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

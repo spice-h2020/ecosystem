@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1",
+            "schema:softwareVersion": "v0.8.1",
+            "schema:startDate": "2022/12/18"
+        },
+        {
+            "@id": "_:b1",
+            "schema:value": "10.5281/zenodo.7454360",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:sparql-anything-tutorials",
+            "@type": "schema:HowTo"
+        },
+        {
+            "@id": "xyz:sparql-anything-server",
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Web server executable of SPARQL Anything"
+            },
+            "schema:contributor": [
+                "Marco Ratta <https://github.com/MarcoR1791>",
+                "Luigi Asprino <https://github.com/luigi-asprino>",
+                "Enrico Daga <https://github.com/enridaga>",
+                "Justin Dowdy <https://github.com/justin2004>"
+            ],
+            "schema:workExample": "https://github.com/SPARQL-Anything/showcase-tate",
+            "schema:identifier": [
+                "sparql-anything-server",
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "schema:hasPart": [
+                "Apache Jena Fuseki https://jena.apache.org/",
+                "sparql-anything-java"
+            ],
+            "schema:distribution": "https://github.com/SPARQL-Anything/sparql.anything/releases",
+            "schema:subjectOf": [
+                {
+                    "@id": "xyz:sparql-anything-docs"
+                },
+                {
+                    "@id": "xyz:sparql-anything-tutorials"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "SPARQL Anything Web Server"
+            },
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:WebApplication"
+            ],
+            "schema:copyrightNotice": "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything",
+            "schema:usageInfo": "sparql-anything-requirements",
+            "schema:logo": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4",
+            "schema:discussionUrl": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1",
+            "schema:isBasedOn": "Web server executable of SPARQL Anything",
+            "schema:license": "Apache-2.0"
+        },
+        {
+            "@id": "xyz:sparql-anything-docs",
+            "@type": "schema:HowTo"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:broadcast-concerts-knowledge-graph",
+            "schema:isBasedOn": [
+                {
+                    "@id": "xyz:William"
+                },
+                "The NISV knowledge graph for broadcast concerts. This knowledge graph contains metadata of more than 75,000 concerts broadcast on Dutch public service TV and radio. The source of the knowledge graph is the archival metadata stored at the Netherlands Institute for Sound & Vision.",
+                "William#1_EuropeanFolkMusic"
+            ],
+            "schema:copyrightNotice": "Each concert has its own license, determine using the NISV rules for licensing. Where possible, this is a CC license. The license is stated in the triples for that concert.",
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:KnowledgeGraph"
+            ],
+            "schema:hasPart": [
+                "https://schema.org",
+                "broadcast-concerts-sparql-endpoint"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:Interlink"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                }
+            ],
+            "schema:identifier": [
+                {
+                    "@id": "_:b0"
+                },
+                "broadcast-concerts-knowledge-graph"
+            ],
+            "schema:contributor": [
+                "Mari Wigham",
+                "Willem Melder",
+                "Govert Brinkmann"
+            ],
+            "schema:subjectOf": [
+                {
+                    "@id": "xyz:broadcast-concerts-docs-melody"
+                },
+                {
+                    "@id": "xyz:broadcast-concerts-docs-blog"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Broadcast Concerts Knowledge Graph"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "The NISV knowledge graph for broadcast concerts. This knowledge graph contains metadata of more than 75,000 concerts broadcast on Dutch public service TV and radio. The source of the knowledge graph is the archival metadata stored at the Netherlands Institute for Sound & Vision."
+            },
+            "schema:distribution": {
+                "@id": "xyz:96359ab53583ee7903955ff956961f02#/resource"
+            }
+        },
+        {
+            "@id": "xyz:William",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "_:b0",
+            "schema:value": "10.5281/zenodo.7377532",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:broadcast-concerts-docs-melody",
+            "@type": "schema:HowTo"
+        },
+        {
+            "@id": "xyz:Interlink",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:broadcast-concerts-docs-blog",
+            "@type": "schema:HowTo"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

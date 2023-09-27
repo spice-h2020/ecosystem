@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "schema:value": "10.5281/zenodo.7919970",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:https://w3id.org/polifonia/ontology/music-meta/",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:INTERLINK"
+                },
+                {
+                    "@id": "xyz:TONALITIES"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:FACETS"
+                },
+                {
+                    "@id": "xyz:TUNES"
+                },
+                {
+                    "@id": "xyz:WP2"
+                }
+            ],
+            "schema:contributor": [
+                "Peter van Kranenburg <https://github.com/pvankranenburg>",
+                "Nicolas Lazzari <https://github.com/n28div>",
+                "Philippe Rigaux <https://github.com/rigaux>",
+                "Jacopo de Berardinis <https://github.com/jonnybluesman>",
+                "Mari Wigham <https://github.com/mwigham>",
+                "Valentina Anita Carriero <https://github.com/valecarriero>",
+                "Andrea Poltronieri <https://github.com/andreamust>",
+                "Marco Gurrieri <https://github.com/margur78>"
+            ],
+            "schema:isBasedOn": [
+                "An ontology to describe music metadata",
+                {
+                    "@id": "xyz:Linka"
+                },
+                "Linka#1_MusicKnowledge"
+            ],
+            "schema:usageInfo": "polifoniacq-dataset",
+            "schema:distribution": "ontology/musicmeta.owl",
+            "schema:releasedEvent": {
+                "@id": "_:b1"
+            },
+            "@type": [
+                "xyz:Ontology",
+                "frapo:MaterialOutput"
+            ],
+            "schema:identifier": [
+                "https://w3id.org/polifonia/ontology/music-meta/",
+                {
+                    "@id": "_:b0"
+                }
+            ],
+            "schema:logo": "website/static/img/musicmeta_logo.png",
+            "schema:copyrightNotice": "Copyright (c) 2023 Music Meta Contributors",
+            "schema:discussionUrl": "https://github.com/polifonia-project/ontology-network/releases",
+            "schema:license": "CC-BY_v4",
+            "schema:hasPart": "https://w3id.org/polifonia/ontology/core/",
+            "schema:title": {
+                "@language": "en",
+                "@value": "Music Meta"
+            },
+            "schema:image": "diagrams/music_meta.png",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "An ontology to describe music metadata"
+            }
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:TONALITIES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "_:b1",
+            "schema:releaseNotes": "https://github.com/polifonia-project/ontology-network/releases",
+            "schema:softwareVersion": "v1.0",
+            "schema:startDate": "13/04/2023"
+        },
+        {
+            "@id": "xyz:Linka",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:FACETS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:TUNES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Jorge",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Jorge#3_DynamicExploration",
+            "schema:isBasedOn": [
+                "Jorge#2_FindSimilarScores",
+                "Jorge#1_OrganizeMyLibrary",
+                "Jorge#4_LinkToSources",
+                {
+                    "@id": "xyz:Jorge"
+                },
+                "Jorge accesses to a part of the collection and is overwhelmed by the number of scores and their heterogeneity."
+            ],
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Dynamic exploration"
+            },
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:WP3"
+                },
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:FACETS"
+                }
+            ],
+            "schema:identifier": "Jorge#3_DynamicExploration",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Jorge accesses to a part of the collection and is overwhelmed by the number of scores and their heterogeneity."
+            }
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:FACETS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

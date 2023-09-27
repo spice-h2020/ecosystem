@@ -1,0 +1,56 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Brendan#1_FindTraditionalMusic",
+            "schema:isBasedOn": [
+                "Find suitably similar traditional music and historical context from northern European corpora.",
+                {
+                    "@id": "xyz:Brendan"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:TUNES"
+                },
+                {
+                    "@id": "xyz:WP3"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Find Traditional Music"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Find suitably similar traditional music and historical context from northern European corpora."
+            },
+            "schema:identifier": "Brendan#1_FindTraditionalMusic",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Brendan",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:TUNES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

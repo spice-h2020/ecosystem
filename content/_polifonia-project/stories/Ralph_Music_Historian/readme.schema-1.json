@@ -1,0 +1,38 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:Ralph",
+            "schema:isBasedOn": "Researcher and Professor in Musicology",
+            "schema:isPartOf": {
+                "@id": "xyz:polifonia-project"
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "Ralph"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Researcher and Professor in Musicology"
+            },
+            "schema:identifier": "Ralph",
+            "@type": [
+                "xyz:Persona",
+                "frapo:MaterialOutput"
+            ]
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

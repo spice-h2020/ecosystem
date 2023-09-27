@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:data-open-ac-uk",
+            "schema:contributor": [
+                "Enrico Daga <https://github.com/enridaga>",
+                "Mathieu d'Aquin <https://mdaquin.github.io/>"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:WP4"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:CHILD"
+                }
+            ],
+            "schema:license": "CC-BY_v4",
+            "schema:isBasedOn": "The Open Knowldedge Graph (OKG) SPARQL Endpoint",
+            "schema:citation": {
+                "@id": "xyz:Daga, Enrico, Mathieu d’Aquin, Alessandro Adamou, and Stuart Brown. \"The open university linked data–data. open. ac. uk.\" Semantic Web 7, no. 2 (2016): 183-191."
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "The Open Knowldedge Graph (OKG)"
+            },
+            "@type": [
+                "xyz:SPARQLEndpoint",
+                "frapo:MaterialOutput"
+            ],
+            "schema:supportingData": [
+                "meetups-knowledge-graph",
+                "led"
+            ],
+            "schema:hasPart": [
+                "meetups-ontology",
+                "sparql-anything-cli"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "The Open Knowldedge Graph (OKG) SPARQL Endpoint"
+            },
+            "schema:logo": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4",
+            "schema:workExample": "https://data.open.ac.uk/sparql",
+            "schema:copyrightNotice": "Copyright (c) 2023 The Open University",
+            "schema:distribution": "https://data.open.ac.uk/sparql",
+            "schema:identifier": "data-open-ac-uk"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Daga, Enrico, Mathieu d’Aquin, Alessandro Adamou, and Stuart Brown. \"The open university linked data–data. open. ac. uk.\" Semantic Web 7, no. 2 (2016): 183-191.",
+            "@type": "schema:Article"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:CHILD",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

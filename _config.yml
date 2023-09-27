@@ -26,9 +26,8 @@ heading_anchors: true
 # Color scheme supports "light" (default) and "dark"
 color_scheme: polifonia
 
-
 # These can be '' to hide the Github or Gitlab nav buttons
-github: 'polifonia-project'
+github: ''
 gitlab: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
@@ -37,7 +36,7 @@ gaaccount: ''
 # The 'comments' setting enables comments. You'll need to select either
 # disqus or isso below to choose a comment system. Individual posts can
 # override 'comments' to disable on a post-by-post basis.
-comments: true
+comments: false
 
 # Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
 isso: ''
@@ -62,43 +61,6 @@ collections:
         output: true
     smashub:
         output: true
-# project:
-    #     output: true
-#
-# stories:
-#     output: true
-# external-components:
-#     output: true
-# lharp:
-#     output: true
-# ontology-network:
-#     output: true
-# sonar2021_data_transformation:
-#     output: true
-# sonar2021_demo:
-#     output: true
-# textual-corpus-population:
-#     output: true
-# documentary-evidence-benchmark:
-#     output: true
-# rulebook:
-#     output: true
-# core:
-#     output: true
-# instrument:
-#     output: true
-# musical-performance:
-#     output: true
-# ocr:
-#     output: true
-# folk_ngram_analysis:
-#     output: true
-# patterns:
-#     output: true
-# registry_app:
-#     output: true
-# source:
-#     output: true
 
 defaults:
   - scope:
@@ -115,55 +77,6 @@ defaults:
       path: pages/pilots
     values:
       identifier: "pilotpage"
-# - scope:
-#     type: stories
-#   values:
-#     layout: story
-# - scope:
-#     type: rulebook
-#   values:
-#     layout: component
-# - scope:
-#     type: documentary-evidence-benchmark
-#   values:
-#     layout: component
-# - scope:
-#     type: lharp
-#   values:
-#     layout: component
-# - scope:
-#     type: ontology-network
-#   values:
-#     layout: component
-# - scope:
-#     type: sonar2021_data_transformation
-#   values:
-#     layout: component
-# - scope:
-#     type: sonar2021_demo
-#   values:
-#     layout: component
-# - scope:
-#     type: textual-corpus-population
-#   values:
-#     layout: component
-# - scope:
-#     type: external-components
-#   values:
-#     layout: component
-# - scope:
-#     type: core
-#   values:
-#     layout: component
-# - scope:
-#     type: folk_ngram_analysis
-#   values:
-#     layout: component
-# - scope:
-#     type: registry_app
-#   values:
-#     layout: component
-
 
 just_the_docs:
   search_enabled: true

@@ -1,0 +1,128 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "schema:value": "10.5281/zenodo.7919970",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:https://w3id.org/polifonia/ontology/instrument/",
+            "schema:hasPart": "https://w3id.org/polifonia/ontology/core/",
+            "schema:license": "CC-BY_v4",
+            "schema:distribution": "ontology/music-instrument.owl",
+            "schema:copyrightNotice": "Copyright (c) 2023 Music Instrument Contributors",
+            "schema:isBasedOn": [
+                "Amy#1_OrganTrends",
+                {
+                    "@id": "xyz:Paul"
+                },
+                "An ontology to describe instruments as mediums of performance and their technical properties.",
+                "Frank#1_OrganKnowledge",
+                "Paul#1_OrganComparison",
+                "Amy#2_OrganBuilders",
+                {
+                    "@id": "xyz:Amy"
+                },
+                {
+                    "@id": "xyz:Frank"
+                },
+                "Paul#2_ResourceReliability"
+            ],
+            "schema:discussionUrl": "https://github.com/polifonia-project/ontology-network/releases",
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Ontology"
+            ],
+            "schema:usageInfo": "polifoniacq-dataset",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:BELLS"
+                },
+                {
+                    "@id": "xyz:ORGANS"
+                },
+                {
+                    "@id": "xyz:INTERLINK"
+                }
+            ],
+            "schema:contributor": [
+                "Valentina Anita Carriero <https://github.com/valecarriero>",
+                "Jacopo de Berardinis <https://github.com/jonnybluesman>",
+                "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
+            ],
+            "schema:image": "diagrams/music-instrument-main-entities.png",
+            "schema:releasedEvent": {
+                "@id": "_:b1"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "An ontology to describe instruments as mediums of performance and their technical properties."
+            },
+            "schema:identifier": [
+                "https://w3id.org/polifonia/ontology/instrument/",
+                {
+                    "@id": "_:b0"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Music Instrument Ontology"
+            }
+        },
+        {
+            "@id": "xyz:Paul",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:Amy",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "_:b1",
+            "schema:releaseNotes": "https://github.com/polifonia-project/ontology-network/releases",
+            "schema:softwareVersion": "v1.0",
+            "schema:startDate": "13/04/2023"
+        },
+        {
+            "@id": "xyz:BELLS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:Frank",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

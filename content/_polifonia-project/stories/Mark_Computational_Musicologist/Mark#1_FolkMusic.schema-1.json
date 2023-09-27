@@ -1,0 +1,56 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:TUNES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:Mark#1_FolkMusic",
+            "schema:isBasedOn": [
+                "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas.",
+                {
+                    "@id": "xyz:Mark"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:TUNES"
+                },
+                {
+                    "@id": "xyz:WP2"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Folk Music"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas."
+            },
+            "schema:identifier": "Mark#1_FolkMusic",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Mark",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

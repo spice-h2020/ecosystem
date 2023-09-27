@@ -1,0 +1,56 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Ortenz#1_MusicAndChildhood",
+            "schema:isBasedOn": [
+                "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity.",
+                {
+                    "@id": "xyz:Ortenz"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:CHILD"
+                },
+                {
+                    "@id": "xyz:WP1"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Music and Childhood"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity."
+            },
+            "schema:identifier": "Ortenz#1_MusicAndChildhood",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Ortenz",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:CHILD",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

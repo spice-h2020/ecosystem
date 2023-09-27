@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:David#1_MusicHistorian",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:WP3"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:WP4"
+                }
+            ],
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Story"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Music Historian"
+            },
+            "schema:isBasedOn": {
+                "@id": "xyz:David"
+            },
+            "schema:identifier": "David#1_MusicHistorian"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:David",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

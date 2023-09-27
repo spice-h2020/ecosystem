@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:meetups-entity-recognition",
+            "schema:contributor": [
+                "Alba Morales Tirado <https://github.com/albamoralest>",
+                "Enrico Daga <https://github.com/enridaga>"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:WP4"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                }
+            ],
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Software"
+            ],
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "MEETUPS identification of people and places"
+            },
+            "schema:license": "Apache-2.0",
+            "schema:distribution": "https://github.com/polifonia-project/meetups_pilot/blob/main/02_Identify_PP.ipynb",
+            "schema:identifier": [
+                "meetups-entity-recognition",
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "schema:discussionUrl": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2",
+            "schema:copyrightNotice": "Copyright (c) 2023 MEETUPS @ The Open University"
+        },
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2",
+            "schema:softwareVersion": "v0.1",
+            "schema:startDate": "20/07/2022"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "_:b1",
+            "schema:value": "https://zenodo.org/badge/latestdoi/436452967",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

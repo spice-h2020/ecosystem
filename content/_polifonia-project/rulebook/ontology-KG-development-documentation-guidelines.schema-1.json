@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:MUSICBO",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:BELLS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:ontology-rulebook",
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Documentation"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:MUSICBO"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:CHILD"
+                },
+                {
+                    "@id": "xyz:BELLS"
+                },
+                {
+                    "@id": "xyz:TONALITIES"
+                },
+                {
+                    "@id": "xyz:ORGANS"
+                },
+                "rulebook"
+            ],
+            "schema:isBasedOn": "The guidelines for the development and documentation of an ontology and a knowledge graph",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "The guidelines for the development and documentation of an ontology and a knowledge graph"
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "Ontology and knowledge graph development and documentation guidelines"
+            },
+            "schema:identifier": "ontology-rulebook"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:CHILD",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:TONALITIES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

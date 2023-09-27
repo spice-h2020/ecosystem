@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "https://github.com/polifonia-project/clef/releases/latest",
+            "schema:softwareVersion": "v1.0.2",
+            "schema:startDate": "2023/05/13"
+        },
+        {
+            "@id": "_:b1",
+            "schema:value": "10.5281/zenodo.7906320",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721",
+            "@type": "schema:Article"
+        },
+        {
+            "@id": "xyz:clef-software",
+            "schema:contributor": [
+                "Marilena Daquino <https://github.com/marilenadaquino>",
+                "Martin Hlosta <https://github.com/hlostam>"
+            ],
+            "@type": [
+                "xyz:WebApplication",
+                "frapo:MaterialOutput"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "CLEF, Crowdsourcing Linked Entities via web Form, is a lightweight Linked Open Data native cataloguing system tailored to small-medium crowdsourcing projects."
+            },
+            "schema:workExample": "https://projects.dharc.unibo.it/musow/",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:WP1"
+                }
+            ],
+            "schema:discussionUrl": "https://github.com/polifonia-project/clef/releases/latest",
+            "schema:citation": {
+                "@id": "xyz:Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721"
+            },
+            "schema:identifier": [
+                "clef-software",
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "schema:distribution": "https://github.com/polifonia-project/clef/releases",
+            "schema:title": {
+                "@language": "en",
+                "@value": "CLEF"
+            },
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            },
+            "schema:isBasedOn": "CLEF, Crowdsourcing Linked Entities via web Form, is a lightweight Linked Open Data native cataloguing system tailored to small-medium crowdsourcing projects."
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

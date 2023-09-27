@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1",
+            "schema:softwareVersion": "v0.8.1",
+            "schema:startDate": "2022/12/18"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "_:b1",
+            "schema:value": "10.5281/zenodo.7454360",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:sparql-anything-docker",
+            "schema:title": {
+                "@language": "en",
+                "@value": "SPARQL Anything Docker Instance"
+            },
+            "schema:isBasedOn": "Docker file of the SPARQL Anything Web Server",
+            "schema:logo": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4",
+            "schema:identifier": [
+                "sparql-anything-docker",
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:WP4"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:WP3"
+                },
+                {
+                    "@id": "xyz:WP2"
+                }
+            ],
+            "schema:hasPart": [
+                "sparql-anything-server",
+                "sparql-anything-java"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Docker file of the SPARQL Anything Web Server"
+            },
+            "schema:distribution": "https://github.com/SPARQL-Anything/sparql.anything/blob/v0.8-DEV/Dockerfile.development",
+            "@type": [
+                "xyz:DockerImageContainer",
+                "frapo:MaterialOutput"
+            ],
+            "schema:discussionUrl": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1",
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            }
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

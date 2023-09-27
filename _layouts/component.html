@@ -63,6 +63,12 @@ layout: default
 {% capture ghLink %}{{ repo_data.link }}{{ ghLinkAfter }}{% endcapture %}
   <a href="{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
 
+    {% assign schema_file_path = page.path | replace: '.md', '.schema-1.json' %}
+    {% assign schema_file_path_fs = "content/" | append: {{schema_file_path}}  %}
+    <a href="{{ page.url | replace: '.html', '.schema-1.json' | absolute_url}}">Download as Schema.org</a>
+    <script type="application/ld+json">
+        {% include_absolute {{schema_file_path_fs}} %}
+    </script>
 </div>
 
 <!--
@@ -104,7 +110,7 @@ $('#contents img').each(function(ix,el){
     var href = $(el).attr('src').trim()
     if ( ! (href.startsWith('#') || href.startsWith('http'))){
         var link = raw_link + href
-        console.log(href, link)
+        //console.log(href, link)
         $(el).attr('src', link)
     }
 });

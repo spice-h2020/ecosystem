@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:Interlink",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:broadcast-concerts-docs-melody",
+            "schema:hasPart": [
+                "broadcast-concerts-sparql-endpoint",
+                "broadcast-concerts-knowledge-graph"
+            ],
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Documentation"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Broadcast Concerts Data Story"
+            },
+            "schema:distribution": "https://projects.dharc.unibo.it/melody/sound_and_vision/dutch_broadcast_concert_collection",
+            "schema:contributor": [
+                "Mari Wigham",
+                "Govert Brinkmann",
+                "Willem Melder"
+            ],
+            "schema:identifier": "broadcast-concerts-docs-melody",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:Interlink"
+                }
+            ],
+            "schema:isBasedOn": "The Broadcast Concerts Data Story describes the key features of the Broadcast Concerts knowledge graph",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "The Broadcast Concerts Data Story describes the key features of the Broadcast Concerts knowledge graph"
+            }
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

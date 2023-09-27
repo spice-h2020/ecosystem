@@ -1,0 +1,53 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:FACETS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:Jorge",
+            "schema:title": {
+                "@language": "en",
+                "@value": "Jorge"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+            },
+            "@type": [
+                "xyz:Persona",
+                "frapo:MaterialOutput"
+            ],
+            "schema:isBasedOn": [
+                "Jorge#1_OrganizeMyLibrary",
+                "Jorge#2_FindSimilarScores",
+                "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized.",
+                "Jorge#4_LinkToSources",
+                "Jorge#3_DynamicExploration"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:FACETS"
+                }
+            ],
+            "schema:identifier": "Jorge"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:Amy",
+            "@type": [
+                "xyz:Persona",
+                "frapo:MaterialOutput"
+            ],
+            "schema:isBasedOn": [
+                "Amy#2_OrganBuilders",
+                "Amy#1_OrganTrends",
+                "Organologist, Musicologist, and Music historian."
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:ORGANS"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                }
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Organologist, Musicologist, and Music historian."
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "Amy"
+            },
+            "schema:identifier": "Amy"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:rulebook",
+            "schema:isBasedOn": "Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.",
+            "schema:license": "Cc010Universal",
+            "schema:contributor": [
+                "https://github.com/raphaelfournier",
+                "https://github.com/enridaga"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Polifonia Ecosystem Development Rulebook"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem."
+            },
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Documentation"
+            ],
+            "schema:hasPart": [
+                "rulebook-schema",
+                "ontology-rulebook"
+            ],
+            "schema:identifier": "rulebook",
+            "schema:distribution": "https://github.com/polifonia-project/rulebook",
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            },
+            "schema:isPartOf": {
+                "@id": "xyz:WP1"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "TODO",
+            "schema:softwareVersion": "v2.1",
+            "schema:startDate": "21/04/2022"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

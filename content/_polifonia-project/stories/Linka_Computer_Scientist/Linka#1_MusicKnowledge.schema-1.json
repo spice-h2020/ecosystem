@@ -1,0 +1,56 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Linka#1_MusicKnowledge",
+            "schema:isBasedOn": [
+                "Linka is interested in finding and describing music-related data of heterogeneous types and formats from different sources. Thanks to the ability to represent diverse content, her main goal is to inter-relate music data so as to enable large scale experiments for knowledge discovery.",
+                {
+                    "@id": "xyz:Linka"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:INTERLINK"
+                },
+                {
+                    "@id": "xyz:WP2"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Music Knowledge"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Linka is interested in finding and describing music-related data of heterogeneous types and formats from different sources. Thanks to the ability to represent diverse content, her main goal is to inter-relate music data so as to enable large scale experiments for knowledge discovery."
+            },
+            "schema:identifier": "Linka#1_MusicKnowledge",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Linka",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

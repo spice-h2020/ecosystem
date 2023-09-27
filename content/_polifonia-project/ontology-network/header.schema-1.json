@@ -1,0 +1,160 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "schema:value": "10.5281/zenodo.7919970",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "xyz:TUNES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:ACCESS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "_:b1",
+            "schema:releaseNotes": "https://github.com/polifonia-project/ontology-network/releases",
+            "schema:softwareVersion": "v1.0",
+            "schema:startDate": "09/05/2023"
+        },
+        {
+            "@id": "xyz:TONALITIES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:https://w3id.org/polifonia/ontology/ontology-network/",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:ACCESS"
+                },
+                {
+                    "@id": "xyz:ORGANS"
+                },
+                {
+                    "@id": "xyz:MUSICBO"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:CHILD"
+                },
+                {
+                    "@id": "xyz:TONALITIES"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:TUNES"
+                },
+                {
+                    "@id": "xyz:BELLS"
+                },
+                {
+                    "@id": "xyz:FACETS"
+                },
+                {
+                    "@id": "xyz:INTERLINK"
+                }
+            ],
+            "schema:isBasedOn": "Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each submodule.",
+            "schema:usageInfo": [
+                "https://github.com/polifonia-project/idea",
+                "https://github.com/polifonia-project/polifoniacq-dataset"
+            ],
+            "schema:contributor": [
+                "Fiorela Ciroku <https://github.com/jonnybluesman>",
+                "Jacopo de Berardinis <https://github.com/jonnybluesman>",
+                "Nicolas Lazzari <https://github.com/n28div>",
+                "Valentina Anita Carriero <https://github.com/valecarriero>",
+                "Andrea Poltronieri <https://github.com/andreamust>"
+            ],
+            "schema:identifier": [
+                "https://w3id.org/polifonia/ontology/ontology-network/",
+                {
+                    "@id": "_:b0"
+                }
+            ],
+            "schema:license": "CC-BY_v4",
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Ontology"
+            ],
+            "schema:image": "assets/pon_architecture.png",
+            "schema:title": {
+                "@language": "en",
+                "@value": "Polifonia Ontology Network (PON)"
+            },
+            "schema:discussionUrl": "https://github.com/polifonia-project/ontology-network/releases",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each submodule."
+            },
+            "schema:subjectOf": {
+                "@id": "xyz:https://github.com/polifonia-project/ontology-network"
+            },
+            "schema:distribution": "ontology/ontology-network.owl",
+            "schema:copyrightNotice": "Copyright (c) 2023 Polifonia Ontology Network Contributors",
+            "schema:releasedEvent": {
+                "@id": "_:b1"
+            }
+        },
+        {
+            "@id": "xyz:MUSICBO",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:CHILD",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:BELLS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:https://github.com/polifonia-project/ontology-network",
+            "@type": "schema:HowTo"
+        },
+        {
+            "@id": "xyz:FACETS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

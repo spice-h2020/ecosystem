@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:meetups-ontology",
+            "schema:title": {
+                "@language": "en",
+                "@value": "MEETUPS Ontology"
+            },
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Ontology"
+            ],
+            "schema:isBasedOn": [
+                {
+                    "@id": "xyz:Sophie"
+                },
+                "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945.",
+                {
+                    "@id": "xyz:David"
+                },
+                {
+                    "@id": "xyz:Ortenz"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP4"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                }
+            ],
+            "schema:identifier": [
+                "meetups-ontology",
+                {
+                    "@id": "_:b0"
+                }
+            ],
+            "schema:distribution": "https://github.com/polifonia-project/meetups-ontology",
+            "schema:usageInfo": [
+                "meetups-knowledge-graph",
+                "meetups-pilot"
+            ],
+            "schema:discussionUrl": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1",
+            "schema:contributor": [
+                "Alba Morales Tirado <https://github.com/albamoralest>",
+                "Enrico Daga <https://github.com/enridaga>"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945."
+            },
+            "schema:copyrightNotice": "Copyright (c) 2023 MEETUPS @ The Open University",
+            "schema:releasedEvent": {
+                "@id": "_:b1"
+            }
+        },
+        {
+            "@id": "xyz:Sophie",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:David",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:Ortenz",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "_:b0",
+            "schema:value": "https://zenodo.org/badge/latestdoi/588540533",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "_:b1",
+            "schema:releaseNotes": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1",
+            "schema:softwareVersion": "v0.1",
+            "schema:startDate": "2023/01/13"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@id": "xyz:sparql-anything-docs",
+    "schema:abstract": {
+        "@language": "en",
+        "@value": "Online documentation of SPARQL Anything"
+    },
+    "schema:logo": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4",
+    "schema:license": "Apache-2.0",
+    "schema:isBasedOn": "Online documentation of SPARQL Anything",
+    "@type": [
+        "frapo:MaterialOutput",
+        "xyz:Documentation"
+    ],
+    "schema:title": {
+        "@language": "en",
+        "@value": "SPARQL Anything Documentation"
+    },
+    "schema:usageInfo": [
+        "sparql-anything-server",
+        "sparql-anything-cli",
+        "sparql-anything-requirements"
+    ],
+    "schema:workExample": "https://github.com/SPARQL-Anything/showcase-tate",
+    "schema:distribution": "https://sparql-anything.readthedocs.io/en/latest/",
+    "schema:identifier": "sparql-anything-docs",
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

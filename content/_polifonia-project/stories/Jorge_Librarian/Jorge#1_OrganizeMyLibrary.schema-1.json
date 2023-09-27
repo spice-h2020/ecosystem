@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Jorge",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Jorge#1_OrganizeMyLibrary",
+            "schema:identifier": "Jorge#1_OrganizeMyLibrary",
+            "schema:isBasedOn": [
+                "Jorge#4_LinkToSources",
+                "Jorge#2_FindSimilarScores",
+                "Jorge manages a digital library of scores. He aims at describing each score with a rich set of contextual information, although a comprehensive description is often not possible.",
+                "Jorge#3_DynamicExploration",
+                {
+                    "@id": "xyz:Jorge"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:FACETS"
+                },
+                {
+                    "@id": "xyz:WP3"
+                }
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Jorge manages a digital library of scores. He aims at describing each score with a rich set of contextual information, although a comprehensive description is often not possible."
+            },
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Organize my digital library"
+            }
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:FACETS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

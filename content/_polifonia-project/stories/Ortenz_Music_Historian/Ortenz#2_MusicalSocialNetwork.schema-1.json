@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Ortenz#2_MusicalSocialNetwork",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Ortenz would like to have a system for visualising events (meetings of composers and musicians) in time and space in order to track musicians' careers, their overlap and intersections, gathering trends in time and space, and making emerge patterns of knowledge transmission."
+            },
+            "schema:isBasedOn": [
+                "Ortenz would like to have a system for visualising events (meetings of composers and musicians) in time and space in order to track musicians' careers, their overlap and intersections, gathering trends in time and space, and making emerge patterns of knowledge transmission.",
+                {
+                    "@id": "xyz:Ortenz"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:WP4"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Musical Social Network"
+            },
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ],
+            "schema:identifier": "Ortenz#2_MusicalSocialNetwork"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Ortenz",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

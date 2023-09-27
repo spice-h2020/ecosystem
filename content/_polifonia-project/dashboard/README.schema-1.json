@@ -1,0 +1,74 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:melody-software",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:WP1"
+                }
+            ],
+            "schema:isBasedOn": "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data.",
+            "schema:contributor": [
+                "Marilena Daquino <https://github.com/marilenadaquino>",
+                "Giulia Renda <https://github.com/mondoboia>"
+            ],
+            "schema:distribution": "https://github.com/polifonia-project/dashboard/releases",
+            "@type": [
+                "xyz:WebApplication",
+                "frapo:MaterialOutput"
+            ],
+            "schema:workExample": "https://projects.dharc.unibo.it/melody/",
+            "schema:title": {
+                "@language": "en",
+                "@value": "MELODY"
+            },
+            "schema:identifier": [
+                {
+                    "@id": "_:b0"
+                },
+                "melody-software"
+            ],
+            "schema:discussionUrl": "https://github.com/polifonia-project/dashboard/releases/latest",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data."
+            },
+            "schema:releasedEvent": {
+                "@id": "_:b1"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "schema:value": "10.5281/zenodo.6637345",
+            "schema:PropertyID": "doi",
+            "@type": "schema:PropertyValue"
+        },
+        {
+            "@id": "_:b1",
+            "schema:releaseNotes": "https://github.com/polifonia-project/dashboard/releases/latest",
+            "schema:softwareVersion": "v0.1.1",
+            "schema:startDate": "2022/05/12"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

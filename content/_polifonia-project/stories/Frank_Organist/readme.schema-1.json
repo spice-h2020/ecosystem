@@ -1,0 +1,50 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Frank",
+            "schema:isBasedOn": [
+                "History Teacher at the Secondary Level, Amateur Organist.",
+                "Frank#1_OrganKnowledge"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:ORGANS"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Frank"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "History Teacher at the Secondary Level, Amateur Organist."
+            },
+            "schema:identifier": "Frank",
+            "@type": [
+                "xyz:Persona",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Ralph#1_WordsAndMusic",
+            "schema:isBasedOn": [
+                "Ralph is particularly interested in matching text to music, e.g. in terms of emotions.",
+                {
+                    "@id": "xyz:Ralph"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "xyz:WP2"
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "Words and Music"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Ralph is particularly interested in matching text to music, e.g. in terms of emotions."
+            },
+            "schema:identifier": "Ralph#1_WordsAndMusic",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Ralph",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

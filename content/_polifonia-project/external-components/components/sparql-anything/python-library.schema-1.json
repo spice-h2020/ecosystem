@@ -1,0 +1,50 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "https://github.com/SPARQL-Anything/PySPARQL-Anything/releases/tag/v0.8.1.1",
+            "schema:softwareVersion": "v0.8.1.1",
+            "schema:startDate": "2023/01/31"
+        },
+        {
+            "@id": "xyz:sparql-anything-python",
+            "schema:license": "Apache-2.0",
+            "schema:title": {
+                "@language": "en",
+                "@value": "PySPARQL-Anything"
+            },
+            "schema:distribution": "https://github.com/SPARQL-Anything/PySPARQL-Anything",
+            "schema:contributor": [
+                "Marco Ratta <https://github.com/MarcoR1791>",
+                "Enrico Daga <https://github.com/enridaga>"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "The PySPARQL-Anything software library."
+            },
+            "schema:isBasedOn": "The PySPARQL-Anything software library.",
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            },
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:SoftwareLibrary"
+            ],
+            "schema:workExample": "http://not-exisats.com/ddd",
+            "schema:logo": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4",
+            "schema:hasPart": "sparql-anything-java",
+            "schema:identifier": "sparql-anything-python",
+            "schema:copyrightNotice": "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

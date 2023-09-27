@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Sonia",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:Sonia#1_ExplorationMode",
+            "schema:isBasedOn": [
+                {
+                    "@id": "xyz:Sonia"
+                },
+                "Sonia#3_StatsMode",
+                "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests.",
+                "Sonia#2_ShuffleMode"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP4"
+                },
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:WP3"
+                },
+                {
+                    "@id": "xyz:INTERLINK"
+                }
+            ],
+            "schema:identifier": "Sonia#1_ExplorationMode",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."
+            },
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Exploration mode"
+            }
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

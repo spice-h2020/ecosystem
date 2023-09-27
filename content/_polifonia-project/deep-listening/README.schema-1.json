@@ -1,0 +1,55 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:deep-listening",
+            "schema:title": {
+                "@language": "en",
+                "@value": "Deep Listening"
+            },
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                }
+            ],
+            "@type": [
+                "xyz:Userinterface",
+                "frapo:MaterialOutput"
+            ],
+            "schema:contributor": [
+                "Jason Carvalho <https://github.com/JaseMK>",
+                "Enrico Daga <https://github.com/enridaga>",
+                "Paul Mulholland <https://github.com/paulmulholland>"
+            ],
+            "schema:identifier": "deep-listening",
+            "schema:distribution": "https://github.com/spice-h2020/imma-slow-looking",
+            "schema:workExample": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking",
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+            },
+            "schema:license": "CC-BY_v4",
+            "schema:isBasedOn": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+        },
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

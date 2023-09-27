@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Andrea#1_Serendipity",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:ORGANS"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Serendipity"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
+            },
+            "schema:isBasedOn": [
+                {
+                    "@id": "xyz:Andrea"
+                },
+                "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
+            ],
+            "schema:identifier": "Andrea#1_Serendipity",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Andrea",
+            "@type": "schema:ShortStory"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

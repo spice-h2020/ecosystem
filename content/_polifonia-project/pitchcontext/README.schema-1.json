@@ -1,0 +1,47 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:TUNES",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:pitchcontext",
+            "schema:isBasedOn": "Python module for melody analysis based on pitch context vectors.",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:TUNES"
+                },
+                {
+                    "@id": "xyz:WP3"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "pitchcontext"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Python module for melody analysis based on pitch context vectors."
+            },
+            "schema:identifier": "pitchcontext",
+            "@type": [
+                "xyz:SoftwareLibrary",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

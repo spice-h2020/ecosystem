@@ -1,0 +1,28 @@
+{
+    "@id": "xyz:LHARP",
+    "schema:license": "CC-BY-NC_v4",
+    "schema:discussionUrl": "n/a.",
+    "@type": [
+        "xyz:Repository",
+        "frapo:MaterialOutput"
+    ],
+    "schema:identifier": "LHARP",
+    "schema:image": "n/a.",
+    "schema:logo": "n/a.",
+    "schema:workExample": "https://polifonia-project.github.io/musilar-preview/",
+    "schema:title": {
+        "@language": "en",
+        "@value": "Local Harmonic Agreement based on Recurrent Patterns"
+    },
+    "schema:creditText": "J. de Berardinis (KCL), A. Poltronieri (UniBo)",
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

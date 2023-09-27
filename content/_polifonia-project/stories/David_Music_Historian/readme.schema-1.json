@@ -1,0 +1,50 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:David",
+            "schema:isBasedOn": [
+                "Music Historian.",
+                "David#1_MusicHistorian"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:polifonia-project"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "David"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Music Historian."
+            },
+            "schema:identifier": "David",
+            "@type": [
+                "xyz:Persona",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

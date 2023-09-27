@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:meetups-ui-design",
+            "schema:identifier": "meetups-ui-design",
+            "schema:contributor": [
+                "Enrico Daga <https://github.com/enridaga>",
+                "Alba Morales-Tirado <https://github.com/albamoralest>",
+                "Jason Carvalho <https://github.com/JaseMK>"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                }
+            ],
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:RequirementsCollection"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"
+            },
+            "schema:discussionUrl": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0",
+            "schema:title": {
+                "@language": "en",
+                "@value": "MEETUPS UI Designs"
+            },
+            "schema:copyrightNotice": "Copyright (c) 2023 The Open University",
+            "schema:distribution": "https://github.com/polifonia-project/meetups-ui-design/blob/main/meetups-ui-initial-designs.pdf",
+            "schema:usageInfo": "Ortenz",
+            "schema:releasedEvent": {
+                "@id": "_:b0"
+            },
+            "schema:isBasedOn": "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"
+        },
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "_:b0",
+            "schema:releaseNotes": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0",
+            "schema:softwareVersion": "v0.1.0",
+            "schema:startDate": "17/04/2023"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

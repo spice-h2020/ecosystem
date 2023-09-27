@@ -1,0 +1,56 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Amy",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:ORGANS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Amy#1_OrganTrends",
+            "schema:isBasedOn": [
+                "For her next research project, Amy wants to discover artistic and technical trends of organs and how these developed.",
+                {
+                    "@id": "xyz:Amy"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:ORGANS"
+                },
+                {
+                    "@id": "xyz:WP2"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Organ Trends"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "For her next research project, Amy wants to discover artistic and technical trends of organs and how these developed."
+            },
+            "schema:identifier": "Amy#1_OrganTrends",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Sethus#3_ConflictingAnalyticalAnnotations",
+            "schema:identifier": "Sethus#3_ConflictingAnalyticalAnnotations",
+            "schema:isBasedOn": [
+                {
+                    "@id": "xyz:Sethus"
+                },
+                "Sethus#2_CreateRelevantCorpus",
+                "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions.",
+                "Sethus#1_ConflictingTheoreticalInterpretations"
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:WP4"
+                },
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:WP2"
+                },
+                {
+                    "@id": "xyz:TONALITIES"
+                }
+            ],
+            "@type": [
+                "frapo:MaterialOutput",
+                "xyz:Story"
+            ],
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "Conflicting analytical annotations"
+            }
+        },
+        {
+            "@id": "xyz:Sethus",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP4",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:WP2",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:TONALITIES",
+            "@type": "frapo:Investigation"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

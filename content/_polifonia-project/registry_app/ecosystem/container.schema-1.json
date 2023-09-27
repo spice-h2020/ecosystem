@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:polifonia-project",
+            "@type": "schema:Project"
+        },
+        {
+            "@id": "xyz:musow-registry",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP1"
+                },
+                {
+                    "@id": "xyz:polifonia-project"
+                }
+            ],
+            "schema:hasPart": [
+                "clef-software",
+                "musow-dataset",
+                "musow-interface"
+            ],
+            "schema:abstract": "An online collaborative, crowdsourced, catalogue of music data on the web",
+            "schema:title": {
+                "@language": "en",
+                "@value": "The musoW registry"
+            },
+            "@type": [
+                "schema:Collection",
+                "xyz:Project"
+            ],
+            "schema:funding": {
+                "@id": "xyz:101004746"
+            }
+        },
+        {
+            "@id": "xyz:WP1",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:101004746",
+            "schema:funder": {
+                "@id": "_:b0"
+            },
+            "@type": "schema:Grant"
+        },
+        {
+            "@id": "_:b0",
+            "schema:url": "https://cordis.europa.eu/project/id/101004746/it",
+            "schema:name": "European Commission"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

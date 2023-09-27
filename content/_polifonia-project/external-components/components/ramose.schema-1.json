@@ -1,0 +1,25 @@
+{
+    "@id": "xyz:ramose",
+    "schema:creditText": {
+        "@id": "xyz:36493070bae003407290025ae9e58156#/credits"
+    },
+    "schema:title": {
+        "@language": "en",
+        "@value": "RAMOSE"
+    },
+    "schema:identifier": "ramose",
+    "@type": [
+        "xyz:Service",
+        "frapo:MaterialOutput"
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

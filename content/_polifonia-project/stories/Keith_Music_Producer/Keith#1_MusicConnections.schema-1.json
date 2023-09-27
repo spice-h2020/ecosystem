@@ -1,0 +1,56 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:Keith#1_MusicConnections",
+            "schema:isBasedOn": [
+                "Keith wants to compile programmes of music, e.g. for music festivals.",
+                {
+                    "@id": "xyz:Keith"
+                }
+            ],
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:INTERLINK"
+                },
+                {
+                    "@id": "xyz:WP5"
+                }
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Music Connections"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Keith wants to compile programmes of music, e.g. for music festivals."
+            },
+            "schema:identifier": "Keith#1_MusicConnections",
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ]
+        },
+        {
+            "@id": "xyz:Keith",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:INTERLINK",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

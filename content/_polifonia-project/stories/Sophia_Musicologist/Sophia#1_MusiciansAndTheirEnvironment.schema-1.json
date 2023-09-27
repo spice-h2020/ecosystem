@@ -1,0 +1,58 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:MEETUPS",
+            "@type": "frapo:Investigation"
+        },
+        {
+            "@id": "xyz:Sophia",
+            "@type": "schema:ShortStory"
+        },
+        {
+            "@id": "xyz:WP5",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:Sophia#1_MusiciansAndTheirEnvironment",
+            "schema:isPartOf": [
+                {
+                    "@id": "xyz:WP5"
+                },
+                {
+                    "@id": "xyz:MEETUPS"
+                }
+            ],
+            "@type": [
+                "xyz:Story",
+                "frapo:MaterialOutput"
+            ],
+            "schema:isBasedOn": [
+                "Sophia#3_Reorchestration",
+                "Sophia#2_OriginsAndForm",
+                {
+                    "@id": "xyz:Sophia"
+                },
+                "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."
+            ],
+            "schema:title": {
+                "@language": "en",
+                "@value": "Musicians and their environment"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."
+            },
+            "schema:identifier": "Sophia#1_MusiciansAndTheirEnvironment"
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}

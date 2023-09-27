@@ -1,0 +1,42 @@
+{
+    "@graph": [
+        {
+            "@id": "xyz:WP3",
+            "@type": "fabio:WorkPackage"
+        },
+        {
+            "@id": "xyz:folk_ngram_analysis",
+            "schema:creditText": {
+                "@id": "xyz:8c49745a61831211f152c5ca0c4b6736#/credits"
+            },
+            "schema:isBasedOn": "data ingest pipeline and musical similarity tools for symbolic music data, with two test symbolic music corpora.",
+            "schema:license": "CC_BY_v4",
+            "schema:isPartOf": {
+                "@id": "xyz:WP3"
+            },
+            "schema:title": {
+                "@language": "en",
+                "@value": "FoNN -- Folk N-gram aNalysis"
+            },
+            "schema:abstract": {
+                "@language": "en",
+                "@value": "data ingest pipeline and musical similarity tools for symbolic music data, with two test symbolic music corpora."
+            },
+            "schema:identifier": "folk_ngram_analysis",
+            "@type": [
+                "xyz:Repository",
+                "frapo:MaterialOutput"
+            ]
+        }
+    ],
+    "@context": {
+        "schema": "https://schema.org/",
+        "fx": "http://sparql.xyz/facade-x/ns/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "frapo": "http://purl.org/cerif/frapo/",
+        "fabio": "http://purl.org/spar/fabio/",
+        "xyz": "http://sparql.xyz/facade-x/data/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+}
