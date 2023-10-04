@@ -12,21 +12,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -64,7 +58,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n6207b129c688442aadfe509740f05ec2b1"
+        "@id": "_:n7a5438796af243489708a83ae2330ca6b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -96,7 +90,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6207b129c688442aadfe509740f05ec2b2"
+        "@id": "_:n7a5438796af243489708a83ae2330ca6b2"
       }
     ],
     "https://schema.org/title": [
@@ -107,7 +101,7 @@
     ]
   },
   {
-    "@id": "_:n6207b129c688442aadfe509740f05ec2b1",
+    "@id": "_:n7a5438796af243489708a83ae2330ca6b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -123,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:n6207b129c688442aadfe509740f05ec2b2",
+    "@id": "_:n7a5438796af243489708a83ae2330ca6b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -138,6 +132,12 @@
       {
         "@value": "2022/12/18"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

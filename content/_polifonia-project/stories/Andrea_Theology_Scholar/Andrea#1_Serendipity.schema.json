@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Andrea#1_Serendipity",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -43,25 +55,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Andrea",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

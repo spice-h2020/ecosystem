@@ -1,30 +1,24 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
     "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -78,7 +72,7 @@
         "@value": "https://w3id.org/polifonia/ontology/ontology-network/"
       },
       {
-        "@id": "_:n12e9e6284ce840e0be80b5c721206f30b1"
+        "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b1"
       }
     ],
     "https://schema.org/image": [
@@ -136,7 +130,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n12e9e6284ce840e0be80b5c721206f30b2"
+        "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -160,7 +154,7 @@
     ]
   },
   {
-    "@id": "_:n12e9e6284ce840e0be80b5c721206f30b1",
+    "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -176,7 +170,7 @@
     ]
   },
   {
-    "@id": "_:n12e9e6284ce840e0be80b5c721206f30b2",
+    "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -194,31 +188,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/https://github.com/polifonia-project/ontology-network",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -230,15 +206,39 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/https://github.com/polifonia-project/ontology-network",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

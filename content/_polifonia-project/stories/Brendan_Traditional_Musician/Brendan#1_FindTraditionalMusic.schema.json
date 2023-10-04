@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/Brendan",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Brendan#1_FindTraditionalMusic",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -40,21 +46,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Brendan",
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

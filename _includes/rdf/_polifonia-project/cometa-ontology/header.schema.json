@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Linka",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -12,9 +12,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "http://sparql.xyz/facade-x/data/Linka",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -68,7 +74,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b1"
+        "@id": "_:n2c73638a6c9e49cc99106936c9d3fd89b1"
       }
     ],
     "https://schema.org/image": [
@@ -108,7 +114,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b2"
+        "@id": "_:n2c73638a6c9e49cc99106936c9d3fd89b2"
       }
     ],
     "https://schema.org/title": [
@@ -124,7 +130,7 @@
     ]
   },
   {
-    "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b1",
+    "@id": "_:n2c73638a6c9e49cc99106936c9d3fd89b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -140,7 +146,7 @@
     ]
   },
   {
-    "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b2",
+    "@id": "_:n2c73638a6c9e49cc99106936c9d3fd89b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -155,12 +161,6 @@
       {
         "@value": "13/05/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

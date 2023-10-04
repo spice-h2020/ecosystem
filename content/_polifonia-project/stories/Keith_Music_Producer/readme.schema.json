@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Keith",
     "@type": [
       "http://sparql.xyz/facade-x/data/Persona",
@@ -34,6 +28,12 @@
         "@language": "en",
         "@value": "Keith"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

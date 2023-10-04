@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Ralph",
     "@type": [
       "http://sparql.xyz/facade-x/data/Persona",
@@ -31,12 +37,6 @@
         "@language": "en",
         "@value": "Ralph"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

@@ -6,43 +6,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
     "@type": [
       "https://schema.org/HowTo"
     ]
@@ -104,7 +74,7 @@
         "@value": "sparql-anything-cli"
       },
       {
-        "@id": "_:n060df8bfeeb54e69895a11995385e24ab1"
+        "@id": "_:n1896c80ccd924370a740008240b6ec27b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -147,7 +117,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n060df8bfeeb54e69895a11995385e24ab2"
+        "@id": "_:n1896c80ccd924370a740008240b6ec27b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -171,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:n060df8bfeeb54e69895a11995385e24ab1",
+    "@id": "_:n1896c80ccd924370a740008240b6ec27b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -187,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:n060df8bfeeb54e69895a11995385e24ab2",
+    "@id": "_:n1896c80ccd924370a740008240b6ec27b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -202,6 +172,36 @@
       {
         "@value": "2022/12/18"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

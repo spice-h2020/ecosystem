@@ -6,15 +6,21 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Valeriana",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -49,12 +55,6 @@
         "@language": "en",
         "@value": "Terminology"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -49,6 +43,12 @@
         "@language": "en",
         "@value": "Brendan"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

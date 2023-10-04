@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -58,21 +58,21 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
     "@id": "http://sparql.xyz/facade-x/data/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

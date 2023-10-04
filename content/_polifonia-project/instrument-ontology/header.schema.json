@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/instrument/",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -65,7 +47,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:n6c477d49260e416c985ddbb6317c0da8b1"
+        "@id": "_:n7478390dd390437eb18b77eb8906429fb1"
       }
     ],
     "https://schema.org/image": [
@@ -126,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6c477d49260e416c985ddbb6317c0da8b2"
+        "@id": "_:n7478390dd390437eb18b77eb8906429fb2"
       }
     ],
     "https://schema.org/title": [
@@ -142,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n6c477d49260e416c985ddbb6317c0da8b1",
+    "@id": "_:n7478390dd390437eb18b77eb8906429fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -158,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n6c477d49260e416c985ddbb6317c0da8b2",
+    "@id": "_:n7478390dd390437eb18b77eb8906429fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -176,13 +158,31 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "http://sparql.xyz/facade-x/data/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Frank",
+    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Paul",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

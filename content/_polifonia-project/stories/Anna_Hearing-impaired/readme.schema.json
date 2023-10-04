@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Anna",
     "@type": [
       "http://sparql.xyz/facade-x/data/Persona",
@@ -49,6 +43,12 @@
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

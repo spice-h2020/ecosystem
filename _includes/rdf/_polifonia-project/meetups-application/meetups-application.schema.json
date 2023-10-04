@@ -57,7 +57,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nbfcea3f0698e4c00899e9d57da3ec0ffb1"
+        "@id": "_:n84a5386f6f3e4e19b2a9c03c0ad85ed5b1"
       }
     ],
     "https://schema.org/title": [
@@ -73,7 +73,7 @@
     ]
   },
   {
-    "@id": "_:nbfcea3f0698e4c00899e9d57da3ec0ffb1",
+    "@id": "_:n84a5386f6f3e4e19b2a9c03c0ad85ed5b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -91,15 +91,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

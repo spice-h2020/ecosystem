@@ -34,7 +34,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:n2b20552d899d482dbee20b7b40ead2c9b1"
+        "@id": "_:n61ef5f236daf4fa9974709cf49a0f8bcb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "@id": "_:n2b20552d899d482dbee20b7b40ead2c9b1",
+    "@id": "_:n61ef5f236daf4fa9974709cf49a0f8bcb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -84,15 +84,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Keith",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Keith#1_MusicConnections",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -55,6 +37,24 @@
         "@language": "en",
         "@value": "Music Connections"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keith",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

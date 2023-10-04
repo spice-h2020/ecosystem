@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721 ",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/Article"
     ]
   },
   {
@@ -62,7 +62,7 @@
         "@value": "musow-dataset"
       },
       {
-        "@id": "_:n7bb1ea61c0714e7ba4a57d75d2e9b511b1"
+        "@id": "_:n185ee3928c224e03a7f26d554d38acefb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -93,7 +93,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7bb1ea61c0714e7ba4a57d75d2e9b511b2"
+        "@id": "_:n185ee3928c224e03a7f26d554d38acefb2"
       }
     ],
     "https://schema.org/title": [
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "@id": "_:n7bb1ea61c0714e7ba4a57d75d2e9b511b1",
+    "@id": "_:n185ee3928c224e03a7f26d554d38acefb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "@id": "_:n7bb1ea61c0714e7ba4a57d75d2e9b511b2",
+    "@id": "_:n185ee3928c224e03a7f26d554d38acefb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
@@ -143,9 +143,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721 ",
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
     "@type": [
-      "https://schema.org/Article"
+      "https://schema.org/ShortStory"
     ]
   },
   {

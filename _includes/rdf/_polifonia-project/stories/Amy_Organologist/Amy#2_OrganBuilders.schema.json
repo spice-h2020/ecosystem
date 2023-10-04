@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Amy#2_OrganBuilders",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -37,18 +49,6 @@
         "@language": "en",
         "@value": "Organ Builders"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

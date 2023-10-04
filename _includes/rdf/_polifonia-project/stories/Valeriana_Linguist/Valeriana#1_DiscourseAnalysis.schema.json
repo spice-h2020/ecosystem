@@ -6,15 +6,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Valeriana",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Valeriana",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {

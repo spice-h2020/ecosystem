@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/MusicBo",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/textual-corpus-population",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -48,7 +54,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd21e0ea77500405e87082edbe251118db1"
+        "@id": "_:n42b667c6502c4ff5b8dcc87f4d498d74b1"
       }
     ],
     "https://schema.org/title": [
@@ -64,7 +70,7 @@
     ]
   },
   {
-    "@id": "_:nd21e0ea77500405e87082edbe251118db1",
+    "@id": "_:n42b667c6502c4ff5b8dcc87f4d498d74b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "n/a."
@@ -79,12 +85,6 @@
       {
         "@value": "07-12-2021"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MusicBo",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

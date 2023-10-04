@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/melody-software",
     "@type": [
       "http://sparql.xyz/facade-x/data/WebApplication",
@@ -40,7 +34,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:n11821556baa6409ea2edc22e88326310b1"
+        "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -58,7 +52,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n11821556baa6409ea2edc22e88326310b2"
+        "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b2"
       }
     ],
     "https://schema.org/title": [
@@ -74,7 +68,7 @@
     ]
   },
   {
-    "@id": "_:n11821556baa6409ea2edc22e88326310b1",
+    "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -90,7 +84,7 @@
     ]
   },
   {
-    "@id": "_:n11821556baa6409ea2edc22e88326310b2",
+    "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
@@ -105,6 +99,12 @@
       {
         "@value": "2022/05/12"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

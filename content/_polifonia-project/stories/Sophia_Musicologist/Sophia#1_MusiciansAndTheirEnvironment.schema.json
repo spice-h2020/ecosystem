@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Sophia#1_MusiciansAndTheirEnvironment",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -49,12 +55,6 @@
         "@language": "en",
         "@value": "Musicians and their environment"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

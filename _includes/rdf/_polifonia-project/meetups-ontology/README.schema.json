@@ -39,7 +39,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:nb76a21682d3b423c848b7d98f71cede8b1"
+        "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -69,7 +69,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb76a21682d3b423c848b7d98f71cede8b2"
+        "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db2"
       }
     ],
     "https://schema.org/title": [
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:nb76a21682d3b423c848b7d98f71cede8b1",
+    "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:nb76a21682d3b423c848b7d98f71cede8b2",
+    "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -128,13 +128,19 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/David",
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
+    "@id": "http://sparql.xyz/facade-x/data/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -149,12 +155,6 @@
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

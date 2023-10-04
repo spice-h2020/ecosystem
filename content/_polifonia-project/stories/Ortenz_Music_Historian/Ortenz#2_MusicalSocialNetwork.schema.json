@@ -12,6 +12,18 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Ortenz#2_MusicalSocialNetwork",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -55,18 +67,6 @@
         "@language": "en",
         "@value": "Musical Social Network"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

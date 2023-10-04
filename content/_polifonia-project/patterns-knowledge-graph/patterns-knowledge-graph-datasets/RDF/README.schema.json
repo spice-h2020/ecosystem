@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/patterns-knowledge-graph-datasets",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -62,6 +56,12 @@
         "@language": "en",
         "@value": "Patterns Knowledge Graph - Output datasets"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]
