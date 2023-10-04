@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -53,7 +59,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:nb43e44a257f9409bb667f111bc21f411b1"
+        "@id": "_:n04e5293de77e4bbea021078ff0de254ab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -85,7 +91,7 @@
     ]
   },
   {
-    "@id": "_:nb43e44a257f9409bb667f111bc21f411b1",
+    "@id": "_:n04e5293de77e4bbea021078ff0de254ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,12 +110,6 @@
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

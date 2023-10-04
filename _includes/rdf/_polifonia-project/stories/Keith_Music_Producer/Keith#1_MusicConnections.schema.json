@@ -12,6 +12,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/Keith",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Keith#1_MusicConnections",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -49,12 +55,6 @@
         "@language": "en",
         "@value": "Music Connections"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Keith",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]

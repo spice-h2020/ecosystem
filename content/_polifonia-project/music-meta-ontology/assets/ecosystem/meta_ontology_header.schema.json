@@ -6,27 +6,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -92,7 +74,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n0058d5792c43491b8074a03aaf510828b1"
+        "@id": "_:nf65217fdc1c942d4af37fe2a2abe4ba3b1"
       }
     ],
     "https://schema.org/image": [
@@ -143,7 +125,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0058d5792c43491b8074a03aaf510828b2"
+        "@id": "_:nf65217fdc1c942d4af37fe2a2abe4ba3b2"
       }
     ],
     "https://schema.org/title": [
@@ -159,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:n0058d5792c43491b8074a03aaf510828b1",
+    "@id": "_:nf65217fdc1c942d4af37fe2a2abe4ba3b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -175,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:n0058d5792c43491b8074a03aaf510828b2",
+    "@id": "_:nf65217fdc1c942d4af37fe2a2abe4ba3b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -199,9 +181,27 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

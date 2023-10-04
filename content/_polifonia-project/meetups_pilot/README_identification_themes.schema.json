@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -45,7 +51,7 @@
         "@value": "meetups-themes"
       },
       {
-        "@id": "_:n0581f66abba04e9da9718a373aedb4dfb1"
+        "@id": "_:n313205174d1f4a62967b51e1a75d33cab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -71,7 +77,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0581f66abba04e9da9718a373aedb4dfb2"
+        "@id": "_:n313205174d1f4a62967b51e1a75d33cab2"
       }
     ],
     "https://schema.org/title": [
@@ -82,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:n0581f66abba04e9da9718a373aedb4dfb1",
+    "@id": "_:n313205174d1f4a62967b51e1a75d33cab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -98,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:n0581f66abba04e9da9718a373aedb4dfb2",
+    "@id": "_:n313205174d1f4a62967b51e1a75d33cab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -119,12 +125,6 @@
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

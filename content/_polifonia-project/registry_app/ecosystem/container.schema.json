@@ -1,17 +1,29 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:nf323ec8ec3df4ac9a6651fe1267e62cab1"
+        "@id": "_:n050fef167c1a4547b4ffef660e27bf67b1"
       }
     ]
   },
   {
-    "@id": "_:nf323ec8ec3df4ac9a6651fe1267e62cab1",
+    "@id": "_:n050fef167c1a4547b4ffef660e27bf67b1",
     "https://schema.org/name": [
       {
         "@value": "European Commission"
@@ -63,18 +75,6 @@
         "@language": "en",
         "@value": "The musoW registry"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

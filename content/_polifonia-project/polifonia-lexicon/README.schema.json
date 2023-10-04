@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Polifonia-Lexicon",
     "@type": [
       "http://sparql.xyz/facade-x/data/Lexicon",
@@ -36,12 +42,6 @@
         "@language": "en",
         "@value": "Polifonia Lexicon - The Polifonia Multilingual WordNet"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

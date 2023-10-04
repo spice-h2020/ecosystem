@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Keoma",
     "@type": [
       "http://sparql.xyz/facade-x/data/Persona",
@@ -43,12 +49,6 @@
         "@language": "en",
         "@value": "Keoma"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

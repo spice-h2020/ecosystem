@@ -1,14 +1,38 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Paul",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -59,7 +83,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:ned769f5f256845689993bd68ed0f2f27b1"
+        "@id": "_:nefcfeec888d444b8bf03cf06b87a3b85b1"
       }
     ],
     "https://schema.org/image": [
@@ -120,7 +144,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ned769f5f256845689993bd68ed0f2f27b2"
+        "@id": "_:nefcfeec888d444b8bf03cf06b87a3b85b2"
       }
     ],
     "https://schema.org/title": [
@@ -136,7 +160,7 @@
     ]
   },
   {
-    "@id": "_:ned769f5f256845689993bd68ed0f2f27b1",
+    "@id": "_:nefcfeec888d444b8bf03cf06b87a3b85b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -152,7 +176,7 @@
     ]
   },
   {
-    "@id": "_:ned769f5f256845689993bd68ed0f2f27b2",
+    "@id": "_:nefcfeec888d444b8bf03cf06b87a3b85b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -170,39 +194,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Paul",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Frank",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

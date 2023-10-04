@@ -1,8 +1,20 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -45,7 +57,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:ncca8d50edbde43bc8b8f4266e9668178b1"
+        "@id": "_:n07c18e702b5e4d518bdfc82d36752e9ab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -71,7 +83,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ncca8d50edbde43bc8b8f4266e9668178b2"
+        "@id": "_:n07c18e702b5e4d518bdfc82d36752e9ab2"
       }
     ],
     "https://schema.org/title": [
@@ -82,7 +94,7 @@
     ]
   },
   {
-    "@id": "_:ncca8d50edbde43bc8b8f4266e9668178b1",
+    "@id": "_:n07c18e702b5e4d518bdfc82d36752e9ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -98,7 +110,7 @@
     ]
   },
   {
-    "@id": "_:ncca8d50edbde43bc8b8f4266e9668178b2",
+    "@id": "_:n07c18e702b5e4d518bdfc82d36752e9ab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -113,18 +125,6 @@
       {
         "@value": "20/07/2022"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

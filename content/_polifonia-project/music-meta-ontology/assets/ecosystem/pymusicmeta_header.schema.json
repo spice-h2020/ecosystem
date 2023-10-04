@@ -6,9 +6,39 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/music-meta/",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -56,7 +86,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:n9f8bd69466874ddcbe1b9548117c95c4b1"
+        "@id": "_:nea0eb0ce9f4f4a728ff75ee06f9718b1b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -96,7 +126,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n9f8bd69466874ddcbe1b9548117c95c4b2"
+        "@id": "_:nea0eb0ce9f4f4a728ff75ee06f9718b1b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -117,7 +147,7 @@
     ]
   },
   {
-    "@id": "_:n9f8bd69466874ddcbe1b9548117c95c4b1",
+    "@id": "_:nea0eb0ce9f4f4a728ff75ee06f9718b1b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -133,7 +163,7 @@
     ]
   },
   {
-    "@id": "_:n9f8bd69466874ddcbe1b9548117c95c4b2",
+    "@id": "_:nea0eb0ce9f4f4a728ff75ee06f9718b1b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -148,36 +178,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/music-meta/",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

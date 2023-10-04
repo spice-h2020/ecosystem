@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/rulebook-schema",
     "@type": [
       "http://sparql.xyz/facade-x/data/Schema",
@@ -44,12 +50,6 @@
         "@language": "en",
         "@value": "Ecosystem Component Annotation Schema"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
