@@ -14,6 +14,9 @@ url: https://reeco-framework.github.io
 baseurl: "reeco-jekyll"
 #baseurl: ""
 
+rdf:
+  namespace: "https://reeco-framework.github.io/ecosystem/entity/"
+
 # just-the-docs
 #theme: "just-the-docs"
 logo: "/assets/images/polifonia-black.png"
