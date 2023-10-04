@@ -1,5 +1,23 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/cometa/",
     "@type": [
       "http://sparql.xyz/facade-x/data/Ontology",
@@ -50,7 +68,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:n91a9f22127bc486a9ca4c010dcc9d17db1"
+        "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b1"
       }
     ],
     "https://schema.org/image": [
@@ -90,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n91a9f22127bc486a9ca4c010dcc9d17db2"
+        "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n91a9f22127bc486a9ca4c010dcc9d17db1",
+    "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n91a9f22127bc486a9ca4c010dcc9d17db2",
+    "@id": "_:na3bfe09ab83345d38c7bd815c0e31359b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -140,27 +158,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

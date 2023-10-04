@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/meetups-corpus-collection",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -56,6 +50,12 @@
         "@language": "en",
         "@value": "MEETUPS Corpus collection"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

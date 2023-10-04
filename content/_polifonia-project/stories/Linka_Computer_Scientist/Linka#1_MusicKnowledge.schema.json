@@ -12,6 +12,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Linka#1_MusicKnowledge",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -49,12 +55,6 @@
         "@language": "en",
         "@value": "Music Knowledge"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]

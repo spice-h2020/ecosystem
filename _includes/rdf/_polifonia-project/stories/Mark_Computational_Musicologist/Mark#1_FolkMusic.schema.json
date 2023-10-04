@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "http://sparql.xyz/facade-x/data/Mark",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -46,15 +52,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Mark",
-    "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

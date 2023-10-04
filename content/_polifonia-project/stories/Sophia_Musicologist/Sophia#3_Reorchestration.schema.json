@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Sophia#3_Reorchestration",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -61,6 +55,12 @@
     "@id": "http://sparql.xyz/facade-x/data/To be completed",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

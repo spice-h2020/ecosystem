@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/folk_ngram_analysis",
     "@type": [
       "http://sparql.xyz/facade-x/data/Repository",
@@ -41,12 +47,6 @@
         "@language": "en",
         "@value": "FoNN -- Folk N-gram aNalysis"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

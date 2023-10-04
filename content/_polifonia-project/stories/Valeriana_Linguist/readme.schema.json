@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Valeriana",
     "@type": [
       "http://sparql.xyz/facade-x/data/Persona",
@@ -31,12 +37,6 @@
         "@language": "en",
         "@value": "Valeriana"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/sparql-anything-java",
     "@type": [
       "http://sparql.xyz/facade-x/data/Software",
@@ -50,7 +56,7 @@
         "@value": "sparql-anything-java"
       },
       {
-        "@id": "_:n222da1dd223745879f096805114c9bf7b1"
+        "@id": "_:nf00ac659400242b8911ba6623bb6740cb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -75,7 +81,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n222da1dd223745879f096805114c9bf7b2"
+        "@id": "_:nf00ac659400242b8911ba6623bb6740cb2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -99,7 +105,7 @@
     ]
   },
   {
-    "@id": "_:n222da1dd223745879f096805114c9bf7b1",
+    "@id": "_:nf00ac659400242b8911ba6623bb6740cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -115,7 +121,7 @@
     ]
   },
   {
-    "@id": "_:n222da1dd223745879f096805114c9bf7b2",
+    "@id": "_:nf00ac659400242b8911ba6623bb6740cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -130,12 +136,6 @@
       {
         "@value": "2022/12/18"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
-    "@type": [
-      "https://schema.org/HowTo"
     ]
   },
   {

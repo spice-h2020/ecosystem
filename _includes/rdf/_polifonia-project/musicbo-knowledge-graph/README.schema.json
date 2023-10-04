@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/musicbo-knowledge-graph",
     "@type": [
       "http://sparql.xyz/facade-x/data/KnowledgeGraph",
@@ -36,12 +42,6 @@
         "@language": "en",
         "@value": "MusicBO Knowledge Graph"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

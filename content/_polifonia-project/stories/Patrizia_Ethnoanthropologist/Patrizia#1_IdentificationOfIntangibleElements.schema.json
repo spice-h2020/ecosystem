@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -46,15 +52,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
-    "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

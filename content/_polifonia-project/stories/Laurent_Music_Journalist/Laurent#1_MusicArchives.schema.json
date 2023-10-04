@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Laurent#1_MusicArchives",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -40,6 +34,12 @@
         "@language": "en",
         "@value": "Music Archives"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {

@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/pitchcontext",
     "@type": [
       "http://sparql.xyz/facade-x/data/SoftwareLibrary",
@@ -34,18 +46,6 @@
         "@language": "en",
         "@value": "pitchcontext"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/cre_corpus",
     "@type": [
       "http://sparql.xyz/facade-x/data/Corpus",
@@ -36,6 +30,12 @@
         "@language": "en",
         "@value": "Ceol Rince na hÉireann MIDI corpus"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
