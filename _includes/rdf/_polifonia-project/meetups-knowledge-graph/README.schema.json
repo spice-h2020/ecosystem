@@ -1,11 +1,5 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-knowledge-graph",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
@@ -53,7 +47,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:ne44ac4d92a6d482cbd26f2d0dfc5d3c7b1"
+        "@id": "_:nd9a2dfa1fe7e4afea628ed3957ce6adfb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -85,7 +79,7 @@
     ]
   },
   {
-    "@id": "_:ne44ac4d92a6d482cbd26f2d0dfc5d3c7b1",
+    "@id": "_:nd9a2dfa1fe7e4afea628ed3957ce6adfb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -98,6 +92,12 @@
       {
         "@value": "https://zenodo.org/badge/latestdoi/588597123"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {

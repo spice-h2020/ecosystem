@@ -1,5 +1,17 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/licences",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -26,7 +38,7 @@
         "@value": "licences"
       },
       {
-        "@id": "_:n2bf3709f13344555bcc911e6e69475f4b1"
+        "@id": "_:n9dd14d99ec724cb8881efc02c9a0b465b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -60,7 +72,7 @@
     ]
   },
   {
-    "@id": "_:n2bf3709f13344555bcc911e6e69475f4b1",
+    "@id": "_:n9dd14d99ec724cb8881efc02c9a0b465b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -73,18 +85,6 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

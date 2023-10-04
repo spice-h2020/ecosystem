@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docker",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -34,7 +40,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n046d6b50244f4c898600bae577821ca6b1"
+        "@id": "_:n7245ef8c31b2419cab113a3c368cec89b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -66,7 +72,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n046d6b50244f4c898600bae577821ca6b2"
+        "@id": "_:n7245ef8c31b2419cab113a3c368cec89b2"
       }
     ],
     "https://schema.org/title": [
@@ -77,7 +83,7 @@
     ]
   },
   {
-    "@id": "_:n046d6b50244f4c898600bae577821ca6b1",
+    "@id": "_:n7245ef8c31b2419cab113a3c368cec89b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -93,7 +99,7 @@
     ]
   },
   {
-    "@id": "_:n046d6b50244f4c898600bae577821ca6b2",
+    "@id": "_:n7245ef8c31b2419cab113a3c368cec89b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -111,7 +117,7 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -120,12 +126,6 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

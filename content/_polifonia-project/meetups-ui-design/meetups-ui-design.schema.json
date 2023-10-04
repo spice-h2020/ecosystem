@@ -1,17 +1,5 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-ui-design",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/RequirementsCollection",
@@ -69,7 +57,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0142d73fabde4b6c855f8bd1df4054bdb1"
+        "@id": "_:n29628a10459f4ae887141698704df5eeb1"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +73,7 @@
     ]
   },
   {
-    "@id": "_:n0142d73fabde4b6c855f8bd1df4054bdb1",
+    "@id": "_:n29628a10459f4ae887141698704df5eeb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -100,6 +88,18 @@
       {
         "@value": "17/04/2023"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

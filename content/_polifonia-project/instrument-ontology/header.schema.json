@@ -47,7 +47,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:n2950040efce1450c99d2a2e70402627ab1"
+        "@id": "_:ncc3f7c9895db42479767d7c56cb08e08b1"
       }
     ],
     "https://schema.org/image": [
@@ -108,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n2950040efce1450c99d2a2e70402627ab2"
+        "@id": "_:ncc3f7c9895db42479767d7c56cb08e08b2"
       }
     ],
     "https://schema.org/title": [
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n2950040efce1450c99d2a2e70402627ab1",
+    "@id": "_:ncc3f7c9895db42479767d7c56cb08e08b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n2950040efce1450c99d2a2e70402627ab2",
+    "@id": "_:ncc3f7c9895db42479767d7c56cb08e08b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -158,33 +158,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Paul",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -201,6 +177,30 @@
   },
   {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

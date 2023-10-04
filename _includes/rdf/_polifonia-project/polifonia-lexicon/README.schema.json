@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Polifonia-Lexicon",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/Lexicon",
@@ -36,12 +42,6 @@
         "@language": "en",
         "@value": "Polifonia Lexicon - The Polifonia Multilingual WordNet"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
