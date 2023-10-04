@@ -1,5 +1,17 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Mark",
     "@type": [
       "https://schema.org/ShortStory"
@@ -53,7 +65,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:nb8103ccba3a94ad58dbfd9e0cdd42d97b1"
+        "@id": "_:n11356aad8aee441d82dc4095ea3aeae5b1"
       }
     ],
     "https://schema.org/image": [
@@ -90,7 +102,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb8103ccba3a94ad58dbfd9e0cdd42d97b2"
+        "@id": "_:n11356aad8aee441d82dc4095ea3aeae5b2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:nb8103ccba3a94ad58dbfd9e0cdd42d97b1",
+    "@id": "_:n11356aad8aee441d82dc4095ea3aeae5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:nb8103ccba3a94ad58dbfd9e0cdd42d97b2",
+    "@id": "_:n11356aad8aee441d82dc4095ea3aeae5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -143,18 +155,6 @@
     "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

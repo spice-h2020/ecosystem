@@ -1,20 +1,44 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {
@@ -68,7 +92,7 @@
         "@value": "sparql-anything-cli"
       },
       {
-        "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb1"
+        "@id": "_:nae4160d0283143c6abb977c98025199cb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -111,7 +135,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb2"
+        "@id": "_:nae4160d0283143c6abb977c98025199cb2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -135,7 +159,7 @@
     ]
   },
   {
-    "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb1",
+    "@id": "_:nae4160d0283143c6abb977c98025199cb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -151,7 +175,7 @@
     ]
   },
   {
-    "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb2",
+    "@id": "_:nae4160d0283143c6abb977c98025199cb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -169,37 +193,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721 ",
     "@type": [
       "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -68,7 +68,7 @@
         "@value": "musow-dataset"
       },
       {
-        "@id": "_:na8863172e7af4b3c914563e47dbdc024b1"
+        "@id": "_:n3d9330d300df4b8bb8b8c102fa5fad66b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -99,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:na8863172e7af4b3c914563e47dbdc024b2"
+        "@id": "_:n3d9330d300df4b8bb8b8c102fa5fad66b2"
       }
     ],
     "https://schema.org/title": [
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "@id": "_:na8863172e7af4b3c914563e47dbdc024b1",
+    "@id": "_:n3d9330d300df4b8bb8b8c102fa5fad66b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -131,7 +131,7 @@
     ]
   },
   {
-    "@id": "_:na8863172e7af4b3c914563e47dbdc024b2",
+    "@id": "_:n3d9330d300df4b8bb8b8c102fa5fad66b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
@@ -149,9 +149,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
     ]
   },
   {

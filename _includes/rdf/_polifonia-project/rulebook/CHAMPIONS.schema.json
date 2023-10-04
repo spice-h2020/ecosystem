@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/rulebook-champions",
     "@type": [
       "http://sparql.xyz/facade-x/data/Documentation",
@@ -39,12 +45,6 @@
         "@language": "en",
         "@value": "Polifonia Ecosystem Champions"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -12,6 +12,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -73,12 +79,6 @@
         "@language": "en",
         "@value": "Broadcast Concerts Data Story"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

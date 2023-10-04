@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -61,12 +67,6 @@
         "@language": "en",
         "@value": "Broadcast Concerts blog"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

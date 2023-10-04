@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Harmory",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -51,7 +45,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:ndbbe8325c50f4940885bb6f515b2e72bb1"
+        "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb1"
       }
     ],
     "https://schema.org/image": [
@@ -85,7 +79,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ndbbe8325c50f4940885bb6f515b2e72bb2"
+        "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:ndbbe8325c50f4940885bb6f515b2e72bb1",
+    "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:ndbbe8325c50f4940885bb6f515b2e72bb2",
+    "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -140,15 +134,21 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882).",
     "@type": [
       "https://schema.org/Article"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

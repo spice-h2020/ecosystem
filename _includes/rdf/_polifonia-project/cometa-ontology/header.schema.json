@@ -6,9 +6,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Linka",
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
-      "https://schema.org/ShortStory"
+      "https://schema.org/Project"
     ]
   },
   {
@@ -62,7 +62,7 @@
         "@value": "https://w3id.org/polifonia/ontology/cometa/"
       },
       {
-        "@id": "_:nd9260a95d5df441691648652ef786c05b1"
+        "@id": "_:n6e0a8ad37e194954a80e0c986b99db63b1"
       }
     ],
     "https://schema.org/image": [
@@ -102,7 +102,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd9260a95d5df441691648652ef786c05b2"
+        "@id": "_:n6e0a8ad37e194954a80e0c986b99db63b2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:nd9260a95d5df441691648652ef786c05b1",
+    "@id": "_:n6e0a8ad37e194954a80e0c986b99db63b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:nd9260a95d5df441691648652ef786c05b2",
+    "@id": "_:n6e0a8ad37e194954a80e0c986b99db63b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -158,9 +158,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "http://sparql.xyz/facade-x/data/Linka",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
     ]
   }
 ]
