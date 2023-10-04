@@ -1,11 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/root_note_detection",
     "@type": [
       "http://sparql.xyz/facade-x/data/Repository",
@@ -36,6 +30,12 @@
         "@language": "en",
         "@value": "Root Note Detection"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

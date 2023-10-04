@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -32,7 +38,7 @@
         "@value": "licences"
       },
       {
-        "@id": "_:nbdee92a77a5249e098565f39e20fe1f5b1"
+        "@id": "_:n579ff1259ab046d9bff012bb477b2b85b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -66,7 +72,7 @@
     ]
   },
   {
-    "@id": "_:nbdee92a77a5249e098565f39e20fe1f5b1",
+    "@id": "_:n579ff1259ab046d9bff012bb477b2b85b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -79,12 +85,6 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,20 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Mark",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -55,6 +43,18 @@
         "@language": "en",
         "@value": "Folk Music"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Mark",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

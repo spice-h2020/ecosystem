@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {
@@ -18,12 +18,12 @@
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n050fef167c1a4547b4ffef660e27bf67b1"
+        "@id": "_:n660576972b8b495c8bf59e01c5671caeb1"
       }
     ]
   },
   {
-    "@id": "_:n050fef167c1a4547b4ffef660e27bf67b1",
+    "@id": "_:n660576972b8b495c8bf59e01c5671caeb1",
     "https://schema.org/name": [
       {
         "@value": "European Commission"

@@ -1,23 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/meetups-entity-recognition",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -51,7 +33,7 @@
         "@value": "meetups-entity-recognition"
       },
       {
-        "@id": "_:n127c874e0def46dcac8883b32e7ff25db1"
+        "@id": "_:n7cbc1e63bde34272b018829f88d7779ab1"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -72,7 +54,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n127c874e0def46dcac8883b32e7ff25db2"
+        "@id": "_:n7cbc1e63bde34272b018829f88d7779ab2"
       }
     ],
     "https://schema.org/title": [
@@ -83,7 +65,7 @@
     ]
   },
   {
-    "@id": "_:n127c874e0def46dcac8883b32e7ff25db1",
+    "@id": "_:n7cbc1e63bde34272b018829f88d7779ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -99,7 +81,7 @@
     ]
   },
   {
-    "@id": "_:n127c874e0def46dcac8883b32e7ff25db2",
+    "@id": "_:n7cbc1e63bde34272b018829f88d7779ab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -114,6 +96,24 @@
       {
         "@value": "20/07/2022"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

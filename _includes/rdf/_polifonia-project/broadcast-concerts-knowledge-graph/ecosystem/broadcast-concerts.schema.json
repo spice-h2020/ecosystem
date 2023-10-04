@@ -1,32 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/William",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog",
-    "@type": [
-      "https://schema.org/HowTo"
     ]
   },
   {
@@ -75,7 +51,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:nd88959c1854d4746a18c86918f0e07abb1"
+        "@id": "_:ne3094d4fbe154fac9ab2a2e930426a86b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -116,7 +92,7 @@
     ]
   },
   {
-    "@id": "_:nd88959c1854d4746a18c86918f0e07abb1",
+    "@id": "_:ne3094d4fbe154fac9ab2a2e930426a86b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -129,6 +105,30 @@
       {
         "@value": "10.5281/zenodo.7377532"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   },
   {

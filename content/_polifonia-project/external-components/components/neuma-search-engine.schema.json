@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/neuma-search-engine",
     "@type": [
       "http://sparql.xyz/facade-x/data/Application",
@@ -59,12 +65,6 @@
     "@id": "http://sparql.xyz/facade-x/data/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

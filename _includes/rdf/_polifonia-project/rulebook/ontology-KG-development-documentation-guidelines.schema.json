@@ -1,6 +1,24 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
@@ -12,15 +30,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -79,21 +91,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

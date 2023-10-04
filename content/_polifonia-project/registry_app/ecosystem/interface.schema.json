@@ -1,5 +1,29 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721",
+    "@type": [
+      "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/musow-interface",
     "@type": [
       "http://sparql.xyz/facade-x/data/UserInterface",
@@ -36,7 +60,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:ncad381903ecc45aeb2a05b30dea0438eb1"
+        "@id": "_:n9378778deb9d4260ba3328f34d5af2eeb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -67,7 +91,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ncad381903ecc45aeb2a05b30dea0438eb2"
+        "@id": "_:n9378778deb9d4260ba3328f34d5af2eeb2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -88,7 +112,7 @@
     ]
   },
   {
-    "@id": "_:ncad381903ecc45aeb2a05b30dea0438eb1",
+    "@id": "_:n9378778deb9d4260ba3328f34d5af2eeb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:ncad381903ecc45aeb2a05b30dea0438eb2",
+    "@id": "_:n9378778deb9d4260ba3328f34d5af2eeb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
@@ -119,30 +143,6 @@
       {
         "@value": "2023/05/16"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721",
-    "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

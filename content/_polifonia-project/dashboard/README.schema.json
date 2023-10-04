@@ -46,7 +46,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:nd9c7d30d6d784162a93993fd2e7d46ffb1"
+        "@id": "_:n826e222259e74554931ae932d3eef446b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -64,7 +64,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd9c7d30d6d784162a93993fd2e7d46ffb2"
+        "@id": "_:n826e222259e74554931ae932d3eef446b2"
       }
     ],
     "https://schema.org/title": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "@id": "_:nd9c7d30d6d784162a93993fd2e7d46ffb1",
+    "@id": "_:n826e222259e74554931ae932d3eef446b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "@id": "_:nd9c7d30d6d784162a93993fd2e7d46ffb2",
+    "@id": "_:n826e222259e74554931ae932d3eef446b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/latest"

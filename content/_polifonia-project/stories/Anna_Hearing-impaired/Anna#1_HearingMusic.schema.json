@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Anna#1_HearingMusic",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -61,6 +49,18 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/ACCESS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -73,13 +73,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

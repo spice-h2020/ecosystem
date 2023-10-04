@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -59,7 +65,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:n04e5293de77e4bbea021078ff0de254ab1"
+        "@id": "_:n8dfad0d77e374ce4bc3dc6d4b3a4ef3fb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -91,7 +97,7 @@
     ]
   },
   {
-    "@id": "_:n04e5293de77e4bbea021078ff0de254ab1",
+    "@id": "_:n8dfad0d77e374ce4bc3dc6d4b3a4ef3fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,12 +110,6 @@
       {
         "@value": "https://zenodo.org/badge/latestdoi/588597123"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

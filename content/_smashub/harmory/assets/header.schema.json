@@ -1,8 +1,26 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882).",
+    "@type": [
+      "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -45,7 +63,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb1"
+        "@id": "_:n910a32309c19469eb27712aecbeb2da7b1"
       }
     ],
     "https://schema.org/image": [
@@ -79,7 +97,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb2"
+        "@id": "_:n910a32309c19469eb27712aecbeb2da7b2"
       }
     ],
     "https://schema.org/title": [
@@ -100,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb1",
+    "@id": "_:n910a32309c19469eb27712aecbeb2da7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -116,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:n0cc984d480e8471db1d3d68626c2ef8eb2",
+    "@id": "_:n910a32309c19469eb27712aecbeb2da7b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -131,24 +149,6 @@
       {
         "@value": "01-02-2023"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882).",
-    "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

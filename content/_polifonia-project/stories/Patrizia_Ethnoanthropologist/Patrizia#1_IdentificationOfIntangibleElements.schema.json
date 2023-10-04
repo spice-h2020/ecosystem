@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Patrizia#1_IdentificationOfIntangibleElements",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -55,6 +49,12 @@
     "@id": "http://sparql.xyz/facade-x/data/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]
