@@ -39,7 +39,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:nabca3a680a3c45cbabb605840330e401b1"
+        "@id": "_:nb76a21682d3b423c848b7d98f71cede8b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -69,7 +69,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nabca3a680a3c45cbabb605840330e401b2"
+        "@id": "_:nb76a21682d3b423c848b7d98f71cede8b2"
       }
     ],
     "https://schema.org/title": [
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:nabca3a680a3c45cbabb605840330e401b1",
+    "@id": "_:nb76a21682d3b423c848b7d98f71cede8b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:nabca3a680a3c45cbabb605840330e401b2",
+    "@id": "_:nb76a21682d3b423c848b7d98f71cede8b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -122,7 +122,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sophie",
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -134,19 +140,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/David",
+    "@id": "http://sparql.xyz/facade-x/data/Sophie",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -155,6 +149,12 @@
     "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

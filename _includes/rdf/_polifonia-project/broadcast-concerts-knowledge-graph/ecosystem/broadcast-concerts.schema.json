@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-knowledge-graph",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -51,7 +57,7 @@
         "@value": "broadcast-concerts-knowledge-graph"
       },
       {
-        "@id": "_:ne3094d4fbe154fac9ab2a2e930426a86b1"
+        "@id": "_:nfa5b174445e44760afe5ef82c888176ab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -92,7 +98,7 @@
     ]
   },
   {
-    "@id": "_:ne3094d4fbe154fac9ab2a2e930426a86b1",
+    "@id": "_:nfa5b174445e44760afe5ef82c888176ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -114,9 +120,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -126,15 +132,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
+    "@id": "http://sparql.xyz/facade-x/data/Interlink",
     "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

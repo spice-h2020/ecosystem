@@ -1,17 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Polifonia-Corpus-Web-API",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -46,7 +34,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:n886c0fb003984d5081c0a7d8adb9ba7ab1"
+        "@id": "_:n2b20552d899d482dbee20b7b40ead2c9b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -80,7 +68,7 @@
     ]
   },
   {
-    "@id": "_:n886c0fb003984d5081c0a7d8adb9ba7ab1",
+    "@id": "_:n2b20552d899d482dbee20b7b40ead2c9b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -93,6 +81,18 @@
       {
         "@value": "10.5281/zenodo.7736486"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

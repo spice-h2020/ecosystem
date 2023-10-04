@@ -6,21 +6,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -63,7 +51,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:n910a32309c19469eb27712aecbeb2da7b1"
+        "@id": "_:nc89931afb1f2416c97f65a06c3de665fb1"
       }
     ],
     "https://schema.org/image": [
@@ -97,7 +85,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n910a32309c19469eb27712aecbeb2da7b2"
+        "@id": "_:nc89931afb1f2416c97f65a06c3de665fb2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n910a32309c19469eb27712aecbeb2da7b1",
+    "@id": "_:nc89931afb1f2416c97f65a06c3de665fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n910a32309c19469eb27712aecbeb2da7b2",
+    "@id": "_:nc89931afb1f2416c97f65a06c3de665fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -149,6 +137,18 @@
       {
         "@value": "01-02-2023"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

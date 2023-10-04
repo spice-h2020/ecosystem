@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/midi2vec",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Library",
+      "http://sparql.xyz/facade-x/data/SoftwareLibrary",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -19,7 +13,7 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/3c25e308e6f12e8cf1e0a104b9c9eb6b#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/f04ce792b2292f98906e52493fb531cc#/credits"
       }
     ],
     "https://schema.org/identifier": [
@@ -39,7 +33,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n1f95b04f88cc479190d356a64c9d3c41b1"
+        "@id": "_:n9df145c1deb742ec934f2a804ac7a788b1"
       }
     ],
     "https://schema.org/title": [
@@ -50,7 +44,7 @@
     ]
   },
   {
-    "@id": "_:n1f95b04f88cc479190d356a64c9d3c41b1",
+    "@id": "_:n9df145c1deb742ec934f2a804ac7a788b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/midi-ld/midi2vec/releases/tag/v0.0.1"
@@ -65,6 +59,12 @@
       {
         "@value": "01/2022"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

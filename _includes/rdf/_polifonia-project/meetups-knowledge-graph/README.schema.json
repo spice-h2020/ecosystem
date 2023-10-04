@@ -6,18 +6,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/meetups-knowledge-graph",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -65,7 +53,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:n8dfad0d77e374ce4bc3dc6d4b3a4ef3fb1"
+        "@id": "_:n9ada04bbb15745a4a9ea122f72873578b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -97,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:n8dfad0d77e374ce4bc3dc6d4b3a4ef3fb1",
+    "@id": "_:n9ada04bbb15745a4a9ea122f72873578b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -110,6 +98,18 @@
       {
         "@value": "https://zenodo.org/badge/latestdoi/588597123"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]
