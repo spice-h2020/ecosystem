@@ -1,0 +1,54 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Mark",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Computational Musicologist"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Mark"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Computational Musicologist"
+      },
+      {
+        "@value": "Mark#1_FolkMusic"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Mark"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Mark#1_FolkMusic",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Mark#1_FolkMusic"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Mark"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Folk Music"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Mark",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

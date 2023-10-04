@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keith",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Keith"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Keith#1_MusicConnections"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Keith"
+      }
+    ]
+  }
+]

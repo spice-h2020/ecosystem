@@ -1,0 +1,79 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/licences-pipeline",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Software",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Resources for the Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/fde853add316fd44d433a29112ac8d9f#/credits"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-cli"
+      },
+      {
+        "@value": "Dalicc, https://www.dalicc.net/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "licences-pipeline"
+      },
+      {
+        "@id": "_:nbcbb11a3c4934b769d4d3bad72f7289db1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Resources for the Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Licences KG generation pipeline"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbcbb11a3c4934b769d4d3bad72f7289db1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7875034"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

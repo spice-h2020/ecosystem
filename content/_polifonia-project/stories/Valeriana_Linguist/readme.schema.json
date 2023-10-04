@@ -1,0 +1,42 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Valeriana",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Valeriana is a linguist expert in discourse analysis and terminology."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Valeriana"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Valeriana is a linguist expert in discourse analysis and terminology."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Valeriana"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

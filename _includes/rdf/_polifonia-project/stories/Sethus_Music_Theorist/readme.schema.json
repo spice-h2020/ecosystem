@@ -1,0 +1,40 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sethus's research focuses on the description and formalization of the compositional processes at work in modal polyphony."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sethus"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
+      },
+      {
+        "@value": "Sethus#2_CreateRelevantCorpus"
+      },
+      {
+        "@value": "Sethus's research focuses on the description and formalization of the compositional processes at work in modal polyphony."
+      },
+      {
+        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Sethus"
+      }
+    ]
+  }
+]

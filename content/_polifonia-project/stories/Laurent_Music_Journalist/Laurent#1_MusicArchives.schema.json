@@ -1,0 +1,51 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/--",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Laurent#1_MusicArchives",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Laurent's goal is to discover and explore Archives, Historical and Research Resources that deal with music in some way, for the extrapolation of content to be included in his newsletter."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Laurent#1_MusicArchives"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Laurent's goal is to discover and explore Archives, Historical and Research Resources that deal with music in some way, for the extrapolation of content to be included in his newsletter."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Laurent"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/--"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music Archives"
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keoma#1_RestorationAndSoundPractices",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Keoma needs to find different types of information and data from different sources. His goal is to interconnect data between architectures and their use for sound performances, in order to proceed with protection actions."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Keoma#1_RestorationAndSoundPractices"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Keoma needs to find different types of information and data from different sources. His goal is to interconnect data between architectures and their use for sound performances, in order to proceed with protection actions."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Keoma"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Restoration and Sound Practices"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keoma",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/led",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/KnowledgeGraph"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "LED is an open and freely searchable database that brings together a mass of data about people’s experiences of listening to music of all kinds, in any historical period and any culture."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/becb0b75f282a9bb130a8f9d5a364b1a#/credits"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://data.open.ac.uk/sparql"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "led"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "LED is an open and freely searchable database that brings together a mass of data about people’s experiences of listening to music of all kinds, in any historical period and any culture."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://www.listeningexperience.org/led-data/themes/thekeynote-v1-01/images/logo.png"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Listening Experience Database"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "Ortenz"
+      },
+      {
+        "@value": "Ortenz#2_MusicalSocialNetwork"
+      },
+      {
+        "@value": "Ortenz#1_MusicAndChildhood"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://led.kmi.open.ac.uk"
+      }
+    ]
+  }
+]

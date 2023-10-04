@@ -1,0 +1,87 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Jorge",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Jorge#3_DynamicExploration",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Jorge accesses to a part of the collection and is overwhelmed by the number of scores and their heterogeneity."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Jorge#3_DynamicExploration"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Jorge#2_FindSimilarScores"
+      },
+      {
+        "@value": "Jorge#1_OrganizeMyLibrary"
+      },
+      {
+        "@value": "Jorge#4_LinkToSources"
+      },
+      {
+        "@value": "Jorge accesses to a part of the collection and is overwhelmed by the number of scores and their heterogeneity."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Jorge"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP3"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Dynamic exploration"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

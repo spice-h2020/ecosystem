@@ -1,0 +1,50 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/rulebook-champions",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Documentation",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "List of reference administrators of repositories relevant to the Polifonia Ecosystem"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "rulebook-champions"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "List of reference administrators of repositories relevant to the Polifonia Ecosystem"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "rulebook"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Ecosystem Champions"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

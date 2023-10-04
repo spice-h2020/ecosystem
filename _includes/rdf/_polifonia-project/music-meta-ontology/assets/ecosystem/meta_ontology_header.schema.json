@@ -1,0 +1,207 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/music-meta/",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "An ontology to describe music metadata"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Peter van Kranenburg <https://github.com/pvankranenburg>"
+      },
+      {
+        "@value": "Nicolas Lazzari <https://github.com/n28div>"
+      },
+      {
+        "@value": "Philippe Rigaux <https://github.com/rigaux>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Mari Wigham <https://github.com/mwigham>"
+      },
+      {
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      },
+      {
+        "@value": "Marco Gurrieri <https://github.com/margur78>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Music Meta Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "ontology/musicmeta.owl"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+      },
+      {
+        "@id": "_:n0058d5792c43491b8074a03aaf510828b1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "diagrams/music_meta.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "An ontology to describe music metadata"
+      },
+      {
+        "@value": "Linka#1_MusicKnowledge"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Linka"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TONALITIES"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "website/static/img/musicmeta_logo.png"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n0058d5792c43491b8074a03aaf510828b2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music Meta"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "polifoniacq-dataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0058d5792c43491b8074a03aaf510828b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0058d5792c43491b8074a03aaf510828b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

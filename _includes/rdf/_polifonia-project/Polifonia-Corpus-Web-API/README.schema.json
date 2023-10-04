@@ -1,0 +1,98 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Polifonia-Corpus-Web-API",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/WebApplication"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Source code of the Polifonia Corpus web application"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Rocco Tripodi <https://github.com/marcograsso>"
+      },
+      {
+        "@value": "Marco Grasso <https://github.com/roccotrip>"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://polifonia.disi.unibo.it/corpus/"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "Polifonia-Corpus"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Polifonia-Corpus-Web-API"
+      },
+      {
+        "@id": "_:n1858f162997147b995f26be4a6268f74b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Source code of the Polifonia Corpus web application"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Corpus Web API"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://polifonia.disi.unibo.it/corpus/"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1858f162997147b995f26be4a6268f74b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7736486"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

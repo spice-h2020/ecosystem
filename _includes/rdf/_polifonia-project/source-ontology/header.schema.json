@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/source/",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Ontology"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Source represents various sources of music-related information"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Source Ontology Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/source-ontology"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "ontology/source.owl"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/source/"
+      },
+      {
+        "@id": "_:nb99556945aa94eda84e1a8d44f391fe9b1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "diagrams/source-module.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Carolina#1_SourcesCrossAnalysis"
+      },
+      {
+        "@value": "Ortenz#1_MusicAndChildhood"
+      },
+      {
+        "@value": "Keoma#1_RestorationAndSoundPractices"
+      },
+      {
+        "@value": "Sonia#1_ExplorationMode"
+      },
+      {
+        "@value": "Source represents various sources of music-related information"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Carolina"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Keoma"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sonia"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Ortenz"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MUSICBO"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:nb99556945aa94eda84e1a8d44f391fe9b2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Source ontology"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "polifoniacq-dataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb99556945aa94eda84e1a8d44f391fe9b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb99556945aa94eda84e1a8d44f391fe9b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/source-ontology"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "13/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keoma",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

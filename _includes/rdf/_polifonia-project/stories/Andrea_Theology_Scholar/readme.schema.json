@@ -1,0 +1,54 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Andrea",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Pianist, Organist, Priest and Theology Scholar."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Andrea"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Pianist, Organist, Priest and Theology Scholar."
+      },
+      {
+        "@value": "Andrea#1_Serendipity"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Andrea"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

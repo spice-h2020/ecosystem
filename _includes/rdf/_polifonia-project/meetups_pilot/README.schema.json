@@ -1,0 +1,94 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/meetups-pilot",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Project",
+      "https://schema.org/Collection"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@value": "MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: Proceedings of the ESWC 2023 Workshops and Tutorials, Semantic Methods for Events and Stories (SEMMES)."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746. The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains."
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "meetups-entity-recognition"
+      },
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "meetups-time-extraction"
+      },
+      {
+        "@value": "meetups-hm-identification"
+      },
+      {
+        "@value": "meetups-data-cleaning"
+      },
+      {
+        "@value": "meetups-corpus-collection"
+      },
+      {
+        "@value": "meetups-ontology"
+      },
+      {
+        "@value": "meetups-coreference"
+      },
+      {
+        "@value": "meetups-themes"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Musical MEETUPS"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Morales Tirado, Alba; Carvalho, Jason; Mulholland, Paul and Daga, Enrico (2023). Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis. In: Proceedings of the ESWC 2023 Workshops and Tutorials, Semantic Methods for Events and Stories (SEMMES).",
+    "@type": [
+      "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sonia#1_ExplorationMode",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sonia#1_ExplorationMode"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sonia#3_StatsMode"
+      },
+      {
+        "@value": "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."
+      },
+      {
+        "@value": "Sonia#2_ShuffleMode"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sonia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP3"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Exploration mode"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

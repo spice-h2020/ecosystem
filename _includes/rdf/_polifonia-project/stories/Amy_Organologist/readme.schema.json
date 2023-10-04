@@ -1,0 +1,66 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Organologist, Musicologist, and Music historian."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Amy"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Amy#2_OrganBuilders"
+      },
+      {
+        "@value": "Amy#1_OrganTrends"
+      },
+      {
+        "@value": "Organologist, Musicologist, and Music historian."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Amy"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

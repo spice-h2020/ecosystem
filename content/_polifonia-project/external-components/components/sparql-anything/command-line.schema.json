@@ -1,0 +1,207 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-cli",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/CLITool",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Command line executable of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
+      },
+      {
+        "@value": "Justin Dowdy <https://github.com/justin2004>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2022 SPARQL Anything Contributors @ http://github.com/sparql-anything"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-java"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "sparql-anything-cli"
+      },
+      {
+        "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Command line executable of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP3"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://avatars.githubusercontent.com/u/79987779?s=200&v=4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "SPARQL Anything Command Line"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/showcase-tate"
+      }
+    ]
+  },
+  {
+    "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7454360"
+      }
+    ]
+  },
+  {
+    "@id": "_:n36d12146b3f24c6ba5d72aca78331b8fb2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.8.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2022/12/18"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

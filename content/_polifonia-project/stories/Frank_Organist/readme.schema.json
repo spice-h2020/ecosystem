@@ -1,0 +1,54 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Frank",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "History Teacher at the Secondary Level, Amateur Organist."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Frank"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "History Teacher at the Secondary Level, Amateur Organist."
+      },
+      {
+        "@value": "Frank#1_OrganKnowledge"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Frank"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

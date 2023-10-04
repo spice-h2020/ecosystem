@@ -1,0 +1,69 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Paul",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Paul#1_OrganComparison",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Story"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Successfully plan the restoration of an organ."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Paul#1_OrganComparison"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Successfully plan the restoration of an organ."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Paul"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Organ Comparison"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

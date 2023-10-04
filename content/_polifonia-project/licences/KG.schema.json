@@ -1,0 +1,90 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/licences",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/KnowledgeGraph"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/525efade7d45c2b797e7e28a86286379#/credits"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "Dalicc, https://www.dalicc.net/"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "licences"
+      },
+      {
+        "@id": "_:n4c4e72c903ad4620a1a887f8955117f5b1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Polifonia Licences KG, containing licence information of the resources from third-parties that the project reused."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/provider": [
+      {
+        "@value": "licences-pipeline"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Licences Knowlegde Graph"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c4e72c903ad4620a1a887f8955117f5b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7875034"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

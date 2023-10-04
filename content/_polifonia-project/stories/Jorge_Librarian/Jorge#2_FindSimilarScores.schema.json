@@ -1,0 +1,87 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Jorge",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Jorge#2_FindSimilarScores",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "People interested in finding scores ask for some very specific criterias. Often, the resulting list is empty, or contains very few scores."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Jorge#2_FindSimilarScores"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Jorge#1_OrganizeMyLibrary"
+      },
+      {
+        "@value": "Jorge#4_LinkToSources"
+      },
+      {
+        "@value": "Jorge#3_DynamicExploration"
+      },
+      {
+        "@value": "People interested in finding scores ask for some very specific criterias. Often, the resulting list is empty, or contains very few scores."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Jorge"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP3"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Find similar scores"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

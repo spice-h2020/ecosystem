@@ -1,0 +1,42 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ralph",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Researcher and Professor in Musicology"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Ralph"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Researcher and Professor in Musicology"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Ralph"
+      }
+    ]
+  }
+]

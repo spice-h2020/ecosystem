@@ -1,0 +1,54 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keoma",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Architect and Restorer"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Keoma"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Architect and Restorer"
+      },
+      {
+        "@value": "Keoma#1_RestorationAndSoundPractices"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Keoma"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

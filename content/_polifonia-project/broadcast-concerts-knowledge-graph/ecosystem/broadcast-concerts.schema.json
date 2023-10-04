@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-knowledge-graph",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/KnowledgeGraph"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The NISV knowledge graph for broadcast concerts. This knowledge graph contains metadata of more than 75,000 concerts broadcast on Dutch public service TV and radio. The source of the knowledge graph is the archival metadata stored at the Netherlands Institute for Sound & Vision."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Mari Wigham"
+      },
+      {
+        "@value": "Willem Melder"
+      },
+      {
+        "@value": "Govert Brinkmann"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Each concert has its own license, determine using the NISV rules for licensing. Where possible, this is a CC license. The license is stated in the triples for that concert."
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/96359ab53583ee7903955ff956961f02#/resource"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "https://schema.org"
+      },
+      {
+        "@value": "broadcast-concerts-sparql-endpoint"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "broadcast-concerts-knowledge-graph"
+      },
+      {
+        "@id": "_:n811d1c5d6d2f4f03950dd1d1273181cab1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The NISV knowledge graph for broadcast concerts. This knowledge graph contains metadata of more than 75,000 concerts broadcast on Dutch public service TV and radio. The source of the knowledge graph is the archival metadata stored at the Netherlands Institute for Sound & Vision."
+      },
+      {
+        "@value": "William#1_EuropeanFolkMusic"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/William"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Interlink"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Broadcast Concerts Knowledge Graph"
+      }
+    ]
+  },
+  {
+    "@id": "_:n811d1c5d6d2f4f03950dd1d1273181cab1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7377532"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/William",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]

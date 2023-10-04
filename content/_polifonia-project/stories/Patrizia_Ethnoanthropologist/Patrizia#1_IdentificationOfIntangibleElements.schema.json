@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Patrizia#1_IdentificationOfIntangibleElements",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Patrizia must propose safeguarding actions on some intangible practices related with bells sound."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Patrizia#1_IdentificationOfIntangibleElements"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Patrizia must propose safeguarding actions on some intangible practices related with bells sound."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Patrizia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Identification of Intangible Elements"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

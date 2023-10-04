@@ -1,0 +1,91 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/rulebook",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Documentation"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "https://github.com/raphaelfournier"
+      },
+      {
+        "@value": "https://github.com/enridaga"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/rulebook"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "rulebook-schema"
+      },
+      {
+        "@value": "ontology-rulebook"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "rulebook"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Cc010Universal"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n6dc59cdc8549479898642f53481185e0b1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Ecosystem Development Rulebook"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6dc59cdc8549479898642f53481185e0b1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "TODO"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v2.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "21/04/2022"
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-melody",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Documentation"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Broadcast Concerts Data Story describes the key features of the Broadcast Concerts knowledge graph"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Mari Wigham"
+      },
+      {
+        "@value": "Govert Brinkmann"
+      },
+      {
+        "@value": "Willem Melder"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://projects.dharc.unibo.it/melody/sound_and_vision/dutch_broadcast_concert_collection"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "broadcast-concerts-sparql-endpoint"
+      },
+      {
+        "@value": "broadcast-concerts-knowledge-graph"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "broadcast-concerts-docs-melody"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Broadcast Concerts Data Story describes the key features of the Broadcast Concerts knowledge graph"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Interlink"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Broadcast Concerts Data Story"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Music Journalist and Editor."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Laurent"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Music Journalist and Editor."
+      },
+      {
+        "@value": "Laurent#1_MusicArchives"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Laurent"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  }
+]

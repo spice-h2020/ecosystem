@@ -1,0 +1,119 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/meetups-entity-recognition",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Software"
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Alba Morales Tirado <https://github.com/albamoralest>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 MEETUPS @ The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/blob/main/02_Identify_PP.ipynb"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "meetups-entity-recognition"
+      },
+      {
+        "@id": "_:n39bfbf1d82244a98b9ddf1ed23d6cba8b1"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n39bfbf1d82244a98b9ddf1ed23d6cba8b2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS identification of people and places"
+      }
+    ]
+  },
+  {
+    "@id": "_:n39bfbf1d82244a98b9ddf1ed23d6cba8b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+      }
+    ]
+  },
+  {
+    "@id": "_:n39bfbf1d82244a98b9ddf1ed23d6cba8b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "20/07/2022"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

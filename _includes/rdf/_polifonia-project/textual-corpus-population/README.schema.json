@@ -1,0 +1,90 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/textual-corpus-population",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Repository"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Polifonia downloader and digitiser of textual data."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "A. Poltronieri (UniBo), R. Tripodi (UniBo)"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "textual-corpus-population"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Polifonia downloader and digitiser of textual data."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MusicBo"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n0a6fb5beb0dd44489a921a70a457f7cab1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Textual Corpus Population"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "n/a"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0a6fb5beb0dd44489a921a70a457f7cab1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "n/a."
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "07-12-2021"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MusicBo",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sonia#3_StatsMode",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Story"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sonia likes to explore her playlist history, find interesting statistics and patterns and see how it compares to other music listeners."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sonia#3_StatsMode"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sonia#2_ShuffleMode"
+      },
+      {
+        "@value": "Sonia#1_ExplorationMode"
+      },
+      {
+        "@value": "Sonia likes to explore her playlist history, find interesting statistics and patterns and see how it compares to other music listeners."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sonia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Stats mode"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

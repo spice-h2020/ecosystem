@@ -1,0 +1,66 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sophia#1_MusiciansAndTheirEnvironment",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sophia#1_MusiciansAndTheirEnvironment"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sophia#3_Reorchestration"
+      },
+      {
+        "@value": "Sophia#2_OriginsAndForm"
+      },
+      {
+        "@value": "Sophia is interested in understanding the social-historical reasons behind how the music was created and how it sounds."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sophia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Musicians and their environment"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

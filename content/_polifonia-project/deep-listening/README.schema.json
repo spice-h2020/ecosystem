@@ -1,0 +1,77 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/deep-listening",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Userinterface",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Paul Mulholland <https://github.com/paulmulholland>"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/spice-h2020/imma-slow-looking"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "deep-listening"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Deep Listening"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking"
+      }
+    ]
+  }
+]

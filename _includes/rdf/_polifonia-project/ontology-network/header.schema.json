@@ -1,0 +1,244 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/ontology-network/",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Ontology"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each submodule."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Fiorela Ciroku <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Nicolas Lazzari <https://github.com/n28div>"
+      },
+      {
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 Polifonia Ontology Network Contributors"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "ontology/ontology-network.owl"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://w3id.org/polifonia/ontology/ontology-network/"
+      },
+      {
+        "@id": "_:ne95b98b6bc3541b98bf9a59c06a33990b1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "assets/pon_architecture.png"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each submodule."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ACCESS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MUSICBO"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TONALITIES"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:ne95b98b6bc3541b98bf9a59c06a33990b2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/https://github.com/polifonia-project/ontology-network"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Polifonia Ontology Network (PON)"
+      }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "https://github.com/polifonia-project/idea"
+      },
+      {
+        "@value": "https://github.com/polifonia-project/polifoniacq-dataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne95b98b6bc3541b98bf9a59c06a33990b1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.7919970"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne95b98b6bc3541b98bf9a59c06a33990b2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v1.0"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "09/05/2023"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/https://github.com/polifonia-project/ontology-network",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

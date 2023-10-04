@@ -1,0 +1,69 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Andrea",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Andrea#1_Serendipity",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Andrea#1_Serendipity"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Andrea"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Serendipity"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Amy#2_OrganBuilders",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Amy wants to assess the developments of organ builders."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Amy#2_OrganBuilders"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Amy wants to assess the developments of organ builders."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Amy"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Organ Builders"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

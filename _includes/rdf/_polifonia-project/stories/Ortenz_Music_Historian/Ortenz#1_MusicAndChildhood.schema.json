@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ortenz#1_MusicAndChildhood",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Ortenz#1_MusicAndChildhood"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Ortenz"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music and Childhood"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

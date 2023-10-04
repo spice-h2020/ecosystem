@@ -1,0 +1,63 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Jorge",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Persona",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Jorge"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Jorge#1_OrganizeMyLibrary"
+      },
+      {
+        "@value": "Jorge#2_FindSimilarScores"
+      },
+      {
+        "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+      },
+      {
+        "@value": "Jorge#4_LinkToSources"
+      },
+      {
+        "@value": "Jorge#3_DynamicExploration"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Jorge"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

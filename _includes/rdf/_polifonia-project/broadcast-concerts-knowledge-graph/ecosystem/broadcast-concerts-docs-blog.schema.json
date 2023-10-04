@@ -1,0 +1,84 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Documentation"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Broadcast Concerts blog describes the key features of the Broadcast Concerts knowledge graph"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Willem Melder"
+      },
+      {
+        "@value": "Govert Brinkmann"
+      },
+      {
+        "@value": "Mari Wigham"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://labs.beeldengeluid.nl/blogs/moz-dataset-blog"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "braodcast-concerts-knowledge-graph"
+      },
+      {
+        "@value": "broadcast-concerts-sparql-endpoint"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "broadcast-concerts-docs-blog"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Broadcast Concerts blog describes the key features of the Broadcast Concerts knowledge graph"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Interlink"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Broadcast Concerts blog"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

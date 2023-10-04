@@ -1,0 +1,61 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/meetups-corpus-collection",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Software"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "This is a tool to build to download the Wikipedia pages of people in the music scene in Europe"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/84a45888403c5e66dc47093ede408020#/credits"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "meetups-corpus-collection"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "This is a tool to build to download the Wikipedia pages of people in the music scene in Europe"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MEETUPS Corpus collection"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

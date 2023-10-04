@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/GA870811",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n248b98bdc8504cda8154e0c2b1bb8efbb1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n248b98bdc8504cda8154e0c2b1bb8efbb1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf",
+    "@type": [
+      "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/GA101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n248b98bdc8504cda8154e0c2b1bb8efbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n248b98bdc8504cda8154e0c2b1bb8efbb2",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73.",
+    "@type": [
+      "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/sparql-anything",
+    "@type": [
+      "https://schema.org/Collection",
+      "http://sparql.xyz/facade-x/data/Project"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@value": "SPARQL Anything is a system for Semantic Web re-engineering that allows to query non-RDF files as-if they are in RDF."
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreements GA101004746 (Polifonia) and GA870811 (SPICE)."
+      }
+    ],
+    "https://schema.org/funding": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/GA870811"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/GA101004746"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-docs"
+      },
+      {
+        "@value": "sparql-anything-python"
+      },
+      {
+        "@value": "sparql-anything-docker"
+      },
+      {
+        "@value": "sparql-anything-requirements"
+      },
+      {
+        "@value": "sparql-anything-cli"
+      },
+      {
+        "@value": "sparql-anything-java"
+      },
+      {
+        "@value": "sparql-anything-tutorials"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "SPARQL Anything"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312",
+    "@type": [
+      "https://schema.org/Article"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/William",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/William#1_EuropeanFolkMusic",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "William is looking for songs matching his search criteria from the 20th and 21st centuries, across various music collections in Europe (particularly folk music)."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "William#1_EuropeanFolkMusic"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "William is looking for songs matching his search criteria from the 20th and 21st centuries, across various music collections in Europe (particularly folk music)."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/William"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "European Folk Music"
+      }
+    ]
+  }
+]

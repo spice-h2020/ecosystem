@@ -1,0 +1,116 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/melody-software",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/WebApplication",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
+      },
+      {
+        "@value": "Giulia Renda <https://github.com/mondoboia>"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/dashboard/releases"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "melody-software"
+      },
+      {
+        "@id": "_:na8e18fcc522f4fac8662aca2887a795fb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "MELODY is a dashboarding system for designing and publishing data stories based on Linked Open Data."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:na8e18fcc522f4fac8662aca2887a795fb2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "MELODY"
+      }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://projects.dharc.unibo.it/melody/"
+      }
+    ]
+  },
+  {
+    "@id": "_:na8e18fcc522f4fac8662aca2887a795fb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.6637345"
+      }
+    ]
+  },
+  {
+    "@id": "_:na8e18fcc522f4fac8662aca2887a795fb2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.1.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "2022/05/12"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

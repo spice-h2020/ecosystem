@@ -1,0 +1,93 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sethus#3_ConflictingAnalyticalAnnotations",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "http://sparql.xyz/facade-x/data/Story"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sethus#2_CreateRelevantCorpus"
+      },
+      {
+        "@value": "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."
+      },
+      {
+        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sethus"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP4"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/TONALITIES"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Conflicting analytical annotations"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

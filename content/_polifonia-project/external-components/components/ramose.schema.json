@@ -1,0 +1,25 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/ramose",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Service",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/36493070bae003407290025ae9e58156#/credits"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "ramose"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "RAMOSE"
+      }
+    ]
+  }
+]

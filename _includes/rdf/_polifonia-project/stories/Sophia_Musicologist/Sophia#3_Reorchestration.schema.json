@@ -1,0 +1,66 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sophia#3_Reorchestration",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sophia#3_Reorchestration"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
+      },
+      {
+        "@value": "Sophia#1_MusiciansAndTheirEnvironment"
+      },
+      {
+        "@value": "Sophia#3_Reorchestration"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sophia"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/To be completed"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Reorchestration"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/To be completed",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  }
+]

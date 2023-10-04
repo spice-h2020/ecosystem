@@ -1,0 +1,70 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/midi2vec",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Library",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Compute graph embeddings from MIDI."
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/3c25e308e6f12e8cf1e0a104b9c9eb6b#/credits"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "midi2vec"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Compute graph embeddings from MIDI."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:nc5e92e3ba8b8481a8bb65fb873f827c8b1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "midi2vec"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5e92e3ba8b8481a8bb65fb873f827c8b1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/midi-ld/midi2vec/releases/tag/v0.0.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.0.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "01/2022"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

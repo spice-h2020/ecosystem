@@ -1,0 +1,84 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sethus#2_CreateRelevantCorpus",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Sethus prepares a book on a specific aspect of compositional practices during the Renaissance period, and aims at finding a set of relevant references to sources to illustrate his text."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Sethus#2_CreateRelevantCorpus"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Sethus#3_ConflictingAnalyticalAnnotations"
+      },
+      {
+        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
+      },
+      {
+        "@value": "Sethus prepares a book on a specific aspect of compositional practices during the Renaissance period, and aims at finding a set of relevant references to sources to illustrate his text."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Sethus"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP3"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP1"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Create a relevant corpus"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keith#1_MusicConnections",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Keith wants to compile programmes of music, e.g. for music festivals."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Keith#1_MusicConnections"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Keith wants to compile programmes of music, e.g. for music festivals."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Keith"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP5"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Music Connections"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Keith",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]

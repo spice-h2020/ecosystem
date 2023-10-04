@@ -1,0 +1,51 @@
+[
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ralph#1_WordsAndMusic",
+    "@type": [
+      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Ralph is particularly interested in matching text to music, e.g. in terms of emotions."
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "Ralph#1_WordsAndMusic"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Ralph is particularly interested in matching text to music, e.g. in terms of emotions."
+      },
+      {
+        "@id": "http://sparql.xyz/facade-x/data/Ralph"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "http://sparql.xyz/facade-x/data/WP2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Words and Music"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Ralph",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  }
+]
