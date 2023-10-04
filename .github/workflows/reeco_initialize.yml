@@ -49,6 +49,7 @@ jobs:
             done < files.tmp
             rm files.tmp
             rm -rf .git
+            rm -rf .github
             cd -
             done < repositories.txt  
           ./generate-repo-data.sh
