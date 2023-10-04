@@ -9,6 +9,8 @@ for root, dirs, files in os.walk(directory):
         if not filename.endswith('.md'):
             continue
         location = os.path.join(root, filename)
+        if "/.github/" in location:
+            continue
         print(location)
         pre, ext = os.path.splitext(location)
         output_includes = pre.replace("./content/", "./_includes/rdf/")
