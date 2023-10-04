@@ -1,33 +1,33 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ACCESS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Anna#1_HearingMusic",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Anna",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Anna#1_HearingMusic",
-    "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Story"
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -45,24 +45,24 @@
         "@value": "Anna wants to experience live music with the aid of haptic technology."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Anna"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Anna"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ACCESS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/ACCESS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       }
     ],
     "https://schema.org/title": [
@@ -73,13 +73,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Anna",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

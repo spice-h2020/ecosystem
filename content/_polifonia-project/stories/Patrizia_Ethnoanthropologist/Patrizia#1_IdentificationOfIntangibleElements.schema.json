@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Patrizia",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Patrizia#1_IdentificationOfIntangibleElements",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Patrizia#1_IdentificationOfIntangibleElements",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -27,15 +27,15 @@
         "@value": "Patrizia must propose safeguarding actions on some intangible practices related with bells sound."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Patrizia"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Patrizia"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/title": [
@@ -46,15 +46,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

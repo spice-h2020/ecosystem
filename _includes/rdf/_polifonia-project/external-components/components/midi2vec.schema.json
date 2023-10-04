@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/midi2vec",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://sparql.xyz/facade-x/data/SoftwareLibrary",
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/midi2vec",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/SoftwareLibrary",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -28,12 +34,12 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne21f9b1ca6e041e78248b716c0accd12b1"
+        "@id": "_:n8126e7bc4e334eebb9f9d96aec21f4d5b1"
       }
     ],
     "https://schema.org/title": [
@@ -44,7 +50,7 @@
     ]
   },
   {
-    "@id": "_:ne21f9b1ca6e041e78248b716c0accd12b1",
+    "@id": "_:n8126e7bc4e334eebb9f9d96aec21f4d5b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/midi-ld/midi2vec/releases/tag/v0.0.1"
@@ -59,12 +65,6 @@
       {
         "@value": "01/2022"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

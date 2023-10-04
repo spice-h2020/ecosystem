@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/LHARP",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/LHARP",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Repository",
+      "https://reeco-framework.github.io/ecosystem/entity/Repository",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/creditText": [

@@ -1,20 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ralph#1_WordsAndMusic",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Ralph",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Ralph#1_WordsAndMusic",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -33,12 +21,12 @@
         "@value": "Ralph is particularly interested in matching text to music, e.g. in terms of emotions."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Ralph"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Ralph"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -46,6 +34,18 @@
         "@language": "en",
         "@value": "Words and Music"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ralph",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

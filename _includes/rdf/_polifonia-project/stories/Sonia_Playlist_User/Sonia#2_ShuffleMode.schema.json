@@ -1,38 +1,38 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Sonia",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sonia#2_ShuffleMode",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia#2_ShuffleMode",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -48,33 +48,33 @@
     ],
     "https://schema.org/isBasedOn": [
       {
+        "@value": "Sonia#1_ExplorationMode"
+      },
+      {
         "@value": "Sonia#3_StatsMode"
       },
       {
         "@value": "Sonia likes exploring music, either finding out more about music and musicians she already knows or uncovering new interests."
       },
       {
-        "@value": "Sonia#1_ExplorationMode"
-      },
-      {
-        "@id": "http://sparql.xyz/facade-x/data/Sonia"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

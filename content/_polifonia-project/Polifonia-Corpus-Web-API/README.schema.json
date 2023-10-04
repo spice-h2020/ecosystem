@@ -1,9 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Polifonia-Corpus-Web-API",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Polifonia-Corpus-Web-API",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/WebApplication"
+      "https://reeco-framework.github.io/ecosystem/entity/WebApplication"
     ],
     "https://schema.org/abstract": [
       {
@@ -34,7 +34,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:n61ef5f236daf4fa9974709cf49a0f8bcb1"
+        "@id": "_:n8c603ac0e8d24eaf85629f0f141e27eab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -44,10 +44,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/license": [
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "@id": "_:n61ef5f236daf4fa9974709cf49a0f8bcb1",
+    "@id": "_:n8c603ac0e8d24eaf85629f0f141e27eab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -84,15 +84,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

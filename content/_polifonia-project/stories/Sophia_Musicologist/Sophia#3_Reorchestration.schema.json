@@ -1,9 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sophia#3_Reorchestration",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophia#3_Reorchestration",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Story"
     ],
     "https://schema.org/abstract": [
       {
@@ -18,24 +30,24 @@
     ],
     "https://schema.org/isBasedOn": [
       {
+        "@value": "Sophia#3_Reorchestration"
+      },
+      {
         "@value": "Sophia needs to study the instrumentation of a musical composition of the 18th century in order to organize a music festival that compares philological and modern performances and that proposes  music compositions of that time with a completely new orchestration."
       },
       {
         "@value": "Sophia#1_MusiciansAndTheirEnvironment"
       },
       {
-        "@value": "Sophia#3_Reorchestration"
-      },
-      {
-        "@id": "http://sparql.xyz/facade-x/data/Sophia"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophia"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/To be completed"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/To be completed"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -46,19 +58,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sophia",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/To be completed",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/To be completed",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

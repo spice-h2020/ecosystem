@@ -1,32 +1,20 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Valeriana",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Valeriana#2_Terminology",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Valeriana#2_Terminology",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/identifier": [
@@ -36,18 +24,18 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Valeriana"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Valeriana"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MUSICBO"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -55,6 +43,18 @@
         "@language": "en",
         "@value": "Terminology"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Valeriana",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

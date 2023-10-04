@@ -1,8 +1,20 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Jorge#1_OrganizeMyLibrary",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Jorge",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Jorge#1_OrganizeMyLibrary",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -21,30 +33,30 @@
         "@value": "Jorge#4_LinkToSources"
       },
       {
-        "@value": "Jorge#2_FindSimilarScores"
+        "@value": "Jorge manages a digital library of scores. He aims at describing each score with a rich set of contextual information, although a comprehensive description is often not possible."
       },
       {
-        "@value": "Jorge manages a digital library of scores. He aims at describing each score with a rich set of contextual information, although a comprehensive description is often not possible."
+        "@value": "Jorge#2_FindSimilarScores"
       },
       {
         "@value": "Jorge#3_DynamicExploration"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Jorge"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Jorge"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/title": [
@@ -55,31 +67,19 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Jorge",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

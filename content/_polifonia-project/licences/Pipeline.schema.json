@@ -1,15 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/licences-pipeline",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/licences-pipeline",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Software",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Software"
     ],
     "https://schema.org/abstract": [
       {
@@ -35,7 +35,7 @@
         "@value": "licences-pipeline"
       },
       {
-        "@id": "_:n52f6cf14c4f54a9795dcbb544d6045e7b1"
+        "@id": "_:n50b823e2eb0240d48f7623d8d300e1eeb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -45,7 +45,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/license": [
@@ -61,7 +61,7 @@
     ]
   },
   {
-    "@id": "_:n52f6cf14c4f54a9795dcbb544d6045e7b1",
+    "@id": "_:n50b823e2eb0240d48f7623d8d300e1eeb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],

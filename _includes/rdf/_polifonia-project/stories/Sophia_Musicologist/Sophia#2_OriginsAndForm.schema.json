@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sophia#2_OriginsAndForm",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophia#2_OriginsAndForm",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -23,7 +23,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       }
     ],
     "https://schema.org/title": [
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

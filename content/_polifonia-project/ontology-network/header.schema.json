@@ -1,33 +1,39 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/ACCESS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/ontology-network/",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://github.com/polifonia-project/ontology-network",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Ontology"
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/ontology-network/",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -37,19 +43,19 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Fiorela Ciroku <https://github.com/jonnybluesman>"
-      },
-      {
-        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
-      },
-      {
-        "@value": "Nicolas Lazzari <https://github.com/n28div>"
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
       },
       {
         "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
       },
       {
-        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+        "@value": "Fiorela Ciroku <https://github.com/jonnybluesman>"
+      },
+      {
+        "@value": "Nicolas Lazzari <https://github.com/n28div>"
+      },
+      {
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -72,7 +78,7 @@
         "@value": "https://w3id.org/polifonia/ontology/ontology-network/"
       },
       {
-        "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b1"
+        "@id": "_:n4f4f28349fcd4935987fe07a627dc9c7b1"
       }
     ],
     "https://schema.org/image": [
@@ -87,40 +93,40 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/ACCESS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MUSICBO"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ACCESS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/TONALITIES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/license": [
@@ -130,12 +136,12 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b2"
+        "@id": "_:n4f4f28349fcd4935987fe07a627dc9c7b2"
       }
     ],
     "https://schema.org/subjectOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/https://github.com/polifonia-project/ontology-network"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/https://github.com/polifonia-project/ontology-network"
       }
     ],
     "https://schema.org/title": [
@@ -146,15 +152,15 @@
     ],
     "https://schema.org/usageInfo": [
       {
-        "@value": "https://github.com/polifonia-project/idea"
+        "@value": "https://github.com/polifonia-project/polifoniacq-dataset"
       },
       {
-        "@value": "https://github.com/polifonia-project/polifoniacq-dataset"
+        "@value": "https://github.com/polifonia-project/idea"
       }
     ]
   },
   {
-    "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b1",
+    "@id": "_:n4f4f28349fcd4935987fe07a627dc9c7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -170,7 +176,7 @@
     ]
   },
   {
-    "@id": "_:n74bc27a21dc741c48204a9774ff3bba5b2",
+    "@id": "_:n4f4f28349fcd4935987fe07a627dc9c7b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -188,55 +194,49 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ACCESS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/https://github.com/polifonia-project/ontology-network",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
     "@type": [
-      "https://schema.org/HowTo"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

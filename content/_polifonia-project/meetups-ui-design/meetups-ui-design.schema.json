@@ -1,9 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/meetups-ui-design",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/RequirementsCollection"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-ui-design",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/RequirementsCollection",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,10 +25,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Enrico Daga <https://github.com/enridaga>"
+        "@value": "Alba Morales-Tirado <https://github.com/albamoralest>"
       },
       {
-        "@value": "Alba Morales-Tirado <https://github.com/albamoralest>"
+        "@value": "Enrico Daga <https://github.com/enridaga>"
       },
       {
         "@value": "Jason Carvalho <https://github.com/JaseMK>"
@@ -49,15 +61,15 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne85c6760ded84ac18330b2b9dc0934adb1"
+        "@id": "_:n0142d73fabde4b6c855f8bd1df4054bdb1"
       }
     ],
     "https://schema.org/title": [
@@ -73,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:ne85c6760ded84ac18330b2b9dc0934adb1",
+    "@id": "_:n0142d73fabde4b6c855f8bd1df4054bdb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -88,18 +100,6 @@
       {
         "@value": "17/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

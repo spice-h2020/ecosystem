@@ -1,15 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sonia",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sonia#3_StatsMode",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia#3_StatsMode",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Story"
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -33,12 +33,12 @@
         "@value": "Sonia likes to explore her playlist history, find interesting statistics and patterns and see how it compares to other music listeners."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Sonia"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       }
     ],
     "https://schema.org/title": [
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

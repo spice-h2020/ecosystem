@@ -1,33 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz#2_MusicalSocialNetwork",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz#2_MusicalSocialNetwork",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Story"
     ],
     "https://schema.org/abstract": [
       {
@@ -45,21 +33,21 @@
         "@value": "Ortenz would like to have a system for visualising events (meetings of composers and musicians) in time and space in order to track musicians' careers, their overlap and intersections, gathering trends in time and space, and making emerge patterns of knowledge transmission."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Ortenz"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -70,9 +58,21 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

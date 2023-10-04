@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/musicbo-knowledge-graph",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/musicbo-knowledge-graph",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/KnowledgeGraph",
+      "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -34,7 +28,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       }
     ],
     "https://schema.org/title": [
@@ -42,6 +36,12 @@
         "@language": "en",
         "@value": "MusicBO Knowledge Graph"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

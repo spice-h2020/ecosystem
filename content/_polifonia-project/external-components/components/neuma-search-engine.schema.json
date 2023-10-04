@@ -1,27 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/neuma-search-engine",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Application",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/neuma-search-engine",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Application"
     ],
     "https://schema.org/abstract": [
       {
@@ -51,13 +45,13 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       }
     ],
     "https://schema.org/title": [
@@ -65,6 +59,12 @@
         "@language": "en",
         "@value": "Neuma search engine"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

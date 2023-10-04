@@ -1,20 +1,26 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Amy",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Amy#2_OrganBuilders",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy#2_OrganBuilders",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -33,15 +39,15 @@
         "@value": "Amy wants to assess the developments of organ builders."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Amy"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -49,12 +55,6 @@
         "@language": "en",
         "@value": "Organ Builders"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

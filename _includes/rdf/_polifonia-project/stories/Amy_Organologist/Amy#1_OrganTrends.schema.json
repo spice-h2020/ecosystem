@@ -1,8 +1,26 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Amy#1_OrganTrends",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy#1_OrganTrends",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -21,15 +39,15 @@
         "@value": "For her next research project, Amy wants to discover artistic and technical trends of organs and how these developed."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Amy"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -37,24 +55,6 @@
         "@language": "en",
         "@value": "Organ Trends"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

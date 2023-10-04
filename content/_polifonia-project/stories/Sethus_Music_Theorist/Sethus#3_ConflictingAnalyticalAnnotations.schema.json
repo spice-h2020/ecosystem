@@ -1,15 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sethus#3_ConflictingAnalyticalAnnotations",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Sethus#3_ConflictingAnalyticalAnnotations",
-    "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Story"
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -24,33 +18,33 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Sethus#2_CreateRelevantCorpus"
+        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
       },
       {
         "@value": "In collaboration with other colleagues, Sethus is preparing a book on modal theory and its application to late Renaissance compositions."
       },
       {
-        "@value": "Sethus#1_ConflictingTheoreticalInterpretations"
+        "@value": "Sethus#2_CreateRelevantCorpus"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Sethus"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sethus"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/TONALITIES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       }
     ],
     "https://schema.org/title": [
@@ -61,31 +55,37 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sethus",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TONALITIES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

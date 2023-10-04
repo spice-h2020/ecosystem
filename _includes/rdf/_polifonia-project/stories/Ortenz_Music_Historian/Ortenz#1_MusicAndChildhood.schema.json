@@ -1,20 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz#1_MusicAndChildhood",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz#1_MusicAndChildhood",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -33,15 +27,15 @@
         "@value": "Ortenz is planning to write an article about the role of music in children education as a means to develop national identity."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Ortenz"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/title": [
@@ -52,7 +46,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

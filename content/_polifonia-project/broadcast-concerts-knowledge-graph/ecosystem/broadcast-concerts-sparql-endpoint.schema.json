@@ -1,27 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-sparql-endpoint",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/broadcast-concerts-sparql-endpoint",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/SPARQLEndpoint"
+      "https://reeco-framework.github.io/ecosystem/entity/SPARQLEndpoint",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -31,13 +25,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Govert Brinkmann"
-      },
-      {
         "@value": "Willem Melder"
       },
       {
         "@value": "Mari Wigham"
+      },
+      {
+        "@value": "Govert Brinkmann"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -67,13 +61,13 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Interlink"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Interlink"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -86,6 +80,12 @@
         "@language": "en",
         "@value": "NISV SPARQL Endpoint"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

@@ -1,15 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/MusicBo",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/textual-corpus-population",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/textual-corpus-population",
-    "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Repository"
+      "https://reeco-framework.github.io/ecosystem/entity/Repository",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -44,7 +38,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/MusicBo"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MusicBo"
       }
     ],
     "https://schema.org/logo": [
@@ -54,7 +48,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n42b667c6502c4ff5b8dcc87f4d498d74b1"
+        "@id": "_:n563d336b052442a69292579b7ddef84bb1"
       }
     ],
     "https://schema.org/title": [
@@ -70,7 +64,7 @@
     ]
   },
   {
-    "@id": "_:n42b667c6502c4ff5b8dcc87f4d498d74b1",
+    "@id": "_:n563d336b052442a69292579b7ddef84bb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "n/a."
@@ -85,6 +79,12 @@
       {
         "@value": "07-12-2021"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MusicBo",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

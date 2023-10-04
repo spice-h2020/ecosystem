@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Frank#1_OrganKnowledge",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank#1_OrganKnowledge",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/identifier": [
@@ -12,15 +12,15 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Frank"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -31,21 +31,21 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Frank",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

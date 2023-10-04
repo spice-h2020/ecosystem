@@ -1,15 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/led",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/led",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/KnowledgeGraph"
+      "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph"
     ],
     "https://schema.org/abstract": [
       {
@@ -39,13 +33,13 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       }
     ],
     "https://schema.org/logo": [
@@ -61,13 +55,13 @@
     ],
     "https://schema.org/usageInfo": [
       {
-        "@value": "Ortenz"
+        "@value": "Ortenz#1_MusicAndChildhood"
       },
       {
         "@value": "Ortenz#2_MusicalSocialNetwork"
       },
       {
-        "@value": "Ortenz#1_MusicAndChildhood"
+        "@value": "Ortenz"
       }
     ],
     "https://schema.org/workExample": [
@@ -77,13 +71,19 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

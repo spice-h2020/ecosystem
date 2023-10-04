@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/ramose",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ramose",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Service",
+      "https://reeco-framework.github.io/ecosystem/entity/Service",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/creditText": [

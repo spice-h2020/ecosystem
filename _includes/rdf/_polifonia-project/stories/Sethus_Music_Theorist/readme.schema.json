@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Sethus",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sethus",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Persona",
+      "https://reeco-framework.github.io/ecosystem/entity/Persona",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [

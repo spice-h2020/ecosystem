@@ -1,15 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/meetups-corpus-collection",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-corpus-collection",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Software"
+      "https://reeco-framework.github.io/ecosystem/entity/Software"
     ],
     "https://schema.org/abstract": [
       {
@@ -34,10 +40,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       }
     ],
     "https://schema.org/license": [
@@ -50,12 +56,6 @@
         "@language": "en",
         "@value": "MEETUPS Corpus collection"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

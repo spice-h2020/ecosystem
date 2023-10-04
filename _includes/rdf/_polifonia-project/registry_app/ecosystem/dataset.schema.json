@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721 ",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
-      "https://schema.org/Article"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/musow-dataset",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/musow-dataset",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Dataset",
+      "https://reeco-framework.github.io/ecosystem/entity/Dataset",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -19,10 +19,13 @@
     ],
     "https://schema.org/citation": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721 "
+        "@value": "Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721 "
       }
     ],
     "https://schema.org/contributor": [
+      {
+        "@value": "Albert Merono Penuela <https://github.com/albertmeronyo>"
+      },
       {
         "@value": "Mathieu d'Aquin <https://github.com/mdaquin>"
       },
@@ -30,16 +33,13 @@
         "@value": "Paul Mulholland <https://github.com/PaulMulholland>"
       },
       {
-        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
-      },
-      {
         "@value": "Simon Holland <https://github.com/SimonXHolland>"
       },
       {
-        "@value": "Enrico Daga <https://github.com/enridaga>"
+        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
       },
       {
-        "@value": "Albert Merono Penuela <https://github.com/albertmeronyo>"
+        "@value": "Enrico Daga <https://github.com/enridaga>"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -62,7 +62,7 @@
         "@value": "musow-dataset"
       },
       {
-        "@id": "_:n185ee3928c224e03a7f26d554d38acefb1"
+        "@id": "_:n430059de2f26454f8e2f8eaf6431885fb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -70,15 +70,15 @@
         "@value": "musoW is a Linked Open Dataset of music resources available on the web. Data are described according to Schema.org and are served online in a dedicated platform for authoring, publishing and searching."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Laurent"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/license": [
@@ -93,7 +93,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n185ee3928c224e03a7f26d554d38acefb2"
+        "@id": "_:n430059de2f26454f8e2f8eaf6431885fb2"
       }
     ],
     "https://schema.org/title": [
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "@id": "_:n185ee3928c224e03a7f26d554d38acefb1",
+    "@id": "_:n430059de2f26454f8e2f8eaf6431885fb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "@id": "_:n185ee3928c224e03a7f26d554d38acefb2",
+    "@id": "_:n430059de2f26454f8e2f8eaf6431885fb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
@@ -143,21 +143,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

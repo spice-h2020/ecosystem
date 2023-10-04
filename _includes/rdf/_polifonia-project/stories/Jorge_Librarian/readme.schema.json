@@ -1,9 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Jorge",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Persona",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Jorge",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Persona"
     ],
     "https://schema.org/abstract": [
       {
@@ -18,27 +24,27 @@
     ],
     "https://schema.org/isBasedOn": [
       {
+        "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+      },
+      {
         "@value": "Jorge#1_OrganizeMyLibrary"
       },
       {
-        "@value": "Jorge#2_FindSimilarScores"
-      },
-      {
-        "@value": "Jorge is managing a library of music scores, and is responsible for the sub-part of the library catalog which is already digitized."
+        "@value": "Jorge#3_DynamicExploration"
       },
       {
         "@value": "Jorge#4_LinkToSources"
       },
       {
-        "@value": "Jorge#3_DynamicExploration"
+        "@value": "Jorge#2_FindSimilarScores"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/FACETS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS"
       }
     ],
     "https://schema.org/title": [
@@ -49,13 +55,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]

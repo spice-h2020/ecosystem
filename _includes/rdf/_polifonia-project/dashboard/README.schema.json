@@ -1,9 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/melody-software",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
-      "http://sparql.xyz/facade-x/data/WebApplication",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-software",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/WebApplication"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,10 +25,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
+        "@value": "Giulia Renda <https://github.com/mondoboia>"
       },
       {
-        "@value": "Giulia Renda <https://github.com/mondoboia>"
+        "@value": "Marilena Daquino <https://github.com/marilenadaquino>"
       }
     ],
     "https://schema.org/discussionUrl": [
@@ -34,7 +46,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b1"
+        "@id": "_:ndfe590c1f2344212bb67d1a311c83b2db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -44,15 +56,15 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b2"
+        "@id": "_:ndfe590c1f2344212bb67d1a311c83b2db2"
       }
     ],
     "https://schema.org/title": [
@@ -68,7 +80,7 @@
     ]
   },
   {
-    "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b1",
+    "@id": "_:ndfe590c1f2344212bb67d1a311c83b2db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -84,7 +96,7 @@
     ]
   },
   {
-    "@id": "_:n008bddaa95ab4bd3a7a619d62b356c48b2",
+    "@id": "_:ndfe590c1f2344212bb67d1a311c83b2db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
@@ -99,18 +111,6 @@
       {
         "@value": "2022/05/12"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

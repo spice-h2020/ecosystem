@@ -1,15 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/patterns-knowledge-graph-datasets",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/patterns-knowledge-graph-datasets",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Project"
+      "https://reeco-framework.github.io/ecosystem/entity/Project"
     ],
     "https://schema.org/abstract": [
       {
@@ -19,10 +13,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "https://github.com/ashahidkhattak"
+        "@value": "https://github.com/danDiamo"
       },
       {
-        "@value": "https://github.com/danDiamo"
+        "@value": "https://github.com/ashahidkhattak"
       },
       {
         "@value": "https://github.com/jmmcd"
@@ -45,10 +39,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/title": [
@@ -59,9 +53,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

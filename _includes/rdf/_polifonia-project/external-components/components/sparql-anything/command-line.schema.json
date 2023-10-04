@@ -1,32 +1,44 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs",
     "@type": [
       "https://schema.org/HowTo"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-cli",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://sparql.xyz/facade-x/data/CLITool",
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-cli",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/CLITool",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -40,13 +52,13 @@
         "@value": "Marco Ratta <https://github.com/MarcoR1791>"
       },
       {
-        "@value": "Justin Dowdy <https://github.com/justin2004>"
+        "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
       },
       {
         "@value": "Enrico Daga <https://github.com/enridaga>"
       },
       {
-        "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
+        "@value": "Justin Dowdy <https://github.com/justin2004>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -74,7 +86,7 @@
         "@value": "sparql-anything-cli"
       },
       {
-        "@id": "_:n1896c80ccd924370a740008240b6ec27b1"
+        "@id": "_:n55d2909cd3514580a7356c0e21e356cab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -84,25 +96,25 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/license": [
@@ -117,15 +129,15 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n1896c80ccd924370a740008240b6ec27b2"
+        "@id": "_:n55d2909cd3514580a7356c0e21e356cab2"
       }
     ],
     "https://schema.org/subjectOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-tutorials"
       }
     ],
     "https://schema.org/title": [
@@ -141,7 +153,7 @@
     ]
   },
   {
-    "@id": "_:n1896c80ccd924370a740008240b6ec27b1",
+    "@id": "_:n55d2909cd3514580a7356c0e21e356cab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -157,7 +169,7 @@
     ]
   },
   {
-    "@id": "_:n1896c80ccd924370a740008240b6ec27b2",
+    "@id": "_:n55d2909cd3514580a7356c0e21e356cab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -175,31 +187,19 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-tutorials",
     "@type": [
       "https://schema.org/HowTo"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

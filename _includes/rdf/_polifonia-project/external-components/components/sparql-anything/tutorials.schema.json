@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-tutorials",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Tutorial",
+      "https://reeco-framework.github.io/ecosystem/entity/Tutorial",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -16,13 +16,13 @@
         "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
       },
       {
-        "@value": "Enrico Daga <https://github.com/enridaga>"
+        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
       },
       {
         "@value": "Justin Dowdy <https://github.com/justin2004>"
       },
       {
-        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
+        "@value": "Enrico Daga <https://github.com/enridaga>"
       }
     ],
     "https://schema.org/copyrightNotice": [

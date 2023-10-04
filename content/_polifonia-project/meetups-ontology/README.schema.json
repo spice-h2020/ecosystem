@@ -1,9 +1,27 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/meetups-ontology",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Ontology"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-ontology",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -39,7 +57,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db1"
+        "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -47,29 +65,29 @@
         "@value": "Ontology that represents concepts and relationships describing encounters between people in the musical world in Europe from c. 1800 to c. 1945."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Sophie"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/David"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Ortenz"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/David"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db2"
+        "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db2"
       }
     ],
     "https://schema.org/title": [
@@ -80,15 +98,15 @@
     ],
     "https://schema.org/usageInfo": [
       {
-        "@value": "meetups-knowledge-graph"
+        "@value": "meetups-pilot"
       },
       {
-        "@value": "meetups-pilot"
+        "@value": "meetups-knowledge-graph"
       }
     ]
   },
   {
-    "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db1",
+    "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n6c1bc27a8cb74b81800469c42d07fb1db2",
+    "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -122,39 +140,21 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

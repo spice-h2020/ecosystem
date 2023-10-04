@@ -1,27 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882).",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "https://schema.org/Article"
+      "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Harmory",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Harmory",
-    "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/KnowledgeGraph"
+      "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -31,15 +19,15 @@
     ],
     "https://schema.org/citation": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882)."
+        "@value": "Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882)."
       }
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
+        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       },
       {
-        "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
+        "@value": "Andrea Poltronieri <https://github.com/andreamust>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -57,7 +45,7 @@
         "@value": "Harmory"
       },
       {
-        "@id": "_:nf683765153124692aa623077ad359db1b1"
+        "@id": "_:n94704d1cb44f4157a7c1453019a0cb03b1"
       }
     ],
     "https://schema.org/image": [
@@ -72,26 +60,26 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       }
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC-BY-NC_v4"
+        "@value": "CC-BY_v4"
       },
       {
-        "@value": "CC-BY_v4"
+        "@value": "CC-BY-NC_v4"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nf683765153124692aa623077ad359db1b2"
+        "@id": "_:n94704d1cb44f4157a7c1453019a0cb03b2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:nf683765153124692aa623077ad359db1b1",
+    "@id": "_:n94704d1cb44f4157a7c1453019a0cb03b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:nf683765153124692aa623077ad359db1b2",
+    "@id": "_:n94704d1cb44f4157a7c1453019a0cb03b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -146,9 +134,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

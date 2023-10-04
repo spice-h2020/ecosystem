@@ -1,21 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Andrea#1_Serendipity",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Andrea#1_Serendipity",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Story"
     ],
     "https://schema.org/abstract": [
       {
@@ -33,18 +33,18 @@
         "@value": "Andrea's goal is to discover and explore sacred music written from the period of the Renaissance through the twentieth century and its unexpected links with his scholarly studies."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Andrea"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Andrea"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/title": [
@@ -55,15 +55,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Andrea",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Andrea",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

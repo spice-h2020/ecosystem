@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Patrizia",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Patrizia",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Persona",
+      "https://reeco-framework.github.io/ecosystem/entity/Persona",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -23,10 +23,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
       }
     ],
     "https://schema.org/title": [
@@ -37,13 +37,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

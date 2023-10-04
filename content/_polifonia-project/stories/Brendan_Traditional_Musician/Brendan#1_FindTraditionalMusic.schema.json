@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Brendan",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Brendan#1_FindTraditionalMusic",
     "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Brendan#1_FindTraditionalMusic",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -27,15 +21,15 @@
         "@value": "Find suitably similar traditional music and historical context from northern European corpora."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Brendan"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Brendan"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       }
     ],
     "https://schema.org/title": [
@@ -46,13 +40,19 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Brendan",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

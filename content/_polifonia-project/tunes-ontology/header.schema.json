@@ -1,21 +1,33 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/tunes/",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/tunes/",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Ontology"
+      "https://reeco-framework.github.io/ecosystem/entity/Ontology"
     ],
     "https://schema.org/abstract": [
       {
@@ -59,7 +71,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:n464046a6e4aa411cbec1e5686be9a5c6b1"
+        "@id": "_:n77790945db1b475e99a97659874e0182b1"
       }
     ],
     "https://schema.org/image": [
@@ -69,24 +81,24 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "A specialisation of the Music Meta Ontology for folk music."
-      },
-      {
         "@value": "Mark#1_FolkMusic"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Mark"
+        "@value": "A specialisation of the Music Meta Ontology for folk music."
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/license": [
@@ -96,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n464046a6e4aa411cbec1e5686be9a5c6b2"
+        "@id": "_:n77790945db1b475e99a97659874e0182b2"
       }
     ],
     "https://schema.org/title": [
@@ -112,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n464046a6e4aa411cbec1e5686be9a5c6b1",
+    "@id": "_:n77790945db1b475e99a97659874e0182b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -128,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n464046a6e4aa411cbec1e5686be9a5c6b2",
+    "@id": "_:n77790945db1b475e99a97659874e0182b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -143,18 +155,6 @@
       {
         "@value": "13/04/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Mark",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

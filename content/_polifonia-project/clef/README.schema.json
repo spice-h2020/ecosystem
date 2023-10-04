@@ -1,9 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/clef-software",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/clef-software",
     "@type": [
-      "http://sparql.xyz/facade-x/data/WebApplication",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/WebApplication"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,7 +13,7 @@
     ],
     "https://schema.org/citation": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721"
+        "@value": "Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721"
       }
     ],
     "https://schema.org/contributor": [
@@ -39,7 +39,7 @@
         "@value": "clef-software"
       },
       {
-        "@id": "_:ndebe97286e664b4689e57b6ff385feb7b1"
+        "@id": "_:n3d892ae8a2e34d39885d7386d2964cc5b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -49,15 +49,15 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ndebe97286e664b4689e57b6ff385feb7b2"
+        "@id": "_:n3d892ae8a2e34d39885d7386d2964cc5b2"
       }
     ],
     "https://schema.org/title": [
@@ -73,7 +73,7 @@
     ]
   },
   {
-    "@id": "_:ndebe97286e664b4689e57b6ff385feb7b1",
+    "@id": "_:n3d892ae8a2e34d39885d7386d2964cc5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "@id": "_:ndebe97286e664b4689e57b6ff385feb7b2",
+    "@id": "_:n3d892ae8a2e34d39885d7386d2964cc5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/clef/releases/latest"
@@ -107,19 +107,13 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721",
-    "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
