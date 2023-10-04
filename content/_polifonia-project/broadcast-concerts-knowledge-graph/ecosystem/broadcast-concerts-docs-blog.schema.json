@@ -1,27 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Interlink",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Interlink",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/broadcast-concerts-docs-blog",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/broadcast-concerts-docs-blog",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Documentation"
+      "https://reeco-framework.github.io/ecosystem/entity/Documentation"
     ],
     "https://schema.org/abstract": [
       {
@@ -31,13 +25,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Willem Melder"
-      },
-      {
         "@value": "Govert Brinkmann"
       },
       {
         "@value": "Mari Wigham"
+      },
+      {
+        "@value": "Willem Melder"
       }
     ],
     "https://schema.org/distribution": [
@@ -47,10 +41,10 @@
     ],
     "https://schema.org/hasPart": [
       {
-        "@value": "braodcast-concerts-knowledge-graph"
+        "@value": "broadcast-concerts-sparql-endpoint"
       },
       {
-        "@value": "broadcast-concerts-sparql-endpoint"
+        "@value": "braodcast-concerts-knowledge-graph"
       }
     ],
     "https://schema.org/identifier": [
@@ -65,13 +59,13 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Interlink"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Interlink"
       }
     ],
     "https://schema.org/title": [
@@ -79,6 +73,12 @@
         "@language": "en",
         "@value": "Broadcast Concerts blog"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

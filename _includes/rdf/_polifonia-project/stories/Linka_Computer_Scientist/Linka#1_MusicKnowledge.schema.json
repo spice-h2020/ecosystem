@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Linka#1_MusicKnowledge",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka#1_MusicKnowledge",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -21,15 +27,15 @@
         "@value": "Linka is interested in finding and describing music-related data of heterogeneous types and formats from different sources. Thanks to the ability to represent diverse content, her main goal is to inter-relate music data so as to enable large scale experiments for knowledge discovery."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Linka"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [
@@ -40,21 +46,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

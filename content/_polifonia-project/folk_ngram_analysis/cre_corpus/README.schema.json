@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/cre_corpus",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/cre_corpus",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Corpus",
+      "https://reeco-framework.github.io/ecosystem/entity/Corpus",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/creditText": [
@@ -17,7 +17,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       }
     ],
     "https://schema.org/license": [
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

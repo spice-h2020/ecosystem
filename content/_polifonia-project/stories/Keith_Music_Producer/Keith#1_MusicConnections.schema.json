@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Keith#1_MusicConnections",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Keith#1_MusicConnections",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -21,15 +21,15 @@
         "@value": "Keith wants to compile programmes of music, e.g. for music festivals."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Keith"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Keith"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       }
     ],
     "https://schema.org/title": [
@@ -40,21 +40,21 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Keith",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Keith",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

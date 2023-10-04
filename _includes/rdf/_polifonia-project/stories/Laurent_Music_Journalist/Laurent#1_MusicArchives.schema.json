@@ -1,8 +1,20 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent#1_MusicArchives",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/--",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent#1_MusicArchives",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -21,12 +33,12 @@
         "@value": "Laurent's goal is to discover and explore Archives, Historical and Research Resources that deal with music in some way, for the extrapolation of content to be included in his newsletter."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Laurent"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/--"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/--"
       }
     ],
     "https://schema.org/title": [
@@ -34,18 +46,6 @@
         "@language": "en",
         "@value": "Music Archives"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/--",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   }
 ]

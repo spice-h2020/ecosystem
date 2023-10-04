@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Polifonia-Corpus",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Polifonia-Corpus",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Corpus",
+      "https://reeco-framework.github.io/ecosystem/entity/Corpus",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -34,7 +34,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       }
     ],
     "https://schema.org/title": [

@@ -1,9 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/musow-interface",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
-      "http://sparql.xyz/facade-x/data/UserInterface",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/musow-interface",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/UserInterface"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,7 +25,7 @@
     ],
     "https://schema.org/citation": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721"
+        "@value": "Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721"
       }
     ],
     "https://schema.org/contributor": [
@@ -36,7 +48,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:nd8e3bef291fa489c9ec964b1f29c659ab1"
+        "@id": "_:n906e9a222fd64d00a9bbf879d8057e75b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -44,15 +56,15 @@
         "@value": "musoW is the online registry of music resources available on the web. It serves the musoW dataset via a number of interfaces for browsing and searching. The interface also allows editing (modifying existing records or creating new ones), searching and querying (via a dedicated SPARQL endpoint). The interface is built on top of CLEF, a LOD-native web application for crowdsourcing."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Laurent"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/license": [
@@ -67,7 +79,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nd8e3bef291fa489c9ec964b1f29c659ab2"
+        "@id": "_:n906e9a222fd64d00a9bbf879d8057e75b2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -88,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:nd8e3bef291fa489c9ec964b1f29c659ab1",
+    "@id": "_:n906e9a222fd64d00a9bbf879d8057e75b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +116,7 @@
     ]
   },
   {
-    "@id": "_:nd8e3bef291fa489c9ec964b1f29c659ab2",
+    "@id": "_:n906e9a222fd64d00a9bbf879d8057e75b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
@@ -122,27 +134,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Laurent",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Daquino, M., Wigham, M., Daga, E., Giagnolini, L., & Tomasi, F. (2023). Clef. a linked open data native system for crowdsourcing. JOCCH. DOI: https://dl.acm.org/doi/10.1145/3594721",
-    "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

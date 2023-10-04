@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/web-portal-prototypes",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/web-portal-prototypes",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Documentation",
+      "https://reeco-framework.github.io/ecosystem/entity/Documentation",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [

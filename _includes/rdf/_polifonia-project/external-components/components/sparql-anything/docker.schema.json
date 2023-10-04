@@ -1,33 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docker",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP3",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docker",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/DockerImageContainer",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/DockerImageContainer"
     ],
     "https://schema.org/abstract": [
       {
@@ -47,10 +23,10 @@
     ],
     "https://schema.org/hasPart": [
       {
-        "@value": "sparql-anything-server"
+        "@value": "sparql-anything-java"
       },
       {
-        "@value": "sparql-anything-java"
+        "@value": "sparql-anything-server"
       }
     ],
     "https://schema.org/identifier": [
@@ -58,7 +34,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n7a5438796af243489708a83ae2330ca6b1"
+        "@id": "_:n046d6b50244f4c898600bae577821ca6b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -68,19 +44,19 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/logo": [
@@ -90,7 +66,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7a5438796af243489708a83ae2330ca6b2"
+        "@id": "_:n046d6b50244f4c898600bae577821ca6b2"
       }
     ],
     "https://schema.org/title": [
@@ -101,7 +77,7 @@
     ]
   },
   {
-    "@id": "_:n7a5438796af243489708a83ae2330ca6b1",
+    "@id": "_:n046d6b50244f4c898600bae577821ca6b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -117,7 +93,7 @@
     ]
   },
   {
-    "@id": "_:n7a5438796af243489708a83ae2330ca6b2",
+    "@id": "_:n046d6b50244f4c898600bae577821ca6b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -135,9 +111,33 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -1,26 +1,26 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Mark",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Mark#1_FolkMusic",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark#1_FolkMusic",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Story",
+      "https://reeco-framework.github.io/ecosystem/entity/Story",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -39,15 +39,15 @@
         "@value": "Mark is interested in understanding how Dutch folk tunes relate to other music, e.g. French court operas."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Mark"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/TUNES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/title": [

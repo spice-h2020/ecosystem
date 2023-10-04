@@ -1,8 +1,14 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Keith",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Persona",
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Keith",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Persona",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/identifier": [
@@ -17,10 +23,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       }
     ],
     "https://schema.org/title": [
@@ -31,15 +37,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

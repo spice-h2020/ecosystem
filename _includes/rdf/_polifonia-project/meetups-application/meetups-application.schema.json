@@ -1,9 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/meetups-application",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/WebApplication"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-application",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/WebApplication",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,13 +25,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Alba Morales-Tirado <https://github.com/albamoralest>"
-      },
-      {
         "@value": "Jason Carvalho <https://github.com/JaseMK>"
       },
       {
         "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
+        "@value": "Alba Morales-Tirado <https://github.com/albamoralest>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -49,15 +61,15 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n84a5386f6f3e4e19b2a9c03c0ad85ed5b1"
+        "@id": "_:na194098424904499845848dcfb61d17eb1"
       }
     ],
     "https://schema.org/title": [
@@ -73,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:n84a5386f6f3e4e19b2a9c03c0ad85ed5b1",
+    "@id": "_:na194098424904499845848dcfb61d17eb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -88,18 +100,6 @@
       {
         "@value": "25/05/2023"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

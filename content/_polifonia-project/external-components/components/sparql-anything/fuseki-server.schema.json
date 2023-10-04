@@ -1,9 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-server",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/WebApplication"
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-server",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/WebApplication",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,13 +19,13 @@
     ],
     "https://schema.org/contributor": [
       {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      },
+      {
         "@value": "Marco Ratta <https://github.com/MarcoR1791>"
       },
       {
         "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
-      },
-      {
-        "@value": "Enrico Daga <https://github.com/enridaga>"
       },
       {
         "@value": "Justin Dowdy <https://github.com/justin2004>"
@@ -53,7 +59,7 @@
         "@value": "sparql-anything-server"
       },
       {
-        "@id": "_:n04ea2d07eeb447c5b41a05644cfd0b88b1"
+        "@id": "_:n21ca466a0fc145d2b91bf07b13c26744b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -73,15 +79,15 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n04ea2d07eeb447c5b41a05644cfd0b88b2"
+        "@id": "_:n21ca466a0fc145d2b91bf07b13c26744b2"
       }
     ],
     "https://schema.org/subjectOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-tutorials"
       }
     ],
     "https://schema.org/title": [
@@ -102,7 +108,7 @@
     ]
   },
   {
-    "@id": "_:n04ea2d07eeb447c5b41a05644cfd0b88b1",
+    "@id": "_:n21ca466a0fc145d2b91bf07b13c26744b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -118,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n04ea2d07eeb447c5b41a05644cfd0b88b2",
+    "@id": "_:n21ca466a0fc145d2b91bf07b13c26744b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -136,13 +142,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-tutorials",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-tutorials",
     "@type": [
       "https://schema.org/HowTo"
     ]

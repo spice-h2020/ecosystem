@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/rulebook-champions",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/rulebook-champions",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Documentation",
+      "https://reeco-framework.github.io/ecosystem/entity/Documentation",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -26,7 +26,7 @@
         "@value": "rulebook"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/license": [
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]

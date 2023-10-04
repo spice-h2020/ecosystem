@@ -1,14 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73.",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-requirements",
     "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-requirements",
-    "@type": [
-      "http://sparql.xyz/facade-x/data/RequirementsCollection",
+      "https://reeco-framework.github.io/ecosystem/entity/RequirementsCollection",
       "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
@@ -19,7 +13,7 @@
     ],
     "https://schema.org/citation": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
+        "@value": "Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
       }
     ],
     "https://schema.org/identifier": [

@@ -1,15 +1,39 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/source/",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Keoma",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/source/",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Ontology"
+      "https://reeco-framework.github.io/ecosystem/entity/Ontology"
     ],
     "https://schema.org/abstract": [
       {
@@ -19,13 +43,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
-      },
-      {
         "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       },
       {
         "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
+      },
+      {
+        "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -53,7 +77,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:naf01f77e758b4a439d100fb65810b40cb1"
+        "@id": "_:n7fdf604364ac42db9aeeb42e8f5cd7c1b1"
       }
     ],
     "https://schema.org/image": [
@@ -63,45 +87,45 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Carolina#1_SourcesCrossAnalysis"
+        "@value": "Source represents various sources of music-related information"
       },
       {
         "@value": "Ortenz#1_MusicAndChildhood"
       },
       {
-        "@value": "Keoma#1_RestorationAndSoundPractices"
+        "@value": "Carolina#1_SourcesCrossAnalysis"
       },
       {
         "@value": "Sonia#1_ExplorationMode"
       },
       {
-        "@value": "Source represents various sources of music-related information"
+        "@value": "Keoma#1_RestorationAndSoundPractices"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Carolina"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Keoma"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Keoma"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Sonia"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Carolina"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Ortenz"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/MUSICBO"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       }
     ],
     "https://schema.org/license": [
@@ -111,7 +135,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:naf01f77e758b4a439d100fb65810b40cb2"
+        "@id": "_:n7fdf604364ac42db9aeeb42e8f5cd7c1b2"
       }
     ],
     "https://schema.org/title": [
@@ -127,7 +151,7 @@
     ]
   },
   {
-    "@id": "_:naf01f77e758b4a439d100fb65810b40cb1",
+    "@id": "_:n7fdf604364ac42db9aeeb42e8f5cd7c1b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -143,7 +167,7 @@
     ]
   },
   {
-    "@id": "_:naf01f77e758b4a439d100fb65810b40cb2",
+    "@id": "_:n7fdf604364ac42db9aeeb42e8f5cd7c1b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -161,45 +185,21 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Keoma",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MUSICBO",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Carolina",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Sonia",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

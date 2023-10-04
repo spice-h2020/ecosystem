@@ -1,9 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-python",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-python",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/SoftwareLibrary"
+      "https://reeco-framework.github.io/ecosystem/entity/SoftwareLibrary",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,10 +13,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
+        "@value": "Enrico Daga <https://github.com/enridaga>"
       },
       {
-        "@value": "Enrico Daga <https://github.com/enridaga>"
+        "@value": "Marco Ratta <https://github.com/MarcoR1791>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -56,7 +56,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6ef61495cf844e478e7b9e8082e7dbddb1"
+        "@id": "_:neb5c8ec4109f448989b203c7a7835cddb1"
       }
     ],
     "https://schema.org/title": [
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "@id": "_:n6ef61495cf844e478e7b9e8082e7dbddb1",
+    "@id": "_:neb5c8ec4109f448989b203c7a7835cddb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/PySPARQL-Anything/releases/tag/v0.8.1.1"

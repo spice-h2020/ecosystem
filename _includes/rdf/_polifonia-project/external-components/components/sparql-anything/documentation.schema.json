@@ -1,9 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything-docs",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Documentation"
+      "https://reeco-framework.github.io/ecosystem/entity/Documentation"
     ],
     "https://schema.org/abstract": [
       {
@@ -44,13 +44,13 @@
     ],
     "https://schema.org/usageInfo": [
       {
+        "@value": "sparql-anything-requirements"
+      },
+      {
         "@value": "sparql-anything-server"
       },
       {
         "@value": "sparql-anything-cli"
-      },
-      {
-        "@value": "sparql-anything-requirements"
       }
     ],
     "https://schema.org/workExample": [

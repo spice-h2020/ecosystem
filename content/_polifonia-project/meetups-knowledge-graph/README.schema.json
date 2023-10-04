@@ -1,21 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-knowledge-graph",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/meetups-knowledge-graph",
-    "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/KnowledgeGraph"
+      "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -59,7 +53,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:nd7b01a809bf24147bed3c30137159c19b1"
+        "@id": "_:ne44ac4d92a6d482cbd26f2d0dfc5d3c7b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -69,13 +63,13 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       }
     ],
     "https://schema.org/license": [
@@ -91,7 +85,7 @@
     ]
   },
   {
-    "@id": "_:nd7b01a809bf24147bed3c30137159c19b1",
+    "@id": "_:ne44ac4d92a6d482cbd26f2d0dfc5d3c7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -107,9 +101,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

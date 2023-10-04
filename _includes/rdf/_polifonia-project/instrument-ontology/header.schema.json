@@ -1,9 +1,9 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/https://w3id.org/polifonia/ontology/instrument/",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/instrument/",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Ontology"
+      "https://reeco-framework.github.io/ecosystem/entity/Ontology",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,13 +13,13 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
-      },
-      {
         "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       },
       {
         "@value": "Fiorela Ciroku <https://github.com/FiorelaCiroku>"
+      },
+      {
+        "@value": "Valentina Anita Carriero <https://github.com/valecarriero>"
       }
     ],
     "https://schema.org/copyrightNotice": [
@@ -47,7 +47,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:n7478390dd390437eb18b77eb8906429fb1"
+        "@id": "_:n2950040efce1450c99d2a2e70402627ab1"
       }
     ],
     "https://schema.org/image": [
@@ -57,13 +57,7 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Amy#1_OrganTrends"
-      },
-      {
         "@value": "An ontology to describe instruments as mediums of performance and their technical properties."
-      },
-      {
-        "@value": "Frank#1_OrganKnowledge"
       },
       {
         "@value": "Paul#1_OrganComparison"
@@ -72,33 +66,39 @@
         "@value": "Amy#2_OrganBuilders"
       },
       {
+        "@value": "Amy#1_OrganTrends"
+      },
+      {
+        "@value": "Frank#1_OrganKnowledge"
+      },
+      {
         "@value": "Paul#2_ResourceReliability"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Paul"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Amy"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Frank"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Paul"
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/BELLS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/ORGANS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS"
       }
     ],
     "https://schema.org/license": [
@@ -108,7 +108,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7478390dd390437eb18b77eb8906429fb2"
+        "@id": "_:n2950040efce1450c99d2a2e70402627ab2"
       }
     ],
     "https://schema.org/title": [
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n7478390dd390437eb18b77eb8906429fb1",
+    "@id": "_:n2950040efce1450c99d2a2e70402627ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n7478390dd390437eb18b77eb8906429fb2",
+    "@id": "_:n2950040efce1450c99d2a2e70402627ab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -158,51 +158,51 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Frank",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/BELLS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Paul",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Paul",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/rulebook",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/rulebook",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "http://sparql.xyz/facade-x/data/Documentation"
+      "https://reeco-framework.github.io/ecosystem/entity/Documentation"
     ],
     "https://schema.org/abstract": [
       {
@@ -32,10 +32,10 @@
     ],
     "https://schema.org/hasPart": [
       {
-        "@value": "rulebook-schema"
+        "@value": "ontology-rulebook"
       },
       {
-        "@value": "ontology-rulebook"
+        "@value": "rulebook-schema"
       }
     ],
     "https://schema.org/identifier": [
@@ -50,7 +50,7 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/license": [
@@ -60,7 +60,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ncb6a9a83e7ec46a7a728d71739415149b1"
+        "@id": "_:n54ee2c983bc947e7a6222b5ad4d16a4cb1"
       }
     ],
     "https://schema.org/title": [
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "@id": "_:ncb6a9a83e7ec46a7a728d71739415149b1",
+    "@id": "_:n54ee2c983bc947e7a6222b5ad4d16a4cb1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "TODO"

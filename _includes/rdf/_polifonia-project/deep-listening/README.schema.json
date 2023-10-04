@@ -1,9 +1,21 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/deep-listening",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
-      "http://sparql.xyz/facade-x/data/Userinterface",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/deep-listening",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Userinterface"
     ],
     "https://schema.org/abstract": [
       {
@@ -13,10 +25,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+        "@value": "Enrico Daga <https://github.com/enridaga>"
       },
       {
-        "@value": "Enrico Daga <https://github.com/enridaga>"
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
       },
       {
         "@value": "Paul Mulholland <https://github.com/paulmulholland>"
@@ -39,10 +51,10 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP5"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       }
     ],
     "https://schema.org/license": [
@@ -60,18 +72,6 @@
       {
         "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP5",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]

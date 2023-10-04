@@ -1,59 +1,35 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/GA101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:n206b467da2554603b09025eb8d159064b2"
-      }
-    ]
-  },
-  {
-    "@id": "_:n206b467da2554603b09025eb8d159064b2",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73.",
-    "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
-      "https://schema.org/Article"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/GA870811",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/GA870811",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:n206b467da2554603b09025eb8d159064b1"
+        "@id": "_:nccd2a291803648c88a88b9771efcf469b2"
       }
     ]
   },
   {
-    "@id": "_:n206b467da2554603b09025eb8d159064b1",
+    "@id": "_:nccd2a291803648c88a88b9771efcf469b2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -66,10 +42,46 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/sparql-anything",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/GA101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:nccd2a291803648c88a88b9771efcf469b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:nccd2a291803648c88a88b9771efcf469b1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything",
     "@type": [
       "https://schema.org/Collection",
-      "http://sparql.xyz/facade-x/data/Project"
+      "https://reeco-framework.github.io/ecosystem/entity/Project"
     ],
     "https://schema.org/abstract": [
       {
@@ -78,7 +90,7 @@
     ],
     "https://schema.org/citation": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312"
+        "@value": "Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312"
       }
     ],
     "https://schema.org/creditText": [
@@ -88,27 +100,27 @@
     ],
     "https://schema.org/funding": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/GA870811"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/GA870811"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/GA101004746"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/GA101004746"
       }
     ],
     "https://schema.org/hasPart": [
       {
+        "@value": "sparql-anything-docker"
+      },
+      {
         "@value": "sparql-anything-docs"
       },
       {
-        "@value": "sparql-anything-python"
-      },
-      {
-        "@value": "sparql-anything-docker"
+        "@value": "sparql-anything-cli"
       },
       {
         "@value": "sparql-anything-requirements"
       },
       {
-        "@value": "sparql-anything-cli"
+        "@value": "sparql-anything-python"
       },
       {
         "@value": "sparql-anything-java"
@@ -119,30 +131,30 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/CHILD"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/MEETUPS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP4"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD"
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       }
     ],
     "https://schema.org/subjectOf": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf"
+        "@value": "Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
       },
       {
-        "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73."
+        "@value": "Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf"
       }
     ],
     "https://schema.org/title": [
@@ -153,39 +165,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf",
-    "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   }
 ]
