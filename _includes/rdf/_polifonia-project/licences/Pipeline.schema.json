@@ -1,5 +1,11 @@
 [
   {
+    "@id": "http://sparql.xyz/facade-x/data/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/licences-pipeline",
     "@type": [
       "http://sparql.xyz/facade-x/data/Software",
@@ -29,7 +35,7 @@
         "@value": "licences-pipeline"
       },
       {
-        "@id": "_:naa03ffc2c1fd4026a55ae5e6beb86e82b1"
+        "@id": "_:n816614231e4d4e309dde2c2794440db1b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -55,7 +61,7 @@
     ]
   },
   {
-    "@id": "_:naa03ffc2c1fd4026a55ae5e6beb86e82b1",
+    "@id": "_:n816614231e4d4e309dde2c2794440db1b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -68,12 +74,6 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

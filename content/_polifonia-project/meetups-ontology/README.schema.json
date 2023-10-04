@@ -1,35 +1,5 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/meetups-ontology",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -69,7 +39,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:n57533f7109cc43abb9984849173265fab1"
+        "@id": "_:nabca3a680a3c45cbabb605840330e401b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -99,7 +69,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n57533f7109cc43abb9984849173265fab2"
+        "@id": "_:nabca3a680a3c45cbabb605840330e401b2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:n57533f7109cc43abb9984849173265fab1",
+    "@id": "_:nabca3a680a3c45cbabb605840330e401b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:n57533f7109cc43abb9984849173265fab2",
+    "@id": "_:nabca3a680a3c45cbabb605840330e401b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -152,9 +122,39 @@
     ]
   },
   {
+    "@id": "http://sparql.xyz/facade-x/data/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "http://sparql.xyz/facade-x/data/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

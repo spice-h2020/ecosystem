@@ -1,8 +1,8 @@
 [
   {
-    "@id": "http://sparql.xyz/facade-x/data/--",
+    "@id": "http://sparql.xyz/facade-x/data/Laurent",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -43,9 +43,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Laurent",
+    "@id": "http://sparql.xyz/facade-x/data/--",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

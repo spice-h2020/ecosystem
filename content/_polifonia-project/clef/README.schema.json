@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/clef-software",
     "@type": [
       "http://sparql.xyz/facade-x/data/WebApplication",
@@ -51,7 +45,7 @@
         "@value": "clef-software"
       },
       {
-        "@id": "_:n14cbdf8032214316934d5c77398536b1b1"
+        "@id": "_:na73a74cb6cb949a38458460ed3c71d90b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -69,7 +63,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n14cbdf8032214316934d5c77398536b1b2"
+        "@id": "_:na73a74cb6cb949a38458460ed3c71d90b2"
       }
     ],
     "https://schema.org/title": [
@@ -85,7 +79,7 @@
     ]
   },
   {
-    "@id": "_:n14cbdf8032214316934d5c77398536b1b1",
+    "@id": "_:na73a74cb6cb949a38458460ed3c71d90b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -101,7 +95,7 @@
     ]
   },
   {
-    "@id": "_:n14cbdf8032214316934d5c77398536b1b2",
+    "@id": "_:na73a74cb6cb949a38458460ed3c71d90b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/clef/releases/latest"
@@ -116,6 +110,12 @@
       {
         "@value": "2023/05/13"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   },
   {

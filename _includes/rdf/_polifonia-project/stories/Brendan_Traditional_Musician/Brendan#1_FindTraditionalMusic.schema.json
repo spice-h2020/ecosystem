@@ -12,12 +12,6 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Brendan",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/Brendan#1_FindTraditionalMusic",
     "@type": [
       "http://sparql.xyz/facade-x/data/Story",
@@ -55,6 +49,12 @@
         "@language": "en",
         "@value": "Find Traditional Music"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/Brendan",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

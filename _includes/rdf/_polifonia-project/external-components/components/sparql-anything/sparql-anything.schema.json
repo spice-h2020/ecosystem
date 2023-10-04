@@ -93,36 +93,24 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/CHILD",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "http://sparql.xyz/facade-x/data/polifonia-project",
     "@type": [
       "https://schema.org/Project"
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/GA870811",
+    "@id": "http://sparql.xyz/facade-x/data/GA101004746",
     "@type": [
       "https://schema.org/Grant"
     ],
     "https://schema.org/funder": [
       {
-        "@id": "_:ndf22b754aa4a42f3bbab88f88197745fb1"
+        "@id": "_:ncf2b00b03eb446b4b2df7e070afb893bb2"
       }
     ]
   },
   {
-    "@id": "_:ndf22b754aa4a42f3bbab88f88197745fb1",
+    "@id": "_:ncf2b00b03eb446b4b2df7e070afb893bb2",
     "https://schema.org/name": [
       {
         "@value": "European Commission H2020"
@@ -132,6 +120,36 @@
       {
         "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
       }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/GA870811",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:ncf2b00b03eb446b4b2df7e070afb893bb1"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf2b00b03eb446b4b2df7e070afb893bb1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "http://sparql.xyz/facade-x/data/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -147,15 +165,9 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf",
+    "@id": "http://sparql.xyz/facade-x/data/MEETUPS",
     "@type": [
-      "https://schema.org/Article"
-    ]
-  },
-  {
-    "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73.",
-    "@type": [
-      "https://schema.org/Article"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -165,27 +177,15 @@
     ]
   },
   {
-    "@id": "http://sparql.xyz/facade-x/data/GA101004746",
+    "@id": "http://sparql.xyz/facade-x/data/Ratta, Marco, and Enrico Daga. \"Knowledge Graph Construction From MusicXML\": An Empirical Investigation With SPARQL Anything. http://oro.open.ac.uk/85326/1/Music_Knowledge_Graphs_Paper%20%281%29.pdf",
     "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:ndf22b754aa4a42f3bbab88f88197745fb2"
-      }
+      "https://schema.org/Article"
     ]
   },
   {
-    "@id": "_:ndf22b754aa4a42f3bbab88f88197745fb2",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
+    "@id": "http://sparql.xyz/facade-x/data/Daga, Enrico, Luigi Asprino, Paul Mulholland, and Aldo Gangemi. \"Facade-X: an opinionated approach to SPARQL anything.\" Studies on the Semantic Web 53 (2021): 58-73.",
+    "@type": [
+      "https://schema.org/Article"
     ]
   }
 ]
