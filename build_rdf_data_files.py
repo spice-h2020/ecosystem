@@ -1,17 +1,28 @@
 import pysparql_anything as pysa
 import os
-import shutil
 
 engine = pysa.SparqlAnything()
 directory = './content/'
+includes = './_includes/rdf/'
 for root, dirs, files in os.walk(directory):
     for filename in files:
+        if not filename.endswith('.md'):
+            continue
         location = os.path.join(root, filename)
         print(location)
         pre, ext = os.path.splitext(location)
-        #pre = pre.replace("./content/", "./rdf/")
+        output_includes = pre.replace("./content/", "./_includes/rdf/")
         output = pre + ".schema.json"
+        output_includes = output_includes + ".schema.json"
         pth = os.path.dirname(os.path.abspath(output))
+        pth_includes = os.path.dirname(os.path.abspath(output_includes))
         if not os.path.exists(pth):
             os.makedirs(pth)
-        engine.run(q='./components-to-rdf.sparql', v={'componentFile': location}, o=output) #
+        if not os.path.exists(pth_includes):
+            os.makedirs(pth_includes)
+        g = engine.construct(q='./components-to-rdf.sparql', v={'componentFile': location}) #
+        f = open(output, 'w')
+        f.write(g.serialize(format='json-ld'))
+        f1 = open(output_includes, 'w')
+        f1.write(g.serialize(format='json-ld'))
+

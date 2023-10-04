@@ -64,10 +64,10 @@ layout: default
   <a href="{{ ghLink | replace: "#", "%23"}}.md">View this file on Github</a>
 
     {% assign schema_file_path = page.path | replace: '.md', '.schema-1.json' %}
-    {% assign schema_file_path_fs = "content/" | append: {{schema_file_path}}  %}
-    <a href="{{ page.url | replace: '.html', '.schema-1.json' | absolute_url}}">Download as Schema.org</a>
+    {% assign schema_file_path_fs = "rdf/" | append: {{schema_file_path}}  %}
+    <a href="{{ page.url | replace: '.html', '.schema.json' | absolute_url}}">Download as Schema.org</a>
     <script type="application/ld+json">
-        {% include_absolute {{schema_file_path_fs}} %}
+        {% include {{schema_file_path_fs}} %}
     </script>
 </div>
 
