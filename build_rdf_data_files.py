@@ -4,7 +4,6 @@ import yaml
 
 config = yaml.load(open('_config.yml','r'), Loader=yaml.Loader)
 namespace = config['rdf']['namespace']
-print(namespace)
 engine = pysa.SparqlAnything()
 directory = './content/'
 includes = './_includes/rdf/'

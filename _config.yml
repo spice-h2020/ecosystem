@@ -1,8 +1,8 @@
 # Jekyll configuration
 
-name: The Polifonia Ecosystem
-description: Overview and documentation of the Polifonia Project data and software components
-main-project-url: https://polifonia-project.eu/
+name: The REECO Template Ecosystem
+description: Template to be used as starting point for building your research ecosystem project website.
+main-project-url: https://reeco-framework.github.io/
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://reeco-framework.github.io
@@ -19,11 +19,11 @@ rdf:
 
 # just-the-docs
 #theme: "just-the-docs"
-logo: "/assets/images/polifonia-black.png"
+#logo: "/assets/images/polifonia-black.png"
 # Aux links for the upper right navigation
 aux_links:
-  "Polifonia on Github":
-    - "//github.com/polifonia-project"
+  "REECO on Github":
+    - "//github.com/reeco-framework"
 
 heading_anchors: true
 # Color scheme supports "light" (default) and "dark"
