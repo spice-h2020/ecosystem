@@ -1,11 +1,5 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/licences-pipeline",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -35,7 +29,7 @@
         "@value": "licences-pipeline"
       },
       {
-        "@id": "_:n50b823e2eb0240d48f7623d8d300e1eeb1"
+        "@id": "_:n8083f7e42185439ab4f4f1dd8963dabfb1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -61,7 +55,7 @@
     ]
   },
   {
-    "@id": "_:n50b823e2eb0240d48f7623d8d300e1eeb1",
+    "@id": "_:n8083f7e42185439ab4f4f1dd8963dabfb1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -74,6 +68,12 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

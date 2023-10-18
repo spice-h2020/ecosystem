@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
@@ -15,6 +21,18 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -57,7 +75,7 @@
         "@value": "meetups-ontology"
       },
       {
-        "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db1"
+        "@id": "_:na7c793bf1a054052a51cf75368cf2880b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -87,7 +105,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db2"
+        "@id": "_:na7c793bf1a054052a51cf75368cf2880b2"
       }
     ],
     "https://schema.org/title": [
@@ -106,7 +124,7 @@
     ]
   },
   {
-    "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db1",
+    "@id": "_:na7c793bf1a054052a51cf75368cf2880b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -122,7 +140,7 @@
     ]
   },
   {
-    "@id": "_:n2962ae17484e4e9f95f58d35ea220e1db2",
+    "@id": "_:na7c793bf1a054052a51cf75368cf2880b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ontology/releases/tag/v0.1"
@@ -137,24 +155,6 @@
       {
         "@value": "2023/01/13"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
