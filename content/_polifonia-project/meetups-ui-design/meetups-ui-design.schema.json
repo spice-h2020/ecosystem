@@ -70,7 +70,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb419743158be420484e4bd38cb0479c2b1"
+        "@id": "_:n95ea175dabd14a41bd8aac4b3225bb91b1"
       }
     ],
     "https://schema.org/title": [
@@ -86,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:nb419743158be420484e4bd38cb0479c2b1",
+    "@id": "_:n95ea175dabd14a41bd8aac4b3225bb91b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -104,12 +104,6 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
@@ -119,6 +113,12 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

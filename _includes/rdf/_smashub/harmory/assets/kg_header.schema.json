@@ -6,21 +6,29 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/cometa/",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/MaterialOutput",
-      "https://reeco-framework.github.io/ecosystem/entity/Ontology"
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Harmory",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
+      "http://purl.org/cerif/frapo/MaterialOutput"
     ],
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "An extension of Music Meta to describe music datasets"
+        "@value": "A Knowledge Graph of interconnected harmonic patterns aimed to support computationally creative applications."
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Jacopo de Berardinis, Albert Meroño Peñuela, Andrea Poltronieri, and Valentina Presutti. The Harmonic Memory: a Knowledge Graph of harmonic patterns as a trustworthy framework for computational creativity. In Proceedings of the ACM Web Conference 2023 (pp. 3873-3882)."
       }
     ],
     "https://schema.org/contributor": [
-      {
-        "@value": "Nicolas Lazzari <https://github.com/n28div>"
-      },
       {
         "@value": "Jacopo de Berardinis <https://github.com/jonnybluesman>"
       },
@@ -30,20 +38,21 @@
     ],
     "https://schema.org/copyrightNotice": [
       {
-        "@value": "Copyright (c) 2023 CoMeta Ontology Contributors"
+        "@value": "Copyright (c) 2023 Harmory Contributors"
       }
     ],
     "https://schema.org/discussionUrl": [
       {
-        "@value": "https://github.com/polifonia-project/ontology-network/releases"
-      }
-    ],
-    "https://schema.org/distribution": [
-      {
-        "@value": "ontology/cometa.owl"
+        "@value": "https://github.com/smashub/harmory/releases"
       }
     ],
     "https://schema.org/hasPart": [
+      {
+        "@value": "ChoCo"
+      },
+      {
+        "@value": "https://w3id.org/polifonia/ontology/jams/"
+      },
       {
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
@@ -53,66 +62,65 @@
     ],
     "https://schema.org/identifier": [
       {
-        "@value": "https://w3id.org/polifonia/ontology/cometa/"
+        "@value": "Harmory"
       },
       {
-        "@id": "_:na6760670aba748d9b3991dbc5e774ea6b1"
+        "@id": "_:n73e29c095dca4e1d8932f21b72b41850b1"
       }
     ],
     "https://schema.org/image": [
       {
-        "@value": "diagrams/cometa_overview.png"
+        "@value": "assets/harmory_wide.png"
       }
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "An extension of Music Meta to describe music datasets"
-      },
-      {
-        "@value": "Linka#1_MusicKnowledge"
-      },
-      {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka"
+        "@value": "A Knowledge Graph of interconnected harmonic patterns aimed to support computationally creative applications."
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
-      },
-      {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
       },
       {
         "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
       },
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK"
       }
     ],
     "https://schema.org/license": [
       {
         "@value": "CC-BY_v4"
+      },
+      {
+        "@value": "CC-BY-NC_v4"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:na6760670aba748d9b3991dbc5e774ea6b2"
+        "@id": "_:n73e29c095dca4e1d8932f21b72b41850b2"
       }
     ],
     "https://schema.org/title": [
       {
         "@language": "en",
-        "@value": "CoMeta Ontology"
+        "@value": "Harmory: the Harmonic Memory"
       }
     ],
     "https://schema.org/usageInfo": [
       {
         "@value": "polifoniacq-dataset"
       }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://github.com/smashub/harmory/blob/main/harmory/analysis.ipynb"
+      }
     ]
   },
   {
-    "@id": "_:na6760670aba748d9b3991dbc5e774ea6b1",
+    "@id": "_:n73e29c095dca4e1d8932f21b72b41850b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -123,15 +131,15 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "10.5281/zenodo.7919970"
+        "@value": "10.5281/zenodo.8021211"
       }
     ]
   },
   {
-    "@id": "_:na6760670aba748d9b3991dbc5e774ea6b2",
+    "@id": "_:n73e29c095dca4e1d8932f21b72b41850b2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/ontology-network/releases"
+        "@value": "https://github.com/smashub/harmory"
       }
     ],
     "https://schema.org/softwareVersion": [
@@ -141,20 +149,8 @@
     ],
     "https://schema.org/startDate": [
       {
-        "@value": "13/05/2023"
+        "@value": "01-02-2023"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
     ]
   },
   {

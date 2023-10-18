@@ -1,8 +1,8 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "https://schema.org/ShortStory"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -12,9 +12,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Mark",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -65,7 +65,7 @@
         "@value": "https://w3id.org/polifonia/ontology/tunes/"
       },
       {
-        "@id": "_:n408658a58ec5429aa3a2fbd0ade58050b1"
+        "@id": "_:ne86eb5d5005440399f042a930f9eb414b1"
       }
     ],
     "https://schema.org/image": [
@@ -102,7 +102,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n408658a58ec5429aa3a2fbd0ade58050b2"
+        "@id": "_:ne86eb5d5005440399f042a930f9eb414b2"
       }
     ],
     "https://schema.org/title": [
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "@id": "_:n408658a58ec5429aa3a2fbd0ade58050b1",
+    "@id": "_:ne86eb5d5005440399f042a930f9eb414b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:n408658a58ec5429aa3a2fbd0ade58050b2",
+    "@id": "_:ne86eb5d5005440399f042a930f9eb414b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -152,9 +152,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

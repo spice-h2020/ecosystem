@@ -1,5 +1,17 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Harmory",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
@@ -34,12 +46,26 @@
         "@value": "https://github.com/smashub/harmory/releases"
       }
     ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "ChoCo"
+      },
+      {
+        "@value": "https://w3id.org/polifonia/ontology/jams/"
+      },
+      {
+        "@value": "https://w3id.org/polifonia/ontology/music-meta/"
+      },
+      {
+        "@value": "https://w3id.org/polifonia/ontology/core/"
+      }
+    ],
     "https://schema.org/identifier": [
       {
         "@value": "Harmory"
       },
       {
-        "@id": "_:n46a14964427b4f6f921adb09bdd7d44fb1"
+        "@id": "_:n73e29c095dca4e1d8932f21b72b41850b1"
       }
     ],
     "https://schema.org/image": [
@@ -73,7 +99,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n46a14964427b4f6f921adb09bdd7d44fb2"
+        "@id": "_:n73e29c095dca4e1d8932f21b72b41850b2"
       }
     ],
     "https://schema.org/title": [
@@ -94,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:n46a14964427b4f6f921adb09bdd7d44fb1",
+    "@id": "_:n73e29c095dca4e1d8932f21b72b41850b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -110,7 +136,7 @@
     ]
   },
   {
-    "@id": "_:n46a14964427b4f6f921adb09bdd7d44fb2",
+    "@id": "_:n73e29c095dca4e1d8932f21b72b41850b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/smashub/harmory"
@@ -128,21 +154,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

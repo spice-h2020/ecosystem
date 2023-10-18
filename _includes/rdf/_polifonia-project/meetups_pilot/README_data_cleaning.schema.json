@@ -1,18 +1,12 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/David",
     "@type": [
       "https://schema.org/ShortStory"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/David",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
     "@type": [
       "https://schema.org/ShortStory"
     ]
@@ -24,9 +18,21 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -69,7 +75,7 @@
         "@value": "meetups-data-cleaning"
       },
       {
-        "@id": "_:ne241fc7e4a7a48cea0a6412b9cd5a3c0b1"
+        "@id": "_:n71213092e96a4b20a3c911fe83fda650b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -104,7 +110,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne241fc7e4a7a48cea0a6412b9cd5a3c0b2"
+        "@id": "_:n71213092e96a4b20a3c911fe83fda650b2"
       }
     ],
     "https://schema.org/title": [
@@ -115,7 +121,7 @@
     ]
   },
   {
-    "@id": "_:ne241fc7e4a7a48cea0a6412b9cd5a3c0b1",
+    "@id": "_:n71213092e96a4b20a3c911fe83fda650b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -131,7 +137,7 @@
     ]
   },
   {
-    "@id": "_:ne241fc7e4a7a48cea0a6412b9cd5a3c0b2",
+    "@id": "_:n71213092e96a4b20a3c911fe83fda650b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -146,12 +152,6 @@
       {
         "@value": "20/07/2022"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

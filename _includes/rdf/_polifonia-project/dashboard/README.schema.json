@@ -1,5 +1,23 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-prototypes",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-software",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -34,7 +52,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:n96078579d3784a818b0601f63485ec19b1"
+        "@id": "_:n2e540a7e3db84c12958cace8eadfee63b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -57,7 +75,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n96078579d3784a818b0601f63485ec19b2"
+        "@id": "_:n2e540a7e3db84c12958cace8eadfee63b2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -101,7 +119,7 @@
     ]
   },
   {
-    "@id": "_:n96078579d3784a818b0601f63485ec19b1",
+    "@id": "_:n2e540a7e3db84c12958cace8eadfee63b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -117,7 +135,7 @@
     ]
   },
   {
-    "@id": "_:n96078579d3784a818b0601f63485ec19b2",
+    "@id": "_:n2e540a7e3db84c12958cace8eadfee63b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
@@ -132,24 +150,6 @@
       {
         "@value": "2022/05/12"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-prototypes",
-    "@type": [
-      "https://schema.org/HowTo"
     ]
   }
 ]

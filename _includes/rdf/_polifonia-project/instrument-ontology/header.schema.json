@@ -1,8 +1,26 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Paul",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -53,7 +71,7 @@
         "@value": "https://w3id.org/polifonia/ontology/instrument/"
       },
       {
-        "@id": "_:nb28c013dfad642739d10c949e5b37590b1"
+        "@id": "_:nffeee2c7105c47d7a69048fe20c8cfa9b1"
       }
     ],
     "https://schema.org/image": [
@@ -114,7 +132,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb28c013dfad642739d10c949e5b37590b2"
+        "@id": "_:nffeee2c7105c47d7a69048fe20c8cfa9b2"
       }
     ],
     "https://schema.org/title": [
@@ -130,7 +148,7 @@
     ]
   },
   {
-    "@id": "_:nb28c013dfad642739d10c949e5b37590b1",
+    "@id": "_:nffeee2c7105c47d7a69048fe20c8cfa9b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -146,7 +164,7 @@
     ]
   },
   {
-    "@id": "_:nb28c013dfad642739d10c949e5b37590b2",
+    "@id": "_:nffeee2c7105c47d7a69048fe20c8cfa9b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -164,33 +182,15 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/ORGANS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Frank",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -200,9 +200,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Amy",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/ShortStory"
     ]
   }
 ]

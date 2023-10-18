@@ -441,7 +441,7 @@ content/_polifonia-project/folk_ngram_analysis/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff897597700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fe812782700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -487,7 +487,7 @@ content/_polifonia-project/folk_ngram_analysis/cre_corpus/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff897597700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fe812782700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -533,7 +533,7 @@ content/_polifonia-project/folk_ngram_analysis/root_note_detection/README.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff897597700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fe812782700>))
         did not validate 'CC_BY_v4'
       - null
       - <lambda>('CC_BY_v4') should evaluate to True
@@ -1039,25 +1039,6 @@ content/_polifonia-project/patterns-knowledge-graph/P2KG-Pipeline/readme.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - 'Specify at least one licence from the REECO Annotation Schema reference.
-
-      Licence must be a list of licence codes from the Reeco Annotation Schema reference.'
-    state:
-      autos:
-      - 'Key ''licence'' error:'
-      - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff897597700>))
-        did not validate 'GPLv3'
-      - null
-      - <lambda>('GPLv3') should evaluate to True
-      errors:
-      - null
-      - null
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Specify at least one licence from the REECO Annotation Schema reference.
-      - Licence must be a list of licence codes from the Reeco Annotation Schema reference.
-  - !!python/object/apply:schema.SchemaError
-    args:
     - URL cannot be resolved.
     state:
       autos:
@@ -1073,15 +1054,7 @@ content/_polifonia-project/patterns-knowledge-graph/P2KG-Pipeline/readme.md:
       - null
       - URL cannot be resolved.
       - null
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/patterns-knowledge-graph/README.md:
   error: []
   warning:
@@ -1117,15 +1090,7 @@ content/_polifonia-project/patterns-knowledge-graph/patterns-knowledge-graph-dat
       - null
       - URL cannot be resolved.
       - null
-  warning:
-  - !!python/object/apply:schema.SchemaMissingKeyError
-    args:
-    - 'Missing key: ''bibliography'''
-    state:
-      autos:
-      - 'Missing key: ''bibliography'''
-      errors:
-      - null
+  warning: []
 content/_polifonia-project/pitchcontext/README.md:
   error: []
   warning:
@@ -1173,7 +1138,7 @@ content/_polifonia-project/rulebook/CHAMPIONS.md:
       autos:
       - 'Key ''licence'' error:'
       - null
-      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7ff897597700>))
+      - Or(And(<class 'str'>, <function Validator.__init__.<locals>.<lambda> at 0x7fe812782700>))
         did not validate 'CC0'
       - null
       - <lambda>('CC0') should evaluate to True
@@ -2724,7 +2689,7 @@ content/_polifonia-project/web_portal/README.md:
       - 'Missing key: ''bibliography'''
       errors:
       - null
-content/_smashub/harmory/assets/header.md:
+content/_smashub/harmory/assets/kg_header.md:
   error:
   - !!python/object/apply:schema.SchemaError
     args:
@@ -2742,35 +2707,23 @@ content/_smashub/harmory/assets/header.md:
       - null
       - Value must be an HTTP(S) URL
       - null
+  warning: []
+content/_smashub/harmory/assets/software_header.md:
+  error:
   - !!python/object/apply:schema.SchemaError
     args:
-    - Invalid or malformed annotation
+    - Value must be an HTTP(S) URL
     state:
       autos:
-      - 'Key ''related-components'' error:'
-      - 'Or(And({Optional(''informed-by''): Or(<class ''str''>, <class ''list''>),
-        Optional(''use-case''): Or(<class ''str''>, <class ''list''>), Optional(''story''):
-        Or(<class ''str''>, <class ''list''>), Optional(''persona''): Or(<class ''str''>,
-        <class ''list''>), Optional(''documentation''): Or(<class ''str''>, <class
-        ''list''>), Optional(''evaluated-in''): Or(<class ''str''>, <class ''list''>),
-        Optional(''extends''): Or(<class ''str''>, <class ''list''>), Optional(''reuses''):
-        Or(<class ''str''>, <class ''list''>), Optional(''serves''): Or(<class ''str''>,
-        <class ''list''>), Optional(''produces''): Or(<class ''str''>, <class ''list''>),
-        Optional(''reused-in''): Or(<class ''str''>, <class ''list''>), Optional(''generated-by''):
-        Or(<class ''str''>, <class ''list''>)})) did not validate {''reuses'': None}'
+      - 'Key ''image'' error:'
       - null
-      - 'Key ''reuses'' error:'
       - null
-      - Or(<class 'str'>, <class 'list'>) did not validate None
-      - None should be instance of 'str'
-      - None should be instance of 'list'
+      - null
+      - Regex('^http[s]?://.+$') does not match 'assets/harmory_wide.png'
       errors:
       - null
       - null
       - null
-      - Invalid or malformed annotation
-      - Invalid or malformed annotation
-      - null
-      - null
+      - Value must be an HTTP(S) URL
       - null
   warning: []
