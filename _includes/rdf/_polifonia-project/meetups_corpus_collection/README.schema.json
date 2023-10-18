@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
@@ -14,12 +20,17 @@
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "This is a tool to build to download the Wikipedia pages of people in the music scene in Europe"
+        "@value": "This is a tool to download the Wikipedia pages of people in the music scene in Europe"
       }
     ],
-    "https://schema.org/creditText": [
+    "https://schema.org/contributor": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/84a45888403c5e66dc47093ede408020#/credits"
+        "@value": "https://github.com/albamoralest"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/polifonia-project/meetups_corpus_collection/"
       }
     ],
     "https://schema.org/identifier": [
@@ -29,10 +40,13 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "This is a tool to build to download the Wikipedia pages of people in the music scene in Europe"
+        "@value": "This is a tool to download the Wikipedia pages of people in the music scene in Europe"
       }
     ],
     "https://schema.org/isPartOf": [
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
+      },
       {
         "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
       },
@@ -50,12 +64,17 @@
         "@language": "en",
         "@value": "MEETUPS Corpus collection"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-corpus"
+      }
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   }
 ]

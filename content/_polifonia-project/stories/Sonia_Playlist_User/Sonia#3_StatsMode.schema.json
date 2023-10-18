@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia#3_StatsMode",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/Story",
@@ -40,12 +46,6 @@
         "@language": "en",
         "@value": "Stats mode"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

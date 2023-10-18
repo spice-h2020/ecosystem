@@ -1,5 +1,17 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/pitchcontext",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/SoftwareLibrary",
@@ -11,22 +23,49 @@
         "@value": "Python module for melody analysis based on pitch context vectors."
       }
     ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "P. van Kranenburg <https://github.com/pvankranenburg>"
+      }
+    ],
     "https://schema.org/identifier": [
       {
         "@value": "pitchcontext"
+      },
+      {
+        "@id": "_:n4989b136f98341989f9fbc0b2f9f2666b1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://github.com/polifonia-project/pitchcontext/blob/main/image/vector_example_hor.png"
       }
     ],
     "https://schema.org/isBasedOn": [
+      {
+        "@value": "Brendan#1_FindTraditionalMusic"
+      },
+      {
+        "@value": "Mark#1_FolkMusic"
+      },
       {
         "@value": "Python module for melody analysis based on pitch context vectors."
       }
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
       },
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "MIT"
       }
     ],
     "https://schema.org/title": [
@@ -37,9 +76,19 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@id": "_:n4989b136f98341989f9fbc0b2f9f2666b1",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.8020644"
+      }
     ]
   },
   {

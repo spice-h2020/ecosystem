@@ -34,7 +34,7 @@
         "@value": "melody-software"
       },
       {
-        "@id": "_:nb466a60b977248b4ab9cbb0c605deda4b1"
+        "@id": "_:n96078579d3784a818b0601f63485ec19b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -50,9 +50,42 @@
         "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
+    "https://schema.org/license": [
+      {
+        "@value": "IscLicense"
+      }
+    ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nb466a60b977248b4ab9cbb0c605deda4b2"
+        "@id": "_:n96078579d3784a818b0601f63485ec19b2"
+      }
+    ],
+    "https://schema.org/subjectOf": [
+      {
+        "@value": "Giulia Renda, Marilena Daquino (2023). Storytelling with Linked Open Data. In La memoria digitale: forme del testo e organizzazione della conoscenza. Atti del XII Convegno Annuale AIUCD. Siena: Università degli Studi di Siena. https://zenodo.org/doi/10.5281/zenodo.8070707"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-prototypes"
+      }
+    ],
+    "https://schema.org/supportingData": [
+      {
+        "@value": "meetups-knowledge-graph"
+      },
+      {
+        "@value": "bells-knowledge-graph"
+      },
+      {
+        "@value": "musicbo-knowledge-graph"
+      },
+      {
+        "@value": "led"
+      },
+      {
+        "@value": "broadcast-concerts-knowledge-graph"
+      },
+      {
+        "@value": "musow-dataset"
       }
     ],
     "https://schema.org/title": [
@@ -68,7 +101,7 @@
     ]
   },
   {
-    "@id": "_:nb466a60b977248b4ab9cbb0c605deda4b1",
+    "@id": "_:n96078579d3784a818b0601f63485ec19b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -84,10 +117,10 @@
     ]
   },
   {
-    "@id": "_:nb466a60b977248b4ab9cbb0c605deda4b2",
+    "@id": "_:n96078579d3784a818b0601f63485ec19b2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/dashboard/releases/latest"
+        "@value": "https://github.com/polifonia-project/dashboard/releases/tag/v0.1.1"
       }
     ],
     "https://schema.org/softwareVersion": [
@@ -111,6 +144,12 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-prototypes",
+    "@type": [
+      "https://schema.org/HowTo"
     ]
   }
 ]

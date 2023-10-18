@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/licences",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -25,10 +19,13 @@
     ],
     "https://schema.org/creditText": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/525efade7d45c2b797e7e28a86286379#/credits"
+        "@id": "http://sparql.xyz/facade-x/data/9abea021751433919e59a9d7e95444fa#/credits"
       }
     ],
     "https://schema.org/hasPart": [
+      {
+        "@value": "sparql-anything-cli"
+      },
       {
         "@value": "Dalicc, https://www.dalicc.net/"
       }
@@ -38,7 +35,7 @@
         "@value": "licences"
       },
       {
-        "@id": "_:n9dd14d99ec724cb8881efc02c9a0b465b1"
+        "@id": "_:n352a3dcf851a4631b0acf35898c3dc2db1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -62,6 +59,9 @@
     "https://schema.org/provider": [
       {
         "@value": "licences-pipeline"
+      },
+      {
+        "@value": "musow-licences"
       }
     ],
     "https://schema.org/title": [
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "@id": "_:n9dd14d99ec724cb8881efc02c9a0b465b1",
+    "@id": "_:n352a3dcf851a4631b0acf35898c3dc2db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -85,6 +85,12 @@
       {
         "@value": "10.5281/zenodo.7875034"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

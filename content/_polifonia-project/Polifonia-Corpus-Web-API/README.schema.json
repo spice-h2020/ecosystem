@@ -6,12 +6,6 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Polifonia-Corpus-Web-API",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -25,10 +19,10 @@
     ],
     "https://schema.org/contributor": [
       {
-        "@value": "Rocco Tripodi <https://github.com/marcograsso>"
+        "@value": "Rocco Tripodi <https://github.com/roccotrip>"
       },
       {
-        "@value": "Marco Grasso <https://github.com/roccotrip>"
+        "@value": "Marco Grasso <https://github.com/marcograsso>"
       }
     ],
     "https://schema.org/distribution": [
@@ -46,7 +40,7 @@
         "@value": "Polifonia-Corpus-Web-API"
       },
       {
-        "@id": "_:n44e1f438351a4cdda7b3d7c9c2b03b12b1"
+        "@id": "_:n2e7df04807bd4770b55d27d35a7a9415b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -64,7 +58,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC0"
+        "@value": "Cc010Universal"
       }
     ],
     "https://schema.org/title": [
@@ -80,7 +74,7 @@
     ]
   },
   {
-    "@id": "_:n44e1f438351a4cdda7b3d7c9c2b03b12b1",
+    "@id": "_:n2e7df04807bd4770b55d27d35a7a9415b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -93,6 +87,12 @@
       {
         "@value": "10.5281/zenodo.7736486"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

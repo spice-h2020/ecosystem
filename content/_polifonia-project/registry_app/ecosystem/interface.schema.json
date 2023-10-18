@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/musow-interface",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -42,7 +48,7 @@
         "@value": "musow-interface"
       },
       {
-        "@id": "_:nbd67b318960d415aa411de44c52eddc8b1"
+        "@id": "_:n6f4406a8386149b8bf7f82e092784406b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -63,7 +69,7 @@
     ],
     "https://schema.org/license": [
       {
-        "@value": "CC0"
+        "@value": "Cc010Universal"
       }
     ],
     "https://schema.org/provider": [
@@ -73,7 +79,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:nbd67b318960d415aa411de44c52eddc8b2"
+        "@id": "_:n6f4406a8386149b8bf7f82e092784406b2"
       }
     ],
     "https://schema.org/supportingData": [
@@ -94,7 +100,7 @@
     ]
   },
   {
-    "@id": "_:nbd67b318960d415aa411de44c52eddc8b1",
+    "@id": "_:n6f4406a8386149b8bf7f82e092784406b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -110,10 +116,10 @@
     ]
   },
   {
-    "@id": "_:nbd67b318960d415aa411de44c52eddc8b2",
+    "@id": "_:n6f4406a8386149b8bf7f82e092784406b2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/registry_app/releases/latest"
+        "@value": "https://github.com/polifonia-project/registry_app/releases/tag/v1.0"
       }
     ],
     "https://schema.org/softwareVersion": [
@@ -125,12 +131,6 @@
       {
         "@value": "2023/05/16"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

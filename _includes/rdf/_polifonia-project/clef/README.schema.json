@@ -1,5 +1,17 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/clef-software",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -39,7 +51,7 @@
         "@value": "clef-software"
       },
       {
-        "@id": "_:n5bdd18460e364cbcbb283a8ac7338856b1"
+        "@id": "_:nca96a16348ca4fd7b79695d217d29bb7b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -55,9 +67,14 @@
         "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
+    "https://schema.org/license": [
+      {
+        "@value": "IscLicense"
+      }
+    ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n5bdd18460e364cbcbb283a8ac7338856b2"
+        "@id": "_:nca96a16348ca4fd7b79695d217d29bb7b2"
       }
     ],
     "https://schema.org/title": [
@@ -73,7 +90,7 @@
     ]
   },
   {
-    "@id": "_:n5bdd18460e364cbcbb283a8ac7338856b1",
+    "@id": "_:nca96a16348ca4fd7b79695d217d29bb7b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -89,10 +106,10 @@
     ]
   },
   {
-    "@id": "_:n5bdd18460e364cbcbb283a8ac7338856b2",
+    "@id": "_:nca96a16348ca4fd7b79695d217d29bb7b2",
     "https://schema.org/releaseNotes": [
       {
-        "@value": "https://github.com/polifonia-project/clef/releases/latest"
+        "@value": "https://github.com/polifonia-project/clef/releases/tag/v1.0.2"
       }
     ],
     "https://schema.org/softwareVersion": [
@@ -104,18 +121,6 @@
       {
         "@value": "2023/05/13"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

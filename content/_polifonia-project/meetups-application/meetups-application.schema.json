@@ -1,8 +1,20 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
     "@type": [
-      "https://schema.org/Project"
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/David",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   },
   {
@@ -43,14 +55,36 @@
         "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/"
       }
     ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "meetups-knowledge-graph"
+      }
+    ],
     "https://schema.org/identifier": [
       {
         "@value": "meetups-application"
+      },
+      {
+        "@id": "_:nebeebdd1d0314ddb932b9433c170909eb1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/img/screen_exploremap.png"
       }
     ],
     "https://schema.org/isBasedOn": [
       {
         "@value": "The MEETUPS pilot application."
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/David"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -59,11 +93,24 @@
       },
       {
         "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
+      }
+    ],
+    "https://schema.org/logo": [
+      {
+        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/img/meetups_logo_white.png"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6ce7371c51d4477989fd50aa27e3ee4db1"
+        "@id": "_:nebeebdd1d0314ddb932b9433c170909eb2"
       }
     ],
     "https://schema.org/title": [
@@ -76,10 +123,31 @@
       {
         "@value": "meetups-ui-design"
       }
+    ],
+    "https://schema.org/workExample": [
+      {
+        "@value": "https://polifonia.kmi.open.ac.uk/MEETUPS/"
+      }
     ]
   },
   {
-    "@id": "_:n6ce7371c51d4477989fd50aa27e3ee4db1",
+    "@id": "_:nebeebdd1d0314ddb932b9433c170909eb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.10017423"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebeebdd1d0314ddb932b9433c170909eb2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-application/releases"
@@ -87,12 +155,12 @@
     ],
     "https://schema.org/softwareVersion": [
       {
-        "@value": "v0.3.6"
+        "@value": "v0.5.4"
       }
     ],
     "https://schema.org/startDate": [
       {
-        "@value": "25/05/2023"
+        "@value": "18/10/2023"
       }
     ]
   },
@@ -100,6 +168,18 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

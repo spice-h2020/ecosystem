@@ -1,5 +1,41 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/source/",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -47,7 +83,7 @@
         "@value": "https://w3id.org/polifonia/ontology/source/"
       },
       {
-        "@id": "_:n460c9f09071e45e7ac053d9025d11f44b1"
+        "@id": "_:nab2f726f28a645eba84784177ca39bb5b1"
       }
     ],
     "https://schema.org/image": [
@@ -105,7 +141,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n460c9f09071e45e7ac053d9025d11f44b2"
+        "@id": "_:nab2f726f28a645eba84784177ca39bb5b2"
       }
     ],
     "https://schema.org/title": [
@@ -121,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:n460c9f09071e45e7ac053d9025d11f44b1",
+    "@id": "_:nab2f726f28a645eba84784177ca39bb5b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -137,7 +173,7 @@
     ]
   },
   {
-    "@id": "_:n460c9f09071e45e7ac053d9025d11f44b2",
+    "@id": "_:nab2f726f28a645eba84784177ca39bb5b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/source-ontology"
@@ -155,49 +191,13 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Keoma",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Carolina",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sonia",
     "@type": [
       "https://schema.org/ShortStory"
     ]

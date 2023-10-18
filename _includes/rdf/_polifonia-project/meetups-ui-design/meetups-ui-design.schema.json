@@ -42,6 +42,11 @@
         "@value": "meetups-ui-design"
       }
     ],
+    "https://schema.org/image": [
+      {
+        "@value": "https://raw.githubusercontent.com/polifonia-project/meetups-ui-design/main/png/meetups-ui-initial-designs-1.png"
+      }
+    ],
     "https://schema.org/isBasedOn": [
       {
         "@value": "A collection of initial user interface mockups, used as part of the the initial application requirements for building the MEETUPS pilot application interface"
@@ -52,12 +57,20 @@
         "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
       },
       {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS"
+      },
+      {
         "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n29628a10459f4ae887141698704df5eeb1"
+        "@id": "_:nb419743158be420484e4bd38cb0479c2b1"
       }
     ],
     "https://schema.org/title": [
@@ -73,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:n29628a10459f4ae887141698704df5eeb1",
+    "@id": "_:nb419743158be420484e4bd38cb0479c2b1",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups-ui-design/releases/tag/v0.1.0"
@@ -91,15 +104,21 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
     ]
   }
 ]

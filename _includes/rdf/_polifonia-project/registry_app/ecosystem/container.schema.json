@@ -1,5 +1,29 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:n38d5f69eadf8454783ae9c7b53828060b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38d5f69eadf8454783ae9c7b53828060b1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://cordis.europa.eu/project/id/101004746/it"
+      }
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/musow-registry",
     "@type": [
       "https://schema.org/Collection",
@@ -38,30 +62,6 @@
       {
         "@language": "en",
         "@value": "The musoW registry"
-      }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:n0a4f93b9798b4929b7fceb540e76bca0b1"
-      }
-    ]
-  },
-  {
-    "@id": "_:n0a4f93b9798b4929b7fceb540e76bca0b1",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://cordis.europa.eu/project/id/101004746/it"
       }
     ]
   },

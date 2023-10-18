@@ -1,0 +1,57 @@
+[
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/melody-prototypes",
+    "@type": [
+      "https://reeco-framework.github.io/ecosystem/entity/Documentation",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "Documents and materials relevant to Melody software and interface"
+      }
+    ],
+    "https://schema.org/creditText": [
+      {
+        "@value": "Giulia Manganelli (UNIBO), Marco Grasso (UNIBO), Marilena Daquino (UNIBO)"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "musoW"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "melody-prototypes"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "Documents and materials relevant to Melody software and interface"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "Prototypes of Melody"
+      }
+    ]
+  }
+]

@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Patrizia",
     "@type": [
       "https://schema.org/ShortStory"
@@ -32,10 +38,15 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       },
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
       }
     ],
     "https://schema.org/title": [
@@ -43,12 +54,6 @@
         "@language": "en",
         "@value": "Identification of Intangible Elements"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {

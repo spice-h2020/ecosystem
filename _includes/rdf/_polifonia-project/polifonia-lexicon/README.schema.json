@@ -1,25 +1,25 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Polifonia-Lexicon",
     "@type": [
-      "https://reeco-framework.github.io/ecosystem/entity/Lexicon",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Lexicon"
     ],
     "https://schema.org/abstract": [
       {
         "@language": "en",
-        "@value": "Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)."
+        "@value": "Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)"
       }
     ],
-    "https://schema.org/creditText": [
+    "https://schema.org/contributor": [
       {
-        "@id": "http://sparql.xyz/facade-x/data/2c50d6a0ea44546080dcb17248da9de9#/credits"
+        "@value": "https://github.com/EleonoraMarzi"
+      },
+      {
+        "@value": "https://github.com/roccotrip"
+      },
+      {
+        "@value": "https://github.com/arianna-graciotti"
       }
     ],
     "https://schema.org/identifier": [
@@ -29,12 +29,26 @@
     ],
     "https://schema.org/isBasedOn": [
       {
-        "@value": "Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)."
+        "@value": "Annotation files for the Polifonia musical lexicon in English (EN), French (FR), Italian (IT), Spanish (ES), German (EN) and Dutch (NL)"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Carolina"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Valeriana"
       }
     ],
     "https://schema.org/isPartOf": [
       {
+        "@value": "Polifonia-Lexicon"
+      },
+      {
         "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
       }
     ],
     "https://schema.org/title": [
@@ -42,6 +56,24 @@
         "@language": "en",
         "@value": "Polifonia Lexicon - The Polifonia Multilingual WordNet"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Valeriana",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Carolina",
+    "@type": [
+      "https://schema.org/ShortStory"
     ]
   }
 ]

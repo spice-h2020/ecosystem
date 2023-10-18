@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-cli",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/CLITool",
@@ -15,6 +21,11 @@
       {
         "@language": "en",
         "@value": "Command line executable of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Asprino, Luigi, Enrico Daga, Aldo Gangemi, and Paul Mulholland. \"Knowledge Graph Construction with a façade: a unified method to access heterogeneous data sources on the Web.\" ACM Transactions on Internet Technology 23, no. 1 (2023): 1-31. https://dl.acm.org/doi/pdf/10.1145/3555312"
       }
     ],
     "https://schema.org/contributor": [
@@ -56,7 +67,7 @@
         "@value": "sparql-anything-cli"
       },
       {
-        "@id": "_:n3d41414e604947b9a9e888936ada663bb1"
+        "@id": "_:n58e1feeaaf1d49a298a50e682a25e6dab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -99,7 +110,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n3d41414e604947b9a9e888936ada663bb2"
+        "@id": "_:n58e1feeaaf1d49a298a50e682a25e6dab2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -123,7 +134,7 @@
     ]
   },
   {
-    "@id": "_:n3d41414e604947b9a9e888936ada663bb1",
+    "@id": "_:n58e1feeaaf1d49a298a50e682a25e6dab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -139,7 +150,7 @@
     ]
   },
   {
-    "@id": "_:n3d41414e604947b9a9e888936ada663bb2",
+    "@id": "_:n58e1feeaaf1d49a298a50e682a25e6dab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -157,33 +168,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -193,15 +180,33 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/CHILD",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-docs",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

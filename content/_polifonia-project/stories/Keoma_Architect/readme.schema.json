@@ -1,9 +1,15 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Keoma",
     "@type": [
-      "https://reeco-framework.github.io/ecosystem/entity/Persona",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Persona"
     ],
     "https://schema.org/abstract": [
       {
@@ -26,10 +32,15 @@
     ],
     "https://schema.org/isPartOf": [
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
       },
       {
-        "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
       }
     ],
     "https://schema.org/title": [
@@ -37,12 +48,6 @@
         "@language": "en",
         "@value": "Keoma"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

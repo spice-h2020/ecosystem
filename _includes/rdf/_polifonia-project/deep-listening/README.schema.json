@@ -1,21 +1,33 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Paul_Organ_Advisor",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/deep-listening",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
-      "https://reeco-framework.github.io/ecosystem/entity/Userinterface"
+      "https://reeco-framework.github.io/ecosystem/entity/UserInterface"
     ],
     "https://schema.org/abstract": [
       {
@@ -47,6 +59,12 @@
     "https://schema.org/isBasedOn": [
       {
         "@value": "Software, methods and user studies exploring the cross-modal interpretation of music and visual art"
+      },
+      {
+        "@value": "Paul#1_OrganComparison"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/Paul_Organ_Advisor"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -55,6 +73,9 @@
       },
       {
         "@id": "https://reeco-framework.github.io/ecosystem/entity/WP5"
+      },
+      {
+        "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1"
       }
     ],
     "https://schema.org/license": [
@@ -70,7 +91,7 @@
     ],
     "https://schema.org/workExample": [
       {
-        "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking"
+        "@value": "https://spice.kmi.open.ac.uk/demos/imma-slow-looking/home"
       }
     ]
   }

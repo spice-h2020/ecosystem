@@ -1,9 +1,21 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-time-extraction",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
       "https://reeco-framework.github.io/ecosystem/entity/Software"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
+      }
     ],
     "https://schema.org/contributor": [
       {
@@ -33,7 +45,12 @@
         "@value": "meetups-time-extraction"
       },
       {
-        "@id": "_:n7f12ff8b6b4241ae817d6114bdbd866ab1"
+        "@id": "_:nbb40b4823a61441db2ec0fb7f27e603db1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find time expressions. It uses NLTK and a set of heuristic rules to identify and annotate temporal knowledge from text. The tool extracts information from one out of the four elements that define a meetup: the date or moment in time when it happened (when). Time expressions, along with data of the people involved (who), the place (where) and the event that took place (what), complete the historical meetup information."
       }
     ],
     "https://schema.org/isPartOf": [
@@ -54,7 +71,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n7f12ff8b6b4241ae817d6114bdbd866ab2"
+        "@id": "_:nbb40b4823a61441db2ec0fb7f27e603db2"
       }
     ],
     "https://schema.org/title": [
@@ -62,10 +79,18 @@
         "@language": "en",
         "@value": "MEETUPS - Identification of temporal knowledge"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-corpus-collection"
+      },
+      {
+        "@value": "meetups-data-cleaning"
+      }
     ]
   },
   {
-    "@id": "_:n7f12ff8b6b4241ae817d6114bdbd866ab1",
+    "@id": "_:nbb40b4823a61441db2ec0fb7f27e603db1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -76,12 +101,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:n7f12ff8b6b4241ae817d6114bdbd866ab2",
+    "@id": "_:nbb40b4823a61441db2ec0fb7f27e603db2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -102,12 +127,6 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

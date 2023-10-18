@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
       "https://schema.org/Project"
@@ -45,7 +51,7 @@
         "@value": "meetups-themes"
       },
       {
-        "@id": "_:ncb05f5f01ca741c8afe52d9322d72106b1"
+        "@id": "_:n39cafa25dab541cd84b78c948d806f99b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -71,7 +77,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ncb05f5f01ca741c8afe52d9322d72106b2"
+        "@id": "_:n39cafa25dab541cd84b78c948d806f99b2"
       }
     ],
     "https://schema.org/title": [
@@ -79,10 +85,18 @@
         "@language": "en",
         "@value": "MEETUPS Identification of themes"
       }
+    ],
+    "https://schema.org/usageInfo": [
+      {
+        "@value": "meetups-data-cleaning"
+      },
+      {
+        "@value": "meetups-corpus-collection"
+      }
     ]
   },
   {
-    "@id": "_:ncb05f5f01ca741c8afe52d9322d72106b1",
+    "@id": "_:n39cafa25dab541cd84b78c948d806f99b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -93,12 +107,12 @@
     ],
     "https://schema.org/value": [
       {
-        "@value": "https://zenodo.org/badge/latestdoi/436452967"
+        "@value": "10.5281/zenodo.7875353"
       }
     ]
   },
   {
-    "@id": "_:ncb05f5f01ca741c8afe52d9322d72106b2",
+    "@id": "_:n39cafa25dab541cd84b78c948d806f99b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2"
@@ -106,19 +120,13 @@
     ],
     "https://schema.org/softwareVersion": [
       {
-        "@value": "v0.1"
+        "@value": "v0.2"
       }
     ],
     "https://schema.org/startDate": [
       {
         "@value": "20/07/2022"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

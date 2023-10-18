@@ -1,5 +1,29 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/music-meta/",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -62,12 +86,12 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n6058241d564946ac9f274e19783bcf8cb1"
+        "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b1"
       }
     ],
     "https://schema.org/image": [
       {
-        "@value": "diagrams/music_meta.png"
+        "@value": "https://github.com/polifonia-project/music-meta-ontology/raw/main/diagrams/music_meta.png"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -108,12 +132,12 @@
     ],
     "https://schema.org/logo": [
       {
-        "@value": "website/static/img/musicmeta_logo.png"
+        "@value": "https://github.com/polifonia-project/music-meta-ontology/blob/main/website/static/img/musicmeta_logo.png"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6058241d564946ac9f274e19783bcf8cb2"
+        "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b2"
       }
     ],
     "https://schema.org/title": [
@@ -129,7 +153,7 @@
     ]
   },
   {
-    "@id": "_:n6058241d564946ac9f274e19783bcf8cb1",
+    "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -145,7 +169,7 @@
     ]
   },
   {
-    "@id": "_:n6058241d564946ac9f274e19783bcf8cb2",
+    "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -169,39 +193,15 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka",
     "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "https://schema.org/ShortStory"
     ]
   }
 ]

@@ -2,8 +2,8 @@
   {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/sparql-anything-requirements",
     "@type": [
-      "https://reeco-framework.github.io/ecosystem/entity/RequirementsCollection",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/RequirementsCollection"
     ],
     "https://schema.org/abstract": [
       {
@@ -24,6 +24,11 @@
     "https://schema.org/isBasedOn": [
       {
         "@value": "Requirements collection of SPARQL Anything"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@value": "Apache-2.0"
       }
     ],
     "https://schema.org/logo": [

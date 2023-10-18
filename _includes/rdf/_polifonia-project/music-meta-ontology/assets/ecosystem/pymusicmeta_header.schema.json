@@ -1,17 +1,5 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/music-meta/",
-    "@type": [
-      "https://schema.org/HowTo"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/pymusicmeta",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -56,7 +44,7 @@
         "@value": "pymusicmeta"
       },
       {
-        "@id": "_:ne0f20ed07e05492891aa54980731cff6b1"
+        "@id": "_:n0c5bfdaf857b4b8fb30954e0c6c4f69ab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -91,12 +79,12 @@
     ],
     "https://schema.org/logo": [
       {
-        "@value": "website/static/img/musicmeta_logo.png"
+        "@value": "https://github.com/polifonia-project/music-meta-ontology"
       }
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:ne0f20ed07e05492891aa54980731cff6b2"
+        "@id": "_:n0c5bfdaf857b4b8fb30954e0c6c4f69ab2"
       }
     ],
     "https://schema.org/subjectOf": [
@@ -117,7 +105,7 @@
     ]
   },
   {
-    "@id": "_:ne0f20ed07e05492891aa54980731cff6b1",
+    "@id": "_:n0c5bfdaf857b4b8fb30954e0c6c4f69ab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -133,7 +121,7 @@
     ]
   },
   {
-    "@id": "_:ne0f20ed07e05492891aa54980731cff6b2",
+    "@id": "_:n0c5bfdaf857b4b8fb30954e0c6c4f69ab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/music-meta-ontology"
@@ -157,9 +145,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
@@ -169,13 +157,25 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/https://w3id.org/polifonia/ontology/music-meta/",
+    "@type": [
+      "https://schema.org/HowTo"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]

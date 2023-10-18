@@ -1,9 +1,15 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Patrizia",
     "@type": [
-      "https://reeco-framework.github.io/ecosystem/entity/Persona",
-      "http://purl.org/cerif/frapo/MaterialOutput"
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://reeco-framework.github.io/ecosystem/entity/Persona"
     ],
     "https://schema.org/abstract": [
       {
@@ -19,6 +25,9 @@
     "https://schema.org/isBasedOn": [
       {
         "@value": "Ethnoanthropologist and Officer at the Italian Ministry of Culture"
+      },
+      {
+        "@value": "Patrizia#1_IdentificationOfIntangibleElements"
       }
     ],
     "https://schema.org/isPartOf": [
@@ -29,17 +38,16 @@
         "@id": "https://reeco-framework.github.io/ecosystem/entity/BELLS"
       }
     ],
+    "https://schema.org/license": [
+      {
+        "@value": "CC-BY_v4"
+      }
+    ],
     "https://schema.org/title": [
       {
         "@language": "en",
         "@value": "Patrizia"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
     ]
   },
   {

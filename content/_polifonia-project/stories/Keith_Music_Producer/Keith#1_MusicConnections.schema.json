@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Keith#1_MusicConnections",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/Story",
@@ -43,12 +49,6 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Keith",
     "@type": [
       "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
