@@ -1,0 +1,100 @@
+[
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/rdf-uploader",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://spice-h2020.eu/ecosystem//entity/Software"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "RDF Uploader component for RDF replication within the SPICE LDH"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Luigi Asprino <https://github.com/luigi-asprino>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/spice-h2020/rdf.uploader/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/spice-h2020/rdf.uploader"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "rdf-uploader"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "RDF Uploader component for RDF replication within the SPICE LDH"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "ldh-portal"
+      },
+      {
+        "@value": "ldh-api"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/WP4"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n420f88b85f3d417c846079f81ce003f9b1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "RDF Uploader"
+      }
+    ]
+  },
+  {
+    "@id": "_:n420f88b85f3d417c846079f81ce003f9b1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/spice-h2020/rdf.uploader/releases/tag/v0.3.5.pr2"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.3.5.pr2"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "23/05/2023"
+      }
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

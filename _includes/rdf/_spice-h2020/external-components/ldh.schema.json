@@ -1,0 +1,58 @@
+[
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/ldh",
+    "@type": [
+      "https://spice-h2020.eu/ecosystem//entity/Project",
+      "https://schema.org/Collection"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@value": "The SPICE Linked Data Hub"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/http://sparql.xyz/facade-x/data/35dc93cfffd6fca70ed4aacb12fd4025#/work-package/4"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/http://sparql.xyz/facade-x/data/35dc93cfffd6fca70ed4aacb12fd4025#/work-package/3"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/http://sparql.xyz/facade-x/data/35dc93cfffd6fca70ed4aacb12fd4025#/work-package/2"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/WP4"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "LDH"
+      }
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/http://sparql.xyz/facade-x/data/35dc93cfffd6fca70ed4aacb12fd4025#/work-package/2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/http://sparql.xyz/facade-x/data/35dc93cfffd6fca70ed4aacb12fd4025#/work-package/4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/http://sparql.xyz/facade-x/data/35dc93cfffd6fca70ed4aacb12fd4025#/work-package/3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

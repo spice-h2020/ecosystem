@@ -1,0 +1,100 @@
+[
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/ldh-keys",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://spice-h2020.eu/ecosystem//entity/Software"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Keys components for the SPICE Linked Data Hub"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/mkdf/mkdf-keys/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/mkdf/mkdf-keys"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "ldh-keys"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The Keys components for the SPICE Linked Data Hub"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@value": "ldh-api"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/WP4"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n8ed3072f317a45ef8f9e6b454b8acf1eb1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "LDH Keys component"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8ed3072f317a45ef8f9e6b454b8acf1eb1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/mkdf/mkdf-keys/releases/tag/v0.10.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.10.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "17/02/2022"
+      }
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

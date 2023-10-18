@@ -1,0 +1,97 @@
+[
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/WP5",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/imma-viewpoints",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://spice-h2020.eu/ecosystem//entity/WebApplication"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The IMMA Viewpoints pilot application."
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Paul Mulholland <https://github.com/PaulMulholland>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/spice-h2020/imma-viewpoints/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://spice.kmi.open.ac.uk/demos/imma-viewpoints"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "imma-viewpoints"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The IMMA Viewpoints pilot application."
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/WP5"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n376ce55e25114b7fb5771b0c48ddac4cb1"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "IMMA Viewpoints application"
+      }
+    ]
+  },
+  {
+    "@id": "_:n376ce55e25114b7fb5771b0c48ddac4cb1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/spice-h2020/imma-viewpoints/releases/tag/v0.8.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.8.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "30/07/2021"
+      }
+    ]
+  }
+]

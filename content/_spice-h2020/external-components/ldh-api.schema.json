@@ -1,0 +1,110 @@
+[
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/ldh-api",
+    "@type": [
+      "https://spice-h2020.eu/ecosystem//entity/API",
+      "http://purl.org/cerif/frapo/MaterialOutput"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The SPICE Linked Data Hub API"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/mkdf/api-factory/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/mkdf/api-factory"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "ldh-datasets"
+      },
+      {
+        "@value": "ldh-keys"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "ldh-api"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The SPICE Linked Data Hub API"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/WP4"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n266ac1c613ea4f67ba70d0f6d38beef3b1"
+      }
+    ],
+    "https://schema.org/supportingData": [
+      {
+        "@value": "ldh-portal"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "LDH API"
+      }
+    ]
+  },
+  {
+    "@id": "_:n266ac1c613ea4f67ba70d0f6d38beef3b1",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/mkdf/api-factory/releases/tag/v0.9.5"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.9.5"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "24/04/2023"
+      }
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]

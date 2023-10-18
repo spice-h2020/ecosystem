@@ -1,0 +1,121 @@
+[
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/ldh-portal",
+    "@type": [
+      "http://purl.org/cerif/frapo/MaterialOutput",
+      "https://spice-h2020.eu/ecosystem//entity/WebApplication"
+    ],
+    "https://schema.org/abstract": [
+      {
+        "@language": "en",
+        "@value": "The SPICE Linked Data Hub Portal"
+      }
+    ],
+    "https://schema.org/contributor": [
+      {
+        "@value": "Jason Carvalho <https://github.com/JaseMK>"
+      },
+      {
+        "@value": "Enrico Daga <https://github.com/enridaga>"
+      }
+    ],
+    "https://schema.org/copyrightNotice": [
+      {
+        "@value": "Copyright (c) 2023 The Open University"
+      }
+    ],
+    "https://schema.org/discussionUrl": [
+      {
+        "@value": "https://github.com/spice-h2020/linked-data-hub/releases"
+      }
+    ],
+    "https://schema.org/distribution": [
+      {
+        "@value": "https://github.com/spice-h2020/linked-data-hub"
+      }
+    ],
+    "https://schema.org/hasPart": [
+      {
+        "@value": "ldh-api"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "ldh-portal"
+      },
+      {
+        "@id": "_:n43b1e3f96c0a425a85f047b24a61f79cb1"
+      }
+    ],
+    "https://schema.org/isBasedOn": [
+      {
+        "@value": "The SPICE Linked Data Hub Portal"
+      }
+    ],
+    "https://schema.org/isPartOf": [
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/WP4"
+      },
+      {
+        "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020"
+      }
+    ],
+    "https://schema.org/releasedEvent": [
+      {
+        "@id": "_:n43b1e3f96c0a425a85f047b24a61f79cb2"
+      }
+    ],
+    "https://schema.org/title": [
+      {
+        "@language": "en",
+        "@value": "LDH Portal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b1e3f96c0a425a85f047b24a61f79cb1",
+    "@type": [
+      "https://schema.org/PropertyValue"
+    ],
+    "https://schema.org/PropertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://schema.org/value": [
+      {
+        "@value": "10.5281/zenodo.8093885"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b1e3f96c0a425a85f047b24a61f79cb2",
+    "https://schema.org/releaseNotes": [
+      {
+        "@value": "https://github.com/spice-h2020/linked-data-hub/releases/tag/v0.2.1"
+      }
+    ],
+    "https://schema.org/softwareVersion": [
+      {
+        "@value": "v0.2.1"
+      }
+    ],
+    "https://schema.org/startDate": [
+      {
+        "@value": "23/05/2023"
+      }
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/spice-h2020",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://spice-h2020.eu/ecosystem//entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  }
+]
