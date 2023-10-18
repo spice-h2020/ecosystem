@@ -1,21 +1,21 @@
 # Jekyll configuration
 
-name: The REECO Template Ecosystem
+name: The SPICE Ecosystem
 description: Template to be used as starting point for building your research ecosystem project website.
 main-project-url: https://reeco-framework.github.io/
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://reeco-framework.github.io
+url: https://spice-h2020.eu/ecosystem/
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: "reeco-jekyll"
+baseurl: "ecosystem"
 #baseurl: ""
 
 rdf:
-  namespace: "https://reeco-framework.github.io/ecosystem/entity/"
+  namespace: "https://spice-h2020.eu/ecosystem//entity/"
 
 # just-the-docs
 #theme: "just-the-docs"
@@ -67,7 +67,7 @@ collections:
 
 defaults:
   - scope:
-      type: polifonia-project
+      type: spice-h2020
     values:
       layout: component
   - scope:
@@ -107,8 +107,8 @@ just_the_docs:
       # Supports true or false (default)
       button: false
   collections:
-    polifonia-project:
-      name: polifonia-project
+    spice-h2020:
+      name: spice-h2020
       nav_exclude: true
       search_exclude: false
     # rulebook:
