@@ -40,12 +40,12 @@ jobs:
             echo "repo: $repo"
             echo "version: $version"
             rm -rf "content/_$repo"
-            git clone -n "https://github.com/$repo" "content/_$repo"
+            git clone -n "https://github.com/$repo" "content/_$repo" 
             cd "content/_$repo"
-            git ls-tree -r "$version" --full-tree --name-only | grep "\.md" > files.tmp
+            git ls-tree -r "$version" --full-tree --name-only | grep "\.md" > files.tmp 
             while IFS= read -r line; do
-              git checkout "$version" "$line"
-              sed -i 's#{{#{% raw %}{{{% endraw %}#g' "$line"
+              git checkout "$version" "$line" || echo "WARNING: error checking out $line"
+              sed -i 's#{{#{% raw %}{{{% endraw %}#g' "$line" || echo ""
             done < files.tmp
             rm files.tmp
             rm -rf .git
@@ -59,8 +59,8 @@ jobs:
         uses: nickderobertis/check-if-issue-exists-action@master
         id: check_if_issue_exists
         with:
-          repo: ${{secrets.MY_REPO}}
-          token: ${{ secrets.MY_TOKEN }}
+          repo: ${{ github.event.repository.name }}
+          token: ${{ github.token }}
           title: missing repositories.txt
           labels: bug
 
@@ -68,7 +68,7 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'false' && steps.check_if_issue_exists.outputs.exists == 'false'
         uses: JasonEtco/create-an-issue@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           filename: .github/initialize.md
 
@@ -96,17 +96,10 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y_%m_%d_%H-%M')"
 
-      - name: write report file
-        uses: "DamianReeves/write-file-action@master"
-        with:
-          path: reports/${{ steps.date.outputs.date }}_report.json
-          write-mode: overwrite
-          contents: ${{ steps.validate_yml.outputs.report }}
-
       - name: commit and push report
         uses: Andro999b/push@v1.3
         with:
-          github_token: ${{ secrets.MY_TOKEN }}
+          github_token: ${{ github.token }}
           branch: main
           force: true
           message: new report - ${{ steps.date.outputs.date }}
@@ -115,7 +108,7 @@ jobs:
         id: releases_zenodo
         run: python releases_zenodo.py
         env:
-          TOKEN: ${{ secrets.MY_TOKEN }}
+          TOKEN: ${{ github.token }}
 
       - name: write release report file
         uses: "DamianReeves/write-file-action@master"
@@ -127,7 +120,7 @@ jobs:
       - name: commit and push report
         uses: Andro999b/push@v1.3
         with:
-          github_token: ${{ secrets.MY_TOKEN }}
+          github_token: ${{ github.token }}
           branch: main
           force: true
           message: new release report - ${{ steps.date.outputs.date }}
