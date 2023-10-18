@@ -1,5 +1,47 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/GA101004746",
+    "@type": [
+      "https://schema.org/Grant"
+    ],
+    "https://schema.org/funder": [
+      {
+        "@id": "_:nf182095162ae47a3bad71c502fe72548b1"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf182095162ae47a3bad71c502fe72548b1",
+    "https://schema.org/name": [
+      {
+        "@value": "European Commission H2020"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
+      }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/meetups-pilot",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/Project",
@@ -70,48 +112,6 @@
         "@language": "en",
         "@value": "Musical MEETUPS"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/GA101004746",
-    "@type": [
-      "https://schema.org/Grant"
-    ],
-    "https://schema.org/funder": [
-      {
-        "@id": "_:n348c8d3577c34d9094ed40bdb0d203abb1"
-      }
-    ]
-  },
-  {
-    "@id": "_:n348c8d3577c34d9094ed40bdb0d203abb1",
-    "https://schema.org/name": [
-      {
-        "@value": "European Commission H2020"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020"
-      }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

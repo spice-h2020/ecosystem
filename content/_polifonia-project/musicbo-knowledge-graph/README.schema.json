@@ -1,5 +1,11 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/musicbo-knowledge-graph",
     "@type": [
       "https://reeco-framework.github.io/ecosystem/entity/KnowledgeGraph",
@@ -36,12 +42,6 @@
         "@language": "en",
         "@value": "MusicBO Knowledge Graph"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

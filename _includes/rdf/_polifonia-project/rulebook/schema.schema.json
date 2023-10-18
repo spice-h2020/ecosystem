@@ -1,11 +1,5 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/rulebook-schema",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -50,6 +44,12 @@
         "@language": "en",
         "@value": "Ecosystem Component Annotation Schema"
       }
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP1",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

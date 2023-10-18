@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -58,9 +58,9 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -76,15 +76,15 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/MUSICBO",
     "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

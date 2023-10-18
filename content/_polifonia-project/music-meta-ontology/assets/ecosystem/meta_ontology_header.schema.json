@@ -1,26 +1,14 @@
 [
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/TONALITIES",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
+      "http://purl.org/spar/fabio/WorkPackage"
     ]
   },
   {
@@ -86,7 +74,7 @@
         "@value": "https://w3id.org/polifonia/ontology/music-meta/"
       },
       {
-        "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b1"
+        "@id": "_:ne9cd771a637e4376a8b523ccb46aea57b1"
       }
     ],
     "https://schema.org/image": [
@@ -137,7 +125,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b2"
+        "@id": "_:ne9cd771a637e4376a8b523ccb46aea57b2"
       }
     ],
     "https://schema.org/title": [
@@ -153,7 +141,7 @@
     ]
   },
   {
-    "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b1",
+    "@id": "_:ne9cd771a637e4376a8b523ccb46aea57b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -169,7 +157,7 @@
     ]
   },
   {
-    "@id": "_:n6ee1cd29fe234891a96862cec20c59f6b2",
+    "@id": "_:ne9cd771a637e4376a8b523ccb46aea57b2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/polifonia-project/ontology-network/releases"
@@ -187,21 +175,33 @@
     ]
   },
   {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
     "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
+      "https://schema.org/Project"
     ]
   },
   {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Linka",
     "@type": [
       "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/FACETS",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/TUNES",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/INTERLINK",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
     ]
   }
 ]

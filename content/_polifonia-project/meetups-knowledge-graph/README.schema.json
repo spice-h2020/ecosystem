@@ -1,5 +1,29 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/David",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
+    "@type": [
+      "https://schema.org/ShortStory"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/Ortenz",
     "@type": [
       "https://schema.org/ShortStory"
@@ -67,7 +91,7 @@
         "@value": "meetups-knowledge-graph"
       },
       {
-        "@id": "_:n9a5f9d28992543fbaa5bc4b389d64aa3b1"
+        "@id": "_:nf6c16d36fa9f428185098495cd636ba2b1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -121,7 +145,7 @@
     ]
   },
   {
-    "@id": "_:n9a5f9d28992543fbaa5bc4b389d64aa3b1",
+    "@id": "_:nf6c16d36fa9f428185098495cd636ba2b1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -134,30 +158,6 @@
       {
         "@value": "10.5281/zenodo.7924618"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/David",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Sophie",
-    "@type": [
-      "https://schema.org/ShortStory"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]

@@ -6,6 +6,12 @@
     ]
   },
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/Interlink",
+    "@type": [
+      "http://purl.org/cerif/frapo/Investigation"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/broadcast-concerts-docs-blog",
     "@type": [
       "http://purl.org/cerif/frapo/MaterialOutput",
@@ -67,12 +73,6 @@
         "@language": "en",
         "@value": "Broadcast Concerts blog"
       }
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/Interlink",
-    "@type": [
-      "http://purl.org/cerif/frapo/Investigation"
     ]
   },
   {

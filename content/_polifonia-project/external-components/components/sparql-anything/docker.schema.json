@@ -1,6 +1,24 @@
 [
   {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
     "@id": "https://reeco-framework.github.io/ecosystem/entity/WP3",
+    "@type": [
+      "http://purl.org/spar/fabio/WorkPackage"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
+    "@type": [
+      "https://schema.org/Project"
+    ]
+  },
+  {
+    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
     "@type": [
       "http://purl.org/spar/fabio/WorkPackage"
     ]
@@ -40,7 +58,7 @@
         "@value": "sparql-anything-docker"
       },
       {
-        "@id": "_:n8b297ecc6fcd43fbb6534fd03dc5a099b1"
+        "@id": "_:n11f67578e3d84f02accfbdbcb86196cab1"
       }
     ],
     "https://schema.org/isBasedOn": [
@@ -77,7 +95,7 @@
     ],
     "https://schema.org/releasedEvent": [
       {
-        "@id": "_:n8b297ecc6fcd43fbb6534fd03dc5a099b2"
+        "@id": "_:n11f67578e3d84f02accfbdbcb86196cab2"
       }
     ],
     "https://schema.org/title": [
@@ -88,7 +106,7 @@
     ]
   },
   {
-    "@id": "_:n8b297ecc6fcd43fbb6534fd03dc5a099b1",
+    "@id": "_:n11f67578e3d84f02accfbdbcb86196cab1",
     "@type": [
       "https://schema.org/PropertyValue"
     ],
@@ -104,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n8b297ecc6fcd43fbb6534fd03dc5a099b2",
+    "@id": "_:n11f67578e3d84f02accfbdbcb86196cab2",
     "https://schema.org/releaseNotes": [
       {
         "@value": "https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1"
@@ -125,24 +143,6 @@
     "@id": "https://reeco-framework.github.io/ecosystem/entity/MEETUPS",
     "@type": [
       "http://purl.org/cerif/frapo/Investigation"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/polifonia-project",
-    "@type": [
-      "https://schema.org/Project"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP2",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
-    ]
-  },
-  {
-    "@id": "https://reeco-framework.github.io/ecosystem/entity/WP4",
-    "@type": [
-      "http://purl.org/spar/fabio/WorkPackage"
     ]
   }
 ]
